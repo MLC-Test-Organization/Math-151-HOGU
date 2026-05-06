@@ -17,7 +17,7 @@
   </introduction>
 <!--START TYPING CONTENT FOR SESSION BELOW HERE-->
   <worksheet>
-    <title> Session #2 (Sections #-#)</title>
+    <title> Session #1 (Sections 1.5, Appendix J.1)</title>
     <p>
       Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
     </p>
@@ -28,39 +28,66 @@
       <exercise workspace="1in"><!-- #1 -->
         <statement>
           <p>
-            Problem 1 
+            Let <m>\textbf{a}=\langle x_1, y_1 \rangle</m> and <m>\textbf{b}=\langle x_2, y_2 \rangle</m>. Match each formula, identity, or expression to its corresponding purpose/idea.
           </p>
         </statement>
       </exercise>
-
       <exercise workspace="1in"><!-- #2 -->
         <statement>
           <p>
-            Problem 2 
+            Let <m>\textbf{a}</m> and <m>\textbf{b}</m> be given in the graph below.
+            <image source="m151fig1" width="70%"> <!--this is how you include an image. Upload image to the "assets" folder--><!--see 4.14 in Guide for more info-->
+              <shortdescription>Graph of a piecewise-defined function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                The graph of a piecewise-defined function <m>f(x)</m> plotted on coordinate axes.
+                The function is a parabola with vertex at the point <m>(-6, 10)</m> and endpoints at <m>(-8,-2)</m> and <m>(-4,-2)</m> where
+                <m>(-8, -2)</m> is a closed circle and <m>(-4,-2)</m> is an open circle. The point <m>(-4, 8)</m> is a closed circle. 
+                The function is linear with open endpoint <m>(-2,2)</m> and closed endpoint <m>(3,12)</m>, and again linear
+                with closed endpoints <m>(5,4)</m> and <m>(7,-4)</m>.
+                No graph is given between <m>x=-4</m> and <m>x=-2</m>, and between <m>x=3</m> and <m>x=5</m>.
+                </p>
+              </description>
+            </image>
           </p>
-        </statement>
-      </exercise>
-
-      <exercise workspace="1in"><!-- #3 -->
-        <statement>
           <p>
-            Problem 3
+            Draw and label the following on the graph: <m>-\textbf{a}</m>, <m>-\textbf{b}</m>, <m>2\textbf{a}</m>, <m>\frac{1}{3}\textbf{a}</m>, <m>\textbf{a}+\textbf{b}</m>, <m>\textbf{a}-\textbf{b}</m>, <m>\textbf{b}-\textbf{a}</m>
           </p>
         </statement>
       </exercise>
-
     </paragraphs>
 
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Let Us Get Our Hands On</title>
 
       <exercise workspace="1in" number="1"><!-- #1 -->
-        <statement>
+        <introduction>
           <p>
-            Problem 1
+            Consider vectors <m>\textbf{a}=3\textbf{i}+5\textbf{j}</m> and <m>\textbf{b}=2\textbf{i}-4\textbf{j}</m>
           </p>
-        </statement>
-      </exercise> 
+        </introduction>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Find the resultant vector, <m>\textbf{a}+\textbf{b}</m>.
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Find the magnetudes (lengths) of the vectors <m>\textbf{a}</m> and <m>\textbf{b}</m>, <m>|\textbf{a}|</m> and <m>|\textbf{b}|</m> respectively.
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Find the unit vectors pointing in the directions of <m>\textbf{a}</m> and <m>\textbf{b}</m>, <m>\hat{\textbf{a}}</m> and <m>\hat{\textbf{b}}</m> respectively.
+            </p>
+          </statement>
+        </task>
+      </exercise>
 
       <exercise workspace="1in" number="2"><!-- #2 -->
         <introduction>
@@ -83,14 +110,72 @@
           </statement>
         </task>
       </exercise>
-  
+
       <exercise workspace="1in" number="3"><!-- #3 -->
-        <statement>
-          <p> 
-            Problem 3  
+        <introduction>
+          <p>
+            Problem 2 with multiple parts.
           </p>
-        </statement>
-      </exercise> 
+        </introduction>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Problem 2, part 1
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Problem 2, part 2
+            </p>
+          </statement>
+        </task>
+      </exercise>
+
+      <exercise workspace="1in" number="4"><!-- #4 -->
+        <introduction>
+          <p>
+            Problem 2 with multiple parts.
+          </p>
+        </introduction>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Problem 2, part 1
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Problem 2, part 2
+            </p>
+          </statement>
+        </task>
+      </exercise>
+
+      <exercise workspace="1in" number="5"><!-- #5 -->
+        <introduction>
+          <p>
+            Problem 2 with multiple parts.
+          </p>
+        </introduction>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Problem 2, part 1
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Problem 2, part 2
+            </p>
+          </statement>
+        </task>
+      </exercise>
   
     </paragraphs>
 
