@@ -16,8 +16,8 @@
     <target name="Math 151 HOGU 9 Web" source="Math151HOGU9.ptx" format="html" deploy-dir="Math 151 HOGU 9 Web" />
     <target name="Math 151 HOGU 10 Web" source="Math151HOGU10.ptx" format="html" deploy-dir="Math 151 HOGU 10 Web" />
     <target name="Math 151 HOGU 11 Web" source="Math151HOGU11.ptx" format="html" deploy-dir="Math 151 HOGU 11 Web" />
-    <target name="Math 151 HOGU 12 Part 1 Web" source="Math151HOGU12Part 1.ptx" format="html" deploy-dir="Math 151 HOGU 12 Part 1 Web" />
-    <target name="Math 151 HOGU 12 Part 2 Web" source="Math151HOGU12Part 2.ptx" format="html" deploy-dir="Math 151 HOGU 12 Part 2 Web" />
+    <target name="Math 151 HOGU 12 Part 1 Web" source="Math151HOGU12Part1.ptx" format="html" deploy-dir="Math 151 HOGU 12 Part 1 Web" />
+    <target name="Math 151 HOGU 12 Part 2 Web" source="Math151HOGU12Part2.ptx" format="html" deploy-dir="Math 151 HOGU 12 Part 2 Web" />
     <target name="print" format="pdf" />
   </targets>
 </project>
