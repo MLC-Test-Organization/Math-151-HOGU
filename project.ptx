@@ -5,19 +5,19 @@
 <!-- This file, the project manifest, provides the overall configuration for your PreTeXt project. To edit the content of your document, open `source/main.ptx`. See https://pretextbook.org/doc/guide/html/processing-CLI.html#cli-project-manifest. -->
 <project ptx-version="2">
   <targets>
-    <target name="Math 151 HOGU 1 Web" source="Math151HOGU1.ptx" format="html" deploy-dir="Math 151 HOGU 1 Web" />
-    <target name="Math 151 HOGU 2 Web" source="Math151HOGU2.ptx" format="html" deploy-dir="Math 151 HOGU 2 Web" />
-    <target name="Math 151 HOGU 3 Web" source="Math151HOGU3.ptx" format="html" deploy-dir="Math 151 HOGU 3 Web" />
-    <target name="Math 151 HOGU 4 Web" source="Math151HOGU4.ptx" format="html" deploy-dir="Math 151 HOGU 4 Web" />
-    <target name="Math 151 HOGU 5 Web" source="Math151HOGU5.ptx" format="html" deploy-dir="Math 151 HOGU 5 Web" />
-    <target name="Math 151 HOGU 6 Web" source="Math151HOGU6.ptx" format="html" deploy-dir="Math 151 HOGU 6 Web" />
-    <target name="Math 151 HOGU 7 Web" source="Math151HOGU7.ptx" format="html" deploy-dir="Math 151 HOGU 7 Web" />
-    <target name="Math 151 HOGU 8 Web" source="Math151HOGU8.ptx" format="html" deploy-dir="Math 151 HOGU 8 Web" />
-    <target name="Math 151 HOGU 9 Web" source="Math151HOGU9.ptx" format="html" deploy-dir="Math 151 HOGU 9 Web" />
-    <target name="Math 151 HOGU 10 Web" source="Math151HOGU10.ptx" format="html" deploy-dir="Math 151 HOGU 10 Web" />
-    <target name="Math 151 HOGU 11 Web" source="Math151HOGU11.ptx" format="html" deploy-dir="Math 151 HOGU 11 Web" />
-    <target name="Math 151 HOGU 12 Part 1 Web" source="Math151HOGU12Part1.ptx" format="html" deploy-dir="Math 151 HOGU 12 Part 1 Web" />
-    <target name="Math 151 HOGU 12 Part 2 Web" source="Math151HOGU12Part2.ptx" format="html" deploy-dir="Math 151 HOGU 12 Part 2 Web" />
+    <target name="Math151HOGU1" source="Math151HOGU1.ptx" format="html" deploy-dir="Math151HOGU1" />
+    <target name="Math151HOGU2" source="Math151HOGU2.ptx" format="html" deploy-dir="Math151HOGU2" />
+    <target name="Math151HOGU3" source="Math151HOGU3.ptx" format="html" deploy-dir="Math151HOGU3" />
+    <target name="Math151HOGU4" source="Math151HOGU4.ptx" format="html" deploy-dir="Math151HOGU4" />
+    <target name="Math151HOGU5" source="Math151HOGU5.ptx" format="html" deploy-dir="Math151HOGU5" />
+    <target name="Math151HOGU6" source="Math151HOGU6.ptx" format="html" deploy-dir="Math151HOGU6" />
+    <target name="Math151HOGU7" source="Math151HOGU7.ptx" format="html" deploy-dir="Math151HOGU7" />
+    <target name="Math151HOGU8" source="Math151HOGU8.ptx" format="html" deploy-dir="Math151HOGU8" />
+    <target name="Math151HOGU9" source="Math151HOGU9.ptx" format="html" deploy-dir="Math151HOGU9" />
+    <target name="Math151HOGU10" source="Math151HOGU10.ptx" format="html" deploy-dir="Math151HOGU10" />
+    <target name="Math151HOGU11" source="Math151HOGU11.ptx" format="html" deploy-dir="Math151HOGU11" />
+    <target name="Math151HOGU12Part1" source="Math151HOGU12Part1.ptx" format="html" deploy-dir="Math151HOGU12Part1" />
+    <target name="Math151HOGU12Part2" source="Math151HOGU12Part2.ptx" format="html" deploy-dir="Math151HOGU12Part2" />
     <target name="print" format="pdf" />
   </targets>
 </project>
