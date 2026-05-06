@@ -30,7 +30,7 @@
           <p>
             Let <m>\mathbf{a}=\langle x_1, y_1 \rangle</m> and <m>\mathbf{b}=\langle x_2, y_2 \rangle</m>. Match each formula, identity, or expression to its corresponding purpose/idea.
           </p>
-          <sidebyside widths="85% 15%" halign="middle">
+          <sidebyside widths="85% 15%" valign="middle">
             <p>
               <ol marker="a)">
                 <li>
@@ -326,26 +326,31 @@
       <exercise workspace ="1in" number="1"><!-- #1 -->
         <statement>
           <p>
-            Problem 3 with multiple choice
+            Which of the following is a unit vector perpendicular to the vector <m>\langle 3,4 \rangle</m>?
             <ol marker="(A)">
               <li>
                 <p>
-                  choice 1
+                  <m>\langle \frac{4}{5},\frac{3}{5} \rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 2
+                  <m>\langle -\frac{4}{5},-\frac{3}{5} \rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 3
+                  <m>\langle \frac{3}{5},\frac{4}{5} \rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 4
+                  <m>\langle -\frac{3}{5},-\frac{4}{5} \rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\langle -\frac{4}{5},\frac{3}{5} \rangle</m>
                 </p>
               </li>
             </ol>
@@ -378,6 +383,11 @@
                   choice 4
                 </p>
               </li>
+              <li>
+                <p>
+                  choice 5
+                </p>
+              </li>
             </ol>
           </p>
         </statement>
@@ -406,6 +416,11 @@
               <li>
                 <p>
                   choice 4
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 5
                 </p>
               </li>
             </ol>
@@ -437,6 +452,11 @@
                   choice 4
                 </p>
               </li>
+              <li>
+                <p>
+                  choice 5
+                </p>
+              </li>
             </ol>
           </p>
         </statement>
@@ -464,6 +484,11 @@
               <li>
                 <p>
                   choice 4
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 5
                 </p>
               </li>
             </ol>
@@ -495,6 +520,11 @@
                   choice 4
                 </p>
               </li>
+              <li>
+                <p>
+                  choice 5
+                </p>
+              </li>
             </ol>
           </p>
         </statement>
@@ -522,6 +552,11 @@
               <li>
                 <p>
                   choice 4
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 5
                 </p>
               </li>
             </ol>
