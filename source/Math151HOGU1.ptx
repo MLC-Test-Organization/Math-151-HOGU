@@ -28,15 +28,96 @@
       <exercise workspace="1in"><!-- #1 -->
         <statement>
           <p>
-            Let <m>\textbf{a}=\langle x_1, y_1 \rangle</m> and <m>\textbf{b}=\langle x_2, y_2 \rangle</m>. Match each formula, identity, or expression to its corresponding purpose/idea.
+            Let <m>\mathbf{a}=\langle x_1, y_1 \rangle</m> and <m>\mathbf{b}=\langle x_2, y_2 \rangle</m>. Match each formula, identity, or expression to its corresponding purpose/idea.
           </p>
+          <sidebyside widths="85% 15%" halign="middle">
+            <p>
+              <ol marker="a)">
+                <li>
+                  <p>
+                    Calculates the length of a vector <m>\mathbf{a}</m>, <m>|\mathbf{a}|</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Finds the unit vector pointing in the same direction as <m>\mathbf{a}</m>, <m>\hat{\mathbf{a}}</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Finds the vector perpendicular to the vector <m>\mathbf{a}</m>, <m>\mathbf{a}^{\perp}</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Finds the vector pointing from the tail of <m>\mathbf{a}</m> to the tip of <m>\mathbf{b}</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Finds the vector pointing from the tail of <m>\mathbf{b}</m> to the tip of <m>\mathbf{a}</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Finds the vector pointing from the tip of <m>\mathbf{a}</m> to the tip of <m>\mathbf{b}</m>, or the vector from the point <m>A=(x_1,y_1)</m> to the point <m>B=(x_2,y_2)</m>, <m>\overrightarrow{AB}</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    Finds the vector pointing from the tip of <m>\mathbf{b}</m> to the tip of <m>\mathbf{a}</m>, or the vector from the point <m>A=(x_1,y_1)</m> to the point <m>B=(x_2,y_2)</m>, <m>\overrightarrow{AB}</m>.
+                  </p>
+                </li>
+              </ol>
+            </p>
+
+            <p>
+              <ol marker="I)">
+                <li>
+                  <p>
+                    <m>\mathbf{b}+\mathbf{a}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\langle -y_1,x_1 \rangle</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\mathbf{a}-\mathbf{b}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\mathbf{a}+\mathbf{b}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\sqrt{x_1^2+y_1^2}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\mathbf{b}-\mathbf{a}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\frac{\mathbf{a}}{|\mathbf{a}|}</m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </sidebyside>
         </statement>
       </exercise>
       <exercise workspace="1in"><!-- #2 -->
         <statement>
           <p>
-            Let <m>\textbf{a}</m> and <m>\textbf{b}</m> be given in the graph below.
-            <image source="m151fig1" width="70%"> <!--this is how you include an image. Upload image to the "assets" folder--><!--see 4.14 in Guide for more info-->
+            Let <m>\mathbf{a}</m> and <m>\mathbf{b}</m> be given in the graph below.
+            <image source="m151fig1.png" width="70%"> <!--this is how you include an image. Upload image to the "assets" folder--><!--see 4.14 in Guide for more info-->
               <shortdescription>Graph of a piecewise-defined function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
@@ -51,7 +132,7 @@
             </image>
           </p>
           <p>
-            Draw and label the following on the graph: <m>-\textbf{a}</m>, <m>-\textbf{b}</m>, <m>2\textbf{a}</m>, <m>\frac{1}{3}\textbf{a}</m>, <m>\textbf{a}+\textbf{b}</m>, <m>\textbf{a}-\textbf{b}</m>, <m>\textbf{b}-\textbf{a}</m>
+            Draw and label the following on the graph: <m>-\mathbf{a}</m>, <m>-\mathbf{b}</m>, <m>2\mathbf{a}</m>, <m>\frac{1}{3}\mathbf{a}</m>, <m>\mathbf{a}+\mathbf{b}</m>, <m>\mathbf{a}-\mathbf{b}</m>, <m>\mathbf{b}-\mathbf{a}</m>.
           </p>
         </statement>
       </exercise>
@@ -63,120 +144,180 @@
       <exercise workspace="1in" number="1"><!-- #1 -->
         <introduction>
           <p>
-            Consider vectors <m>\textbf{a}=3\textbf{i}+5\textbf{j}</m> and <m>\textbf{b}=2\textbf{i}-4\textbf{j}</m>
+            Consider vectors <m>\mathbf{a}=3\mathbf{i}+5\mathbf{j}</m> and <m>\mathbf{b}=2\mathbf{i}-4\mathbf{j}</m>
           </p>
         </introduction>
         <task workspace="1in">
           <statement>
             <p>
-              Find the resultant vector, <m>\textbf{a}+\textbf{b}</m>.
+              Find the resultant vector, <m>\mathbf{a}+\mathbf{b}</m>.
             </p>
           </statement>
         </task>
         <task workspace="1in">
           <statement>
             <p>
-              Find the magnetudes (lengths) of the vectors <m>\textbf{a}</m> and <m>\textbf{b}</m>, <m>|\textbf{a}|</m> and <m>|\textbf{b}|</m> respectively.
+              Find the magnitudes (lengths) of the vectors <m>\mathbf{a}</m> and <m>\mathbf{b}</m>, <m>|\mathbf{a}|</m> and <m>|\mathbf{b}|</m> respectively.
             </p>
           </statement>
         </task>
         <task workspace="1in">
           <statement>
             <p>
-              Find the unit vectors pointing in the directions of <m>\textbf{a}</m> and <m>\textbf{b}</m>, <m>\hat{\textbf{a}}</m> and <m>\hat{\textbf{b}}</m> respectively.
+              Find the unit vectors pointing in the directions of <m>\mathbf{a}</m> and <m>\mathbf{b}</m>, <m>\hat{\mathbf{a}}</m> and <m>\hat{\mathbf{b}}</m> respectively.
             </p>
           </statement>
         </task>
       </exercise>
-
       <exercise workspace="1in" number="2"><!-- #2 -->
         <introduction>
           <p>
-            Problem 2 with multiple parts.
+            Two forces act on an object, as shown in the picture below.
+            <image source="m151fig1.png" width="70%"> <!--this is how you include an image. Upload image to the "assets" folder--><!--see 4.14 in Guide for more info-->
+              <shortdescription>Graph of a piecewise-defined function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                The graph of a piecewise-defined function <m>f(x)</m> plotted on coordinate axes.
+                The function is a parabola with vertex at the point <m>(-6, 10)</m> and endpoints at <m>(-8,-2)</m> and <m>(-4,-2)</m> where
+                <m>(-8, -2)</m> is a closed circle and <m>(-4,-2)</m> is an open circle. The point <m>(-4, 8)</m> is a closed circle. 
+                The function is linear with open endpoint <m>(-2,2)</m> and closed endpoint <m>(3,12)</m>, and again linear
+                with closed endpoints <m>(5,4)</m> and <m>(7,-4)</m>.
+                No graph is given between <m>x=-4</m> and <m>x=-2</m>, and between <m>x=3</m> and <m>x=5</m>.
+                </p>
+              </description>
+            </image>
+          </p>
+          <p>
+            The first, <m>\mathbf{F}_1</m>, with a magnitude of <m>15\text{N}</m> at an angle of <m>30^\circ</m> counterclockwise from the <m>x</m>-axis. The second, <m>\mathbf{F}_2</m>, with a magnitude of <m>8\text{N}</m> at an angle of <m>135^\circ</m> counterclockwise from the <m>x</m>-axis. You may leave your answers to the following problems in terms of inverse trigonometric functions, if applicable.
           </p>
         </introduction>
         <task workspace="1in">
           <statement>
             <p>
-              Problem 2, part 1
+              Find the magnitude of the resulting force.
             </p>
           </statement>
         </task>
         <task workspace="1in">
           <statement>
             <p>
-              Problem 2, part 2
+              Find the angle that the resultant force makes with the <m>x</m>-axis.
             </p>
           </statement>
         </task>
       </exercise>
-
       <exercise workspace="1in" number="3"><!-- #3 -->
         <introduction>
           <p>
-            Problem 2 with multiple parts.
+            A mass is suspended at rest by two identical, rigid, massless strings that make an angle of <m>45</m> degrees with the horizontal. Gravity exerts a <m>10\text{N}</m> force on the mass directly downward.
           </p>
         </introduction>
         <task workspace="1in">
           <statement>
             <p>
-              Problem 2, part 1
+              Draw a diagram for this problem
             </p>
           </statement>
         </task>
         <task workspace="1in">
           <statement>
             <p>
-              Problem 2, part 2
+              What is the magnitude of the tension in each of the strings?
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              Determine the horizontal components for the force of tension in each of the strings.
             </p>
           </statement>
         </task>
       </exercise>
-
       <exercise workspace="1in" number="4"><!-- #4 -->
         <introduction>
           <p>
-            Problem 2 with multiple parts.
+            Simplify the following trigonometric expressions to algebraic expressions involving <m>x</m> only.
           </p>
         </introduction>
         <task workspace="1in">
           <statement>
             <p>
-              Problem 2, part 1
+              <m>\sin(\arcsin(x))</m>
             </p>
           </statement>
         </task>
         <task workspace="1in">
           <statement>
             <p>
-              Problem 2, part 2
+              <m>\cos(\arcsin(x))</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\tan(\arcsin(x))</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\tan(\arccos(x))</m>
             </p>
           </statement>
         </task>
       </exercise>
-
       <exercise workspace="1in" number="5"><!-- #5 -->
         <introduction>
           <p>
-            Problem 2 with multiple parts.
+            Find the exact values of the following inverse trigonometric functions using any method. If the indicated expression doesn't exist, write DNE. Be careful of any possible domain restrictions.
           </p>
         </introduction>
         <task workspace="1in">
           <statement>
             <p>
-              Problem 2, part 1
+              <m>\arcsin(\sin(\frac{3\pi}{2}))</m>
             </p>
           </statement>
         </task>
         <task workspace="1in">
           <statement>
             <p>
-              Problem 2, part 2
+              <m>\arcsin(\cos(-\frac{11\pi}{6}))</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\arctan(\tan(\frac{3\pi}{4}))</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\arcsin(\tan(\frac{\pi}{2}))</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\arccos(\sin(\frac{-7\pi}{6}))</m>
+            </p>
+          </statement>
+        </task>
+        <task workspace="1in">
+          <statement>
+            <p>
+              <m>\arctan(\cos(\frac{5\pi}{4}))</m>
             </p>
           </statement>
         </task>
       </exercise>
-  
     </paragraphs>
 
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
@@ -185,7 +326,29 @@
       <exercise workspace ="1in" number="1"><!-- #1 -->
         <statement>
           <p>
-            Problem 1
+            Problem 3 with multiple choice
+            <ol marker="(A)">
+              <li>
+                <p>
+                  choice 1
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 2
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 3
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 4
+                </p>
+              </li>
+            </ol>
           </p>
         </statement>
       </exercise>
@@ -193,7 +356,29 @@
       <exercise workspace ="1in" number="2"><!-- #2 -->
         <statement>
           <p>
-            Problem 2
+            Problem 3 with multiple choice
+            <ol marker="(A)">
+              <li>
+                <p>
+                  choice 1
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 2
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 3
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 4
+                </p>
+              </li>
+            </ol>
           </p>
         </statement>
       </exercise>
@@ -202,7 +387,123 @@
         <statement>
           <p>
             Problem 3 with multiple choice
-            <ol marker="(a)">
+            <ol marker="(A)">
+              <li>
+                <p>
+                  choice 1
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 2
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 3
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 4
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise workspace ="1in" number="4"><!-- #4 -->
+        <statement>
+          <p>
+            Problem 3 with multiple choice
+            <ol marker="(A)">
+              <li>
+                <p>
+                  choice 1
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 2
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 3
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 4
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise workspace ="1in" number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Problem 3 with multiple choice
+            <ol marker="(A)">
+              <li>
+                <p>
+                  choice 1
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 2
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 3
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 4
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise workspace ="1in" number="6"><!-- #6 -->
+        <statement>
+          <p>
+            Problem 3 with multiple choice
+            <ol marker="(A)">
+              <li>
+                <p>
+                  choice 1
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 2
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 3
+                </p>
+              </li>
+              <li>
+                <p>
+                  choice 4
+                </p>
+              </li>
+            </ol>
+          </p>
+        </statement>
+      </exercise>
+      <exercise workspace ="1in" number="7"><!-- #7 -->
+        <statement>
+          <p>
+            Problem 3 with multiple choice
+            <ol marker="(A)">
               <li>
                 <p>
                   choice 1
