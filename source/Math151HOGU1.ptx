@@ -65,7 +65,7 @@
                 </li>
                 <li>
                   <p>
-                    Finds the vector pointing from the tip of <m>\mathbf{b}</m> to the tip of <m>\mathbf{a}</m>, or the vector from the point <m>A=(x_1,y_1)</m> to the point <m>B=(x_2,y_2)</m>, <m>\overrightarrow{AB}</m>.
+                    Finds the vector pointing from the tip of <m>\mathbf{b}</m> to the tip of <m>\mathbf{a}</m>, or the vector from the point <m>A=(x_1,y_1)</m> to the point <m>B=(x_2,y_2)</m>, <m>\overrightarrow{BA}</m>.
                   </p>
                 </li>
               </ol>
@@ -105,7 +105,7 @@
                 </li>
                 <li>
                   <p>
-                    <m>\frac{\mathbf{a}}{|\mathbf{a}|}</m>
+                    <m>\dfrac{\mathbf{a}}{|\mathbf{a}|}</m>
                   </p>
                 </li>
               </ol>
@@ -132,7 +132,7 @@
             </image>
           </p>
           <p>
-            Draw and label the following on the graph: <m>-\mathbf{a}</m>, <m>-\mathbf{b}</m>, <m>2\mathbf{a}</m>, <m>\frac{1}{3}\mathbf{a}</m>, <m>\mathbf{a}+\mathbf{b}</m>, <m>\mathbf{a}-\mathbf{b}</m>, <m>\mathbf{b}-\mathbf{a}</m>.
+            Draw and label the following on the graph: <m>-\mathbf{a}</m>, <m>-\mathbf{b}</m>, <m>2\mathbf{a}</m>, <m>\dfrac{1}{3}\mathbf{a}</m>, <m>\mathbf{a}+\mathbf{b}</m>, <m>\mathbf{a}-\mathbf{b}</m>, <m>\mathbf{b}-\mathbf{a}</m>.
           </p>
         </statement>
       </exercise>
@@ -140,8 +140,7 @@
 
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Let Us Get Our Hands On</title>
-
-      <exercise workspace="1in" number="1"><!-- #1 -->
+      <exercise number="1"><!-- #1 -->
         <introduction>
           <p>
             Consider vectors <m>\mathbf{a}=3\mathbf{i}+5\mathbf{j}</m> and <m>\mathbf{b}=2\mathbf{i}-4\mathbf{j}</m>
@@ -188,7 +187,7 @@
             </image>
           </p>
           <p>
-            The first, <m>\mathbf{F}_1</m>, with a magnitude of <m>15\text{N}</m> at an angle of <m>30^\circ</m> counterclockwise from the <m>x</m>-axis. The second, <m>\mathbf{F}_2</m>, with a magnitude of <m>8\text{N}</m> at an angle of <m>135^\circ</m> counterclockwise from the <m>x</m>-axis. You may leave your answers to the following problems in terms of inverse trigonometric functions, if applicable.
+            The first, <m>\mathbf{F}_1</m>, acts with a magnitude of <m>15\text{N}</m> at an angle of <m>30^\circ</m> counterclockwise from the <m>x</m>-axis. The second, <m>\mathbf{F}_2</m>, acts with a magnitude of <m>8\text{N}</m> at an angle of <m>135^\circ</m> counterclockwise from the <m>x</m>-axis. You may leave your answers to the following problems in terms of inverse trigonometric functions, if applicable.
           </p>
         </introduction>
         <task workspace="1in">
@@ -278,42 +277,42 @@
         <task workspace="1in">
           <statement>
             <p>
-              <m>\arcsin(\sin(\frac{3\pi}{2}))</m>
+              <m>\arcsin\left(\sin\left(\dfrac{3\pi}{2}\right)\right)</m>
             </p>
           </statement>
         </task>
         <task workspace="1in">
           <statement>
             <p>
-              <m>\arcsin(\cos(-\frac{11\pi}{6}))</m>
+              <m>\arcsin\left(\cos\left(-\dfrac{11\pi}{6}\right)\right)</m>
             </p>
           </statement>
         </task>
         <task workspace="1in">
           <statement>
             <p>
-              <m>\arctan(\tan(\frac{3\pi}{4}))</m>
+              <m>\arctan\left(\tan\left(\dfrac{3\pi}{4}\right)\right)</m>
             </p>
           </statement>
         </task>
         <task workspace="1in">
           <statement>
             <p>
-              <m>\arcsin(\tan(\frac{\pi}{2}))</m>
+              <m>\arcsin\left(\tan\left(\dfrac{\pi}{2}\right)\right)</m>
             </p>
           </statement>
         </task>
         <task workspace="1in">
           <statement>
             <p>
-              <m>\arccos(\sin(\frac{-7\pi}{6}))</m>
+              <m>\arccos\left(\sin\left(\dfrac{-7\pi}{6}\right)\right)</m>
             </p>
           </statement>
         </task>
         <task workspace="1in">
           <statement>
             <p>
-              <m>\arctan(\cos(\frac{5\pi}{4}))</m>
+              <m>\arctan\left(\cos\left(\dfrac{5\pi}{4}\right)\right)</m>
             </p>
           </statement>
         </task>
@@ -330,27 +329,27 @@
             <ol marker="(A)">
               <li>
                 <p>
-                  <m>\langle \frac{4}{5},\frac{3}{5} \rangle</m>
+                  <m>\left\langle \dfrac{4}{5},\dfrac{3}{5} \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m>\langle -\frac{4}{5},-\frac{3}{5} \rangle</m>
+                  <m>\left\langle -\dfrac{4}{5},-\dfrac{3}{5} \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m>\langle \frac{3}{5},\frac{4}{5} \rangle</m>
+                  <m>\left\langle \dfrac{3}{5},\dfrac{4}{5} \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m>\langle -\frac{3}{5},-\frac{4}{5} \rangle</m>
+                  <m>\left\langle -\dfrac{3}{5},-\dfrac{4}{5} \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m>\langle -\frac{4}{5},\frac{3}{5} \rangle</m>
+                  <m>\left\langle -\dfrac{4}{5},\dfrac{3}{5} \right\rangle</m>
                 </p>
               </li>
             </ol>
@@ -361,31 +360,31 @@
       <exercise workspace ="1in" number="2"><!-- #2 -->
         <statement>
           <p>
-            Problem 3 with multiple choice
+            If <m>\mathbf{a}=4\mathbf{i}+2\mathbf{j}</m>, <m>\mathbf{b}=-3\mathbf{i}+\mathbf{j}</m>, and <m>\mathbf{c}=2\mathbf{i}-\mathbf{j}</m>, find <m>2\mathbf{a}-2\mathbf{b}+\mathbf{c}</m>.
             <ol marker="(A)">
               <li>
                 <p>
-                  choice 1
+                  <m>19\mathbf{i}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 2
+                  <m>17\mathbf{i}+\mathbf{j}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 3
+                  <m>19\mathbf{i}+\mathbf{j}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 4
+                  <m>14\mathbf{i}-\mathbf{j}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 5
+                  <m>14\mathbf{i}+\mathbf{j}</m>
                 </p>
               </li>
             </ol>
@@ -396,31 +395,31 @@
       <exercise workspace ="1in" number="3"><!-- #3 -->
         <statement>
           <p>
-            Problem 3 with multiple choice
+            A racecar driver drives their car at a speed of <m>180\ \text{mi/hr}</m> with a bearing <m>\text{N}45^\circ\text{E}</m> under normal conditions. Today, a strong wind is blowing at a speed of <m>20\ \text{mi/hr}</m> with a bearing <m>\text{S}60^\circ\text{W}</m>. Find the resultant velocity vector of the car.
             <ol marker="(A)">
               <li>
                 <p>
-                  choice 1
+                  <m>\left\langle 90\sqrt{2}-10\sqrt{3}, 85\sqrt{2}-10 \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 2
+                  <m>\left\langle 90\sqrt{2}-15, 90\sqrt{2}-10 \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 3
+                  <m>\left\langle 85\sqrt{2}-10\sqrt{3}, 90\sqrt{2}-5 \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 4
+                  <m>\left\langle 90\sqrt{2}-10\sqrt{2}, 90\sqrt{2}-10 \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 5
+                  <m>\left\langle 90\sqrt{2}-10\sqrt{3}, 90\sqrt{2}-10\right\rangle</m>
                 </p>
               </li>
             </ol>
@@ -430,31 +429,31 @@
       <exercise workspace ="1in" number="4"><!-- #4 -->
         <statement>
           <p>
-            Problem 3 with multiple choice
+            Let <m>A = (-1,2)</m> and <m>B = (4,1)</m>. Find the vector of length <m>2</m> pointing in the same direction as <m>\overrightarrow{AB}</m>.
             <ol marker="(A)">
               <li>
                 <p>
-                  choice 1
+                  <m>\left\langle \dfrac{10}{13},\dfrac{2}{13} \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 2
+                  <m>\left\langle \dfrac{10}{13},-\dfrac{2}{13} \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 3
+                  <m>\left\langle \dfrac{10}{\sqrt{26}},-\dfrac{2}{\sqrt{26}} \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 4
+                  <m>\left\langle \dfrac{10}{\sqrt{26}},\dfrac{2}{\sqrt{26}} \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 5
+                  <m>\left\langle -\dfrac{10}{\sqrt{26}},\dfrac{2}{\sqrt{26}} \right\rangle</m>
                 </p>
               </li>
             </ol>
