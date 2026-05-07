@@ -17,7 +17,7 @@
   </introduction>
 <!--START TYPING CONTENT FOR SESSION BELOW HERE-->
   <worksheet>
-    <title> Session #1 (Sections 1.5, Appendix J.1)</title>
+    <title> Session #1 (Section 1.5, Appendix J.1)</title>
     <p>
       Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
     </p>
@@ -463,31 +463,31 @@
       <exercise workspace ="1in" number="5"><!-- #5 -->
         <statement>
           <p>
-            Problem 3 with multiple choice
+            Simplify <m>\cos(\arctan(2x))</m> to an algebraic expression involving <m>x</m> only.
             <ol marker="(A)">
               <li>
                 <p>
-                  choice 1
+                  <m>\dfrac{1}{\sqrt{4x^2+1}}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 2
+                  <m>\dfrac{1}{\sqrt{1-4x^2}}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 3
+                  <m>\dfrac{2x}{\sqrt{4x^2+1}}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 4
+                  <m>\dfrac{2x}{\sqrt{1-4x^2}}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 5
+                  <m>\sqrt{4x^2+1}</m>
                 </p>
               </li>
             </ol>
@@ -497,31 +497,31 @@
       <exercise workspace ="1in" number="6"><!-- #6 -->
         <statement>
           <p>
-            Problem 3 with multiple choice
+            Simplify <m>\sec\left(\arctan\left(\dfrac{x}{2}\right)\right)</m> to an algebraic expression involving <m>x</m> only.
             <ol marker="(A)">
               <li>
                 <p>
-                  choice 1
+                  <m>\dfrac{\sqrt{x^2+4}}{x}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 2
+                  <m>\dfrac{x}{2}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 3
+                  <m>\dfrac{2}{\sqrt{x^2+4}}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 4
+                  <m>\dfrac{\sqrt{x^2+4}}{2}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 5
+                  <m>\dfrac{x}{\sqrt{x^2+4}}</m>
                 </p>
               </li>
             </ol>
@@ -531,31 +531,31 @@
       <exercise workspace ="1in" number="7"><!-- #7 -->
         <statement>
           <p>
-            Problem 3 with multiple choice
+            Simplify <m>\cos(\arctan(-1))</m>.
             <ol marker="(A)">
               <li>
                 <p>
-                  choice 1
+                  <m>-1</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 2
+                  <m>\dfrac{\sqrt{2}}{2}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 3
+                  <m>-\dfrac{\sqrt{2}}{2}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 4
+                  <m>\dfrac{\sqrt{3}}{2}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  choice 5
+                  <m>-\dfrac{\sqrt{2}}{2}</m>
                 </p>
               </li>
             </ol>
