@@ -112,6 +112,16 @@
             </p>
           </sidebyside>
         </statement>
+        <hint>
+          <p>
+            chimpanzini bananini
+          </p>
+        </hint>
+        <answer>
+          <p>
+            67
+          </p>
+        </answer>
       </exercise>
       <exercise><!-- #2 -->
         <statement>
@@ -316,7 +326,7 @@
 
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
       <title>Now Grades Go Up</title>
-
+      
       <exercise number="1"><!-- #1 -->
         <statement>
           <p>
@@ -355,7 +365,7 @@
       <exercise number="2"><!-- #2 -->
         <statement>
           <p>
-            If <m>\mathbf{a}=4\mathbf{i}+2\mathbf{j}</m>, <m>\mathbf{b}=-3\mathbf{i}+\mathbf{j}</m>, and <m>\mathbf{c}=2\mathbf{i}-\mathbf{j}</m>, find <m>2\mathbf{a}-2\mathbf{b}+\mathbf{c}</m>.
+            If <m>\mathbf{a}=4\mathbf{i}+2\mathbf{j}</m>, <m>\mathbf{b}=-3\mathbf{i}+\mathbf{j}</m>, and <m>\mathbf{c}=2\mathbf{i}-\mathbf{j}</m>, find <m>2\mathbf{a}-3\mathbf{b}+\mathbf{c}</m>.
           </p>
             <ol marker="(A)">
               <li>
@@ -557,7 +567,6 @@
             </ol>
         </statement>
       </exercise>
-
     </paragraphs>
   
   </worksheet>

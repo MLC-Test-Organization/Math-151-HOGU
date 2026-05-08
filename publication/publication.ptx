@@ -19,6 +19,6 @@
         <divisions level="0"/> <!-- This removes the numbering of worksheets -->
     </numbering>
     <html>
-        <css theme="salem" provide-dark-mode="no" color-main="#500000"/> <!-- This is the theme of the worksheet on the web -->
+        <css theme="salem" provide-dark-mode="yes" color-main="#500000"/> <!-- This is the theme of the worksheet on the web -->
     </html>
 </publication>
