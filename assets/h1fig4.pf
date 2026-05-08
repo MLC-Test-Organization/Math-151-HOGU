@@ -1,0 +1,18 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="2">
+  <coordinates bbox="(-10,-10,10,10)">
+    <grid-axes
+      vticks="(-10,1,10)"
+      hticks="(-10,1,10)"
+      hlabels="no"
+      vlabels="no"
+      xlabel="x"
+      ylabel="y"
+      spacings="((-10,1,10),(-10,1,10))"/>
+    <vector v="(3,4)" tail="(0,0)" scale="1" stroke="orange">
+      <m>\mathbf{a}</m>
+    </vector>
+    <vector v="(-6,6)" tail="(0,0)" scale="1" stroke="blue">
+      <m>\mathbf{b}</m>
+    </vector>
+  </coordinates>
+</diagram>
