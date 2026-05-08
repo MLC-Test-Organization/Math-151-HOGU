@@ -8,11 +8,14 @@
       xlabel="x"
       ylabel="y"
       spacings="((-10,1,10),(-10,1,10))"/>
-    <vector v="(3,4)" tail="(0,0)" scale="1" stroke="orange">
+    <vector v="(3,4)" tail="(0,0)" scale="1" stroke="orange"/>
+    <label p="(3,4)" alignment="ne">
       <m>\mathbf{a}</m>
-    </vector>
-    <vector v="(-6,6)" tail="(0,0)" scale="1" stroke="blue">
+    </label>
+
+    <vector v="(-6,6)" tail="(0,0)" scale="1" stroke="blue"/>
+    <label p="(-6,6)" alignment="nw">
       <m>\mathbf{b}</m>
-    </vector>
+    </label>
   </coordinates>
 </diagram>

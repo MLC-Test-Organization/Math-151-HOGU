@@ -1,18 +1,16 @@
-<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="2">
-  <coordinates bbox="(-10,-10,10,10)">
-    <grid-axes
-      vticks="(-10,1,10)"
-      hticks="(-10,1,10)"
-      hlabels="no"
-      vlabels="no"
-      xlabel="x"
-      ylabel="y"
-      spacings="((-10,1,10),(-10,1,10))"/>
-    <vector v="(3,4)" tail="(0,0)" scale="1" stroke="orange">
-      <m>\mathbf{a}</m>
-    </vector>
-    <vector v="(-6,6)" tail="(0,0)" scale="1" stroke="blue">
-      <m>\mathbf{b}</m>
-    </vector>
+<diagram xmlns="https://prefigure.org" dimensions="(300,100)" margins="1">
+  <coordinates bbox="(-10,-5,10,5)">
+    <vector v="(6,3)" tail="(0,-4)" scale="1" stroke="blue"/>
+    <label p="(6,-1)" alignment="ne">
+      <m>\mathbf{F}_1</m>
+    </label>
+    <vector v="(-4,4)" tail="(0,-4)" scale="1" stroke="orange"/>
+    <label p="(-4,0)" alignment="nw">
+      <m>\mathbf{F}_2</m>
+    </label>
+    <vector v="(18.3,0)" tail="(-9.5,-4)" scale="1" stroke="black"/>
+    <label p="(8.7,-4)" alignment="e">
+      <m>x</m>
+    </label>
   </coordinates>
 </diagram>

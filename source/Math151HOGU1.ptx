@@ -138,10 +138,18 @@
         <answer>
           <p>
             <image source="output/h1fig2" width="80%">
-              <shortdescription>Graph of two vectors plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <shortdescription>Graph of several plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
-                A graph of two vectors plotted on coordinate axes with <m>x</m>-values ranging from <m>-10</m> to <m>10</m> and <m>y</m>-values ranging from <m>-10</m> to <m>10</m>. The first vector, <m>\mathbf{a}</m>, has a tip at coordinates <m>(3,4)</m> and a tail at <m>(0,0)</m>. The second vector, <m>\mathbf{b}</m>, has a tip at coordinates <m>(-6,6)</m> and a tail at <m>(0,0)</m>.
+                A graph of seven vectors, along with the two vectors from the question, plotted on coordinate axes with <m>x</m>-values ranging from <m>-10</m> to <m>10</m> and <m>y</m>-values ranging from <m>-10</m> to <m>10</m>. 
+                The first vector, <m>-\mathbf{a}</m>, has a tip at coordinates <m>(-3,-4)</m>.
+                The second vector, <m>-\mathbf{b}</m>, has a tip at coordinates <m>(6,-6)</m>.
+                The third vector, <m>2\mathbf{a}</m>, has a tip at coordinates <m>(6,8)</m>.
+                The fourth vector, <m>\dfrac{1}{3}</m>, has a tip at coordinates <m>(-2,2)</m>.
+                The fifth vector, <m>\mathbf{a}+\mathbf{b}</m>, has a tip at coordinates <m>(-3,10)</m>.
+                The sixth vector, <m>\mathbf{a}-\mathbf{b}</m>, has a tip at coordinates <m>(9,-2)</m>.
+                The seventh vector, <m>\mathbf{b}-\mathbf{a}</m>, has a tip at coordinates <m>(-9,2)</m>.
+                All vectors have a tail at coordinates <m>(0,0)</m>.
                 </p>
               </description>
             </image>
