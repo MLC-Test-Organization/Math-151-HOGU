@@ -178,7 +178,7 @@
           </statement>
           <answer>
             <p>
-              <m>|\mathbf{a}|=\sqrt{34}, |\mathbf{b}|=\sqrt{20}</m>
+              <m>|\mathbf{a}|=\sqrt{34}, |\mathbf{b}|=2\sqrt{5}</m>
             </p>
           </answer>
         </task>
@@ -190,7 +190,7 @@
           </statement>
           <answer>
             <p>
-              <m>\hat{\mathbf{a}}=\dfrac{3\sqrt{34}}{34}\mathbf{i}+\dfrac{5\sqrt{34}}{34}\mathbf{j}</m>, <m>\hat{\mathbf{b}}=\dfrac{\sqrt{5}}{5}\mathbf{i}+\dfrac{2\sqrt{5}}{5}\mathbf{j}</m>
+              <m>\hat{\mathbf{a}}=\dfrac{3\sqrt{34}}{34}\mathbf{i}+\dfrac{5\sqrt{34}}{34}\mathbf{j}</m>, <m>\hat{\mathbf{b}}=\dfrac{\sqrt{5}}{5}\mathbf{i}-\dfrac{2\sqrt{5}}{5}\mathbf{j}</m>
             </p>
           </answer>
         </task>
@@ -209,7 +209,7 @@
             </image>
           </p>
           <p>
-            The first, <m>\mathbf{F}_1</m>, acts with a magnitude of <m>15\text{N}</m> at an angle of <m>30^\circ</m> counterclockwise from the <m>x</m>-axis. The second, <m>\mathbf{F}_2</m>, acts with a magnitude of <m>8\text{N}</m> at an angle of <m>135^\circ</m> counterclockwise from the <m>x</m>-axis. You may leave your answers to the following problems in terms of inverse trigonometric functions, if applicable.
+            The first, <m>\mathbf{F}_1</m>, acts with a magnitude of <m>15\text{ N}</m> at an angle of <m>30^\circ</m> counterclockwise from the <m>x</m>-axis. The second, <m>\mathbf{F}_2</m>, acts with a magnitude of <m>8\text{ N}</m> at an angle of <m>135^\circ</m> counterclockwise from the <m>x</m>-axis. You may leave your answers to the following problems in terms of inverse trigonometric functions, if applicable.
           </p>
         </introduction>
         <task workspace="1in">
@@ -220,7 +220,7 @@
           </statement>
           <answer>
             <p>
-              <m>|\mathbf{F}_{\text{net}}|=\sqrt{\left(\dfrac{15\sqrt{3}}{2}-4\sqrt{2}\right)^2+\left(\dfrac{15}{2}+4\sqrt{2}\right)^2}</m>
+              <m>|\mathbf{F}_{\text{net}}|=\sqrt{\left(\dfrac{15\sqrt{3}}{2}-4\sqrt{2}\right)^2+\left(\dfrac{15}{2}+4\sqrt{2}\right)^2}\text{ N}</m>
             </p>
           </answer>
         </task>
@@ -240,7 +240,7 @@
       <exercise workspace="1in" number="3"><!-- #3 -->
         <introduction>
           <p>
-            A mass is suspended at rest by two identical, rigid, massless strings that make an angle of <m>45</m> degrees with the horizontal. Gravity exerts a <m>10\text{N}</m> force on the mass directly downward.
+            A mass is suspended at rest by two identical, rigid, massless strings that make an angle of <m>45</m> degrees with the horizontal. Gravity exerts a <m>10\text{ N}</m> force on the mass directly downward.
           </p>
         </introduction>
         <task workspace="1in">
@@ -270,7 +270,7 @@
           </statement>
           <answer>
             <p>
-              <m>|\mathbf{T}_1| = |\mathbf{T}_2| = 5\sqrt{2}\text{N}</m>
+              <m>|\mathbf{T}_1| = |\mathbf{T}_2| = 5\sqrt{2}\text{ N}</m>
             </p>
           </answer>
         </task>
@@ -282,7 +282,7 @@
           </statement>
           <answer>
             <p>
-              <m>\mathbf{T}_{x,1}=-5\text{N}</m>, <m>\mathbf{T}_{x,2}=5\text{N}</m>
+              <m>\mathbf{T}_{x,1}=-5\text{ N}</m>, <m>\mathbf{T}_{x,2}=5\text{ N}</m>
             </p>
           </answer>
         </task>
@@ -337,7 +337,7 @@
           </statement>
           <answer>
             <p>
-              <m>\tan\left(\arccos\left(\dfrac{x}{3}\right)\right)=\dfrac{x}{\sqrt{4-x^2}}</m>
+              <m>\tan\left(\arccos\left(\dfrac{x}{3}\right)\right)=\dfrac{\sqrt{9-x^2}}{x}</m>
             </p>
           </answer>
         </task>
@@ -509,32 +509,32 @@
       <exercise number="3"><!-- #3 -->
         <statement>
           <p>
-            A racecar driver drives their car at a speed of <m>180\ \text{mi/hr}</m> with a bearing <m>\text{N}45^\circ\text{E}</m> under normal conditions. Today, a strong wind is blowing at a speed of <m>20\ \text{mi/hr}</m> with a bearing <m>\text{S}60^\circ\text{W}</m>. Find the resultant velocity vector of the car.
+            A racecar driver drives their car at a speed of <m>180\ \text{ mi/hr}</m> with a bearing <m>\text{N}45^\circ\text{E}</m> under normal conditions. Today, a strong wind is blowing at a speed of <m>20\ \text{ mi/hr}</m> with a bearing <m>\text{S}60^\circ\text{W}</m>. Find the resultant velocity vector of the car.
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m>\left\langle 90\sqrt{2}-10\sqrt{3}, 85\sqrt{2}-10 \right\rangle</m>
+                  <m>\left\langle 90\sqrt{2}+10\sqrt{3}, 90\sqrt{2}-10 \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m>\left\langle 90\sqrt{2}-15, 90\sqrt{2}-10 \right\rangle</m>
+                  <m>\left\langle 90\sqrt{2}-10\sqrt{3}, 90\sqrt{2}+10 \right\rangle</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m>\left\langle 85\sqrt{2}-10\sqrt{3}, 90\sqrt{2}-5 \right\rangle</m>
+                  <m>\left\langle 90\sqrt{2}-20\sqrt{3}, 90\sqrt{2}-20 \right\rangle</m>
                 </p>
               </li>
               <li>
-                <p>
-                  <m>\left\langle 90\sqrt{2}-10\sqrt{2}, 90\sqrt{2}-10 \right\rangle</m>
-                </p>
+              <p>
+                <m>\left\langle 90\sqrt{2}-10, 90\sqrt{2}-10\sqrt{3} \right\rangle</m>
+              </p>
               </li>
               <li>
                 <p>
-                  <m>\left\langle 90\sqrt{2}-10\sqrt{3}, 90\sqrt{2}-10\right\rangle</m>
+                  <m>\left\langle 90\sqrt{2}-10\sqrt{3}, 90\sqrt{2}-10 \right\rangle</m>
                 </p>
               </li>
             </ol>
@@ -690,7 +690,7 @@
               </li>
               <li>
                 <p>
-                  <m>-\dfrac{\sqrt{2}}{2}</m>
+                  <m>-\dfrac{\sqrt{3}}{2}</m>
                 </p>
               </li>
             </ol>
