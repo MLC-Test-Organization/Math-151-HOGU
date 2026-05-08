@@ -25,47 +25,47 @@
     <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Getting Warmed Up and in the Right Mindset</title>
 
-      <exercise workspace="1in"><!-- #1 -->
+      <exercise><!-- #1 -->
         <statement>
           <p>
-            Let <m>\mathbf{a}=\langle x_1, y_1 \rangle</m> and <m>\mathbf{b}=\langle x_2, y_2 \rangle</m>. Match each formula, identity, or expression to its corresponding purpose/idea.
+            Let <m>\mathbf{a}=\langle x_1, y_1 \rangle</m> and <m>\mathbf{b}=\langle x_2, y_2 \rangle</m>. Match each formula, identity, or expression to its corresponding definition.
           </p>
-          <sidebyside widths="85% 15%" valign="middle">
+          <sidebyside widths="82% 18%" valign="middle">
             <p>
               <ol marker="a)">
                 <li>
                   <p>
-                    Calculates the length of a vector <m>\mathbf{a}</m>, <m>|\mathbf{a}|</m>.
+                    The length of a vector <m>\mathbf{a}</m>, <m>|\mathbf{a}|</m>.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Finds the unit vector pointing in the same direction as <m>\mathbf{a}</m>, <m>\hat{\mathbf{a}}</m>.
+                    The unit vector pointing in the same direction as <m>\mathbf{a}</m>, <m>\hat{\mathbf{a}}</m>.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Finds the vector perpendicular to the vector <m>\mathbf{a}</m>, <m>\mathbf{a}^{\perp}</m>.
+                    The vector perpendicular to the vector <m>\mathbf{a}</m>, <m>\mathbf{a}^{\perp}</m>.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Finds the vector pointing from the tail of <m>\mathbf{a}</m> to the tip of <m>\mathbf{b}</m>.
+                    The vector pointing from the tail of <m>\mathbf{a}</m> to the tip of <m>\mathbf{b}</m>.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Finds the vector pointing from the tail of <m>\mathbf{b}</m> to the tip of <m>\mathbf{a}</m>.
+                    The vector pointing from the tail of <m>\mathbf{b}</m> to the tip of <m>\mathbf{a}</m>.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Finds the vector pointing from the tip of <m>\mathbf{a}</m> to the tip of <m>\mathbf{b}</m>, or the vector from the point <m>A=(x_1,y_1)</m> to the point <m>B=(x_2,y_2)</m>, <m>\overrightarrow{AB}</m>.
+                    The vector pointing from the tip of <m>\mathbf{a}</m> to the tip of <m>\mathbf{b}</m>, or the vector from the point <m>A=(x_1,y_1)</m> to the point <m>B=(x_2,y_2)</m>, <m>\overrightarrow{AB}</m>.
                   </p>
                 </li>
                 <li>
                   <p>
-                    Finds the vector pointing from the tip of <m>\mathbf{b}</m> to the tip of <m>\mathbf{a}</m>, or the vector from the point <m>A=(x_1,y_1)</m> to the point <m>B=(x_2,y_2)</m>, <m>\overrightarrow{BA}</m>.
+                    The vector pointing from the tip of <m>\mathbf{b}</m> to the tip of <m>\mathbf{a}</m>, or the vector from the point <m>A=(x_1,y_1)</m> to the point <m>B=(x_2,y_2)</m>, <m>\overrightarrow{BA}</m>.
                   </p>
                 </li>
               </ol>
@@ -113,20 +113,15 @@
           </sidebyside>
         </statement>
       </exercise>
-      <exercise workspace="1in"><!-- #2 -->
+      <exercise><!-- #2 -->
         <statement>
           <p>
             Let <m>\mathbf{a}</m> and <m>\mathbf{b}</m> be given in the graph below.
-            <image source="m151fig1.png" width="70%"> <!--this is how you include an image. Upload image to the "assets" folder--><!--see 4.14 in Guide for more info-->
-              <shortdescription>Graph of a piecewise-defined function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+            <image source="output/h1fig1" width="80%">
+              <shortdescription>Graph of two vectors plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
-                The graph of a piecewise-defined function <m>f(x)</m> plotted on coordinate axes.
-                The function is a parabola with vertex at the point <m>(-6, 10)</m> and endpoints at <m>(-8,-2)</m> and <m>(-4,-2)</m> where
-                <m>(-8, -2)</m> is a closed circle and <m>(-4,-2)</m> is an open circle. The point <m>(-4, 8)</m> is a closed circle. 
-                The function is linear with open endpoint <m>(-2,2)</m> and closed endpoint <m>(3,12)</m>, and again linear
-                with closed endpoints <m>(5,4)</m> and <m>(7,-4)</m>.
-                No graph is given between <m>x=-4</m> and <m>x=-2</m>, and between <m>x=3</m> and <m>x=5</m>.
+                A graph of two vectors plotted on coordinate axes with <m>x</m>-values ranging from <m>-10</m> to <m>10</m> and <m>y</m>-values ranging from <m>-10</m> to <m>10</m>. The first vector, <m>\mathbf{a}</m>, has a tip at coordinates <m>(3,4)</m> and a tail at <m>(0,0)</m>. The second vector, <m>\mathbf{b}</m>, has a tip at coordinates <m>(-6,6)</m> and a tail at <m>(0,0)</m>.
                 </p>
               </description>
             </image>
@@ -322,10 +317,11 @@
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
       <title>Now Grades Go Up</title>
 
-      <exercise workspace ="1in" number="1"><!-- #1 -->
+      <exercise number="1"><!-- #1 -->
         <statement>
           <p>
             Which of the following is a unit vector perpendicular to the vector <m>\langle 3,4 \rangle</m>?
+          </p>
             <ol marker="(A)">
               <li>
                 <p>
@@ -353,14 +349,14 @@
                 </p>
               </li>
             </ol>
-          </p>
         </statement>
       </exercise>
 
-      <exercise workspace ="1in" number="2"><!-- #2 -->
+      <exercise number="2"><!-- #2 -->
         <statement>
           <p>
             If <m>\mathbf{a}=4\mathbf{i}+2\mathbf{j}</m>, <m>\mathbf{b}=-3\mathbf{i}+\mathbf{j}</m>, and <m>\mathbf{c}=2\mathbf{i}-\mathbf{j}</m>, find <m>2\mathbf{a}-2\mathbf{b}+\mathbf{c}</m>.
+          </p>
             <ol marker="(A)">
               <li>
                 <p>
@@ -388,14 +384,14 @@
                 </p>
               </li>
             </ol>
-          </p>
         </statement>
       </exercise>
 
-      <exercise workspace ="1in" number="3"><!-- #3 -->
+      <exercise number="3"><!-- #3 -->
         <statement>
           <p>
             A racecar driver drives their car at a speed of <m>180\ \text{mi/hr}</m> with a bearing <m>\text{N}45^\circ\text{E}</m> under normal conditions. Today, a strong wind is blowing at a speed of <m>20\ \text{mi/hr}</m> with a bearing <m>\text{S}60^\circ\text{W}</m>. Find the resultant velocity vector of the car.
+          </p>
             <ol marker="(A)">
               <li>
                 <p>
@@ -423,13 +419,13 @@
                 </p>
               </li>
             </ol>
-          </p>
         </statement>
       </exercise>
-      <exercise workspace ="1in" number="4"><!-- #4 -->
+      <exercise number="4"><!-- #4 -->
         <statement>
           <p>
             Let <m>A = (-1,2)</m> and <m>B = (4,1)</m>. Find the vector of length <m>2</m> pointing in the same direction as <m>\overrightarrow{AB}</m>.
+          </p>
             <ol marker="(A)">
               <li>
                 <p>
@@ -457,13 +453,13 @@
                 </p>
               </li>
             </ol>
-          </p>
         </statement>
       </exercise>
-      <exercise workspace ="1in" number="5"><!-- #5 -->
+      <exercise number="5"><!-- #5 -->
         <statement>
           <p>
             Simplify <m>\cos(\arctan(2x))</m> to an algebraic expression involving <m>x</m> only.
+          </p>
             <ol marker="(A)">
               <li>
                 <p>
@@ -491,13 +487,13 @@
                 </p>
               </li>
             </ol>
-          </p>
         </statement>
       </exercise>
-      <exercise workspace ="1in" number="6"><!-- #6 -->
+      <exercise number="6"><!-- #6 -->
         <statement>
           <p>
             Simplify <m>\sec\left(\arctan\left(\dfrac{x}{2}\right)\right)</m> to an algebraic expression involving <m>x</m> only.
+          </p>
             <ol marker="(A)">
               <li>
                 <p>
@@ -525,13 +521,13 @@
                 </p>
               </li>
             </ol>
-          </p>
         </statement>
       </exercise>
-      <exercise workspace ="1in" number="7"><!-- #7 -->
+      <exercise number="7"><!-- #7 -->
         <statement>
           <p>
             Simplify <m>\cos(\arctan(-1))</m>.
+          </p>
             <ol marker="(A)">
               <li>
                 <p>
@@ -559,7 +555,6 @@
                 </p>
               </li>
             </ol>
-          </p>
         </statement>
       </exercise>
 
