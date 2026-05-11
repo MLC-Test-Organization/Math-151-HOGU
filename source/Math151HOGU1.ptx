@@ -132,7 +132,7 @@
             </image>
           </p>
           <p>
-            Draw and label the following on the graph: <m>-\mathbf{a}</m>, <m>-\mathbf{b}</m>, <m>2\mathbf{a}</m>, <m>\dfrac{1}{3}\mathbf{a}</m>, <m>\mathbf{a}+\mathbf{b}</m>, <m>\mathbf{a}-\mathbf{b}</m>, <m>\mathbf{b}-\mathbf{a}</m>.
+            Draw and label the following on the graph: <m>-\mathbf{a}</m>, <m>-\mathbf{b}</m>, <m>2\mathbf{a}</m>, <m>\dfrac{1}{3}\mathbf{b}</m>, <m>\mathbf{a}+\mathbf{b}</m>, <m>\mathbf{a}-\mathbf{b}</m>, <m>\mathbf{b}-\mathbf{a}</m>.
           </p>
         </statement>
         <answer>
@@ -145,7 +145,7 @@
                 The first vector, <m>-\mathbf{a}</m>, has a tip at coordinates <m>(-3,-4)</m>.
                 The second vector, <m>-\mathbf{b}</m>, has a tip at coordinates <m>(6,-6)</m>.
                 The third vector, <m>2\mathbf{a}</m>, has a tip at coordinates <m>(6,8)</m>.
-                The fourth vector, <m>\dfrac{1}{3}</m>, has a tip at coordinates <m>(-2,2)</m>.
+                The fourth vector, <m>\dfrac{1}{3}\mathbf{b}</m>, has a tip at coordinates <m>(-2,2)</m>.
                 The fifth vector, <m>\mathbf{a}+\mathbf{b}</m>, has a tip at coordinates <m>(-3,10)</m>.
                 The sixth vector, <m>\mathbf{a}-\mathbf{b}</m>, has a tip at coordinates <m>(9,-2)</m>.
                 The seventh vector, <m>\mathbf{b}-\mathbf{a}</m>, has a tip at coordinates <m>(-9,2)</m>.
