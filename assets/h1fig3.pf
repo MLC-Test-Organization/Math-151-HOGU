@@ -1,18 +1,14 @@
-<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="2">
+<diagram dimensions="(300, 300)" margins="5">
   <coordinates bbox="(-10,-10,10,10)">
-    <grid-axes
-      vticks="(-10,1,10)"
-      hticks="(-10,1,10)"
-      hlabels="no"
-      vlabels="no"
-      xlabel="x"
-      ylabel="y"
-      spacings="((-10,1,10),(-10,1,10))"/>
-    <vector v="(3,4)" tail="(0,0)" scale="1" stroke="orange">
-      <m>\mathbf{a}</m>
-    </vector>
-    <vector v="(-6,6)" tail="(0,0)" scale="1" stroke="blue">
-      <m>\mathbf{b}</m>
-    </vector>
+    <line endpoints="((-10,7),(10,7))" stroke="black" infinite="yes"/>
+    <line endpoints="((-9,7.5),(-6,10))" stroke="black"/>
+    <line endpoints="((-6,7.5),(-3,10))" stroke="black"/>
+    <line endpoints="((-3,7.5),(0,10))" stroke="black"/>
+    <line endpoints="((0,7.5),(3,10))" stroke="black"/>
+    <line endpoints="((3,7.5),(6,10))" stroke="black"/>
+    <line endpoints="((6,7.5),(9,10))" stroke="black"/>
+    <line endpoints="((-10,7),(0,-7))" stroke="red"/>
+    <line endpoints="((10,7),(0,-7))" stroke="red"/>
+    <point p="(0,-7)" size="44" style="box" fill="cyan"/>
   </coordinates>
 </diagram>
