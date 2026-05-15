@@ -257,10 +257,10 @@
           <answer>
           <p>
             <image source="output/h1fig3" width="80%">
-              <shortdescription>Graph of two vectors plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <shortdescription>A mass suspended at rest by two identical, rigid, massless strings. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
-                A graph of two vectors plotted on coordinate axes with <m>x</m>-values ranging from <m>-10</m> to <m>10</m> and <m>y</m>-values ranging from <m>-10</m> to <m>10</m>. The first vector, <m>\mathbf{a}</m>, has a tip at coordinates <m>(3,4)</m> and a tail at <m>(0,0)</m>. The second vector, <m>\mathbf{b}</m>, has a tip at coordinates <m>(-6,6)</m> and a tail at <m>(0,0)</m>.
+                A mass suspended at rest by two identical, rigid, massless strings that make an angle of <m>45</m> degrees with the horizontal. Gravity exerts a <m>10\text{ N}</m> force on the mass directly downward.
                 </p>
               </description>
             </image>
