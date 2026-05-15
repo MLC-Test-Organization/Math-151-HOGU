@@ -163,7 +163,7 @@
             Consider vectors <m>\mathbf{a}=3\mathbf{i}+5\mathbf{j}</m> and <m>\mathbf{b}=2\mathbf{i}-4\mathbf{j}</m>
           </p>
         </introduction>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               Find the resultant vector, <m>\mathbf{a}+\mathbf{b}</m>.
@@ -175,7 +175,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               Find the magnitudes (lengths) of the vectors <m>\mathbf{a}</m> and <m>\mathbf{b}</m>, <m>|\mathbf{a}|</m> and <m>|\mathbf{b}|</m> respectively.
@@ -187,7 +187,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               Find the unit vectors pointing in the directions of <m>\mathbf{a}</m> and <m>\mathbf{b}</m>, <m>\hat{\mathbf{a}}</m> and <m>\hat{\mathbf{b}}</m> respectively.
@@ -217,7 +217,7 @@
             The first, <m>\mathbf{F}_1</m>, acts with a magnitude of <m>15\text{ N}</m> at an angle of <m>30^\circ</m> counterclockwise from the <m>x</m>-axis. The second, <m>\mathbf{F}_2</m>, acts with a magnitude of <m>8\text{ N}</m> at an angle of <m>135^\circ</m> counterclockwise from the <m>x</m>-axis. You may leave your answers to the following problems in terms of inverse trigonometric functions, if applicable.
           </p>
         </introduction>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               Find the magnitude of the resulting force.
@@ -229,7 +229,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               Find the angle that the resultant force makes with the <m>x</m>-axis.
@@ -248,7 +248,7 @@
             A mass is suspended at rest by two identical, rigid, massless strings that make an angle of <m>45</m> degrees with the horizontal. Gravity exerts a <m>10\text{ N}</m> force on the mass directly downward.
           </p>
         </introduction>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               Draw a diagram for this problem
@@ -267,7 +267,7 @@
           </p>
         </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               What is the magnitude of the tension in each of the strings?
@@ -279,7 +279,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               Determine the horizontal components for the force of tension in each of the strings.
@@ -298,7 +298,7 @@
             Simplify the following trigonometric expressions to algebraic expressions involving <m>x</m> only.
           </p>
         </introduction>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               <m>\sin(\arcsin(x))</m>
@@ -310,7 +310,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               <m>\cos(\arcsin(x))</m>
@@ -322,7 +322,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               <m>\tan\left(\arcsin\left(\dfrac{x}{2}\right)\right)</m>
@@ -334,7 +334,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               <m>\tan\left(\arccos\left(\dfrac{x}{3}\right)\right)</m>
@@ -353,7 +353,7 @@
             Find the exact values of the following inverse trigonometric functions using any method. If the indicated expression doesn't exist, write DNE. Be careful of any possible domain restrictions.
           </p>
         </introduction>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               <m>\arcsin\left(\sin\left(\dfrac{3\pi}{2}\right)\right)</m>
@@ -365,7 +365,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               <m>\arcsin\left(\cos\left(-\dfrac{11\pi}{6}\right)\right)</m>
@@ -377,7 +377,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               <m>\arctan\left(\tan\left(\dfrac{3\pi}{4}\right)\right)</m>
@@ -389,7 +389,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               <m>\arcsin\left(\tan\left(\dfrac{\pi}{2}\right)\right)</m>
@@ -401,7 +401,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               <m>\arccos\left(\sin\left(\dfrac{-7\pi}{6}\right)\right)</m>
@@ -413,7 +413,7 @@
             </p>
           </answer>
         </task>
-        <task workspace=".5in">
+        <task>
           <statement>
             <p>
               <m>\arctan\left(\cos\left(\dfrac{5\pi}{4}\right)\right)</m>
