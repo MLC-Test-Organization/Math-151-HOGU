@@ -163,7 +163,7 @@
             Consider vectors <m>\mathbf{a}=3\mathbf{i}+5\mathbf{j}</m> and <m>\mathbf{b}=2\mathbf{i}-4\mathbf{j}</m>
           </p>
         </introduction>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               Find the resultant vector, <m>\mathbf{a}+\mathbf{b}</m>.
@@ -175,7 +175,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               Find the magnitudes (lengths) of the vectors <m>\mathbf{a}</m> and <m>\mathbf{b}</m>, <m>|\mathbf{a}|</m> and <m>|\mathbf{b}|</m> respectively.
@@ -187,7 +187,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               Find the unit vectors pointing in the directions of <m>\mathbf{a}</m> and <m>\mathbf{b}</m>, <m>\hat{\mathbf{a}}</m> and <m>\hat{\mathbf{b}}</m> respectively.
@@ -204,11 +204,11 @@
         <introduction>
           <p>
             Two forces act on an object, as shown in the picture below.
-            <image source="output/h1fig3" width="80%">
-              <shortdescription>Graph of two vectors plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+            <image source="output/h1fig4" width="80%">
+              <shortdescription>Two vectors pointing in different directions. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
-                A graph of two vectors plotted on coordinate axes with <m>x</m>-values ranging from <m>-10</m> to <m>10</m> and <m>y</m>-values ranging from <m>-10</m> to <m>10</m>. The first vector, <m>\mathbf{a}</m>, has a tip at coordinates <m>(3,4)</m> and a tail at <m>(0,0)</m>. The second vector, <m>\mathbf{b}</m>, has a tip at coordinates <m>(-6,6)</m> and a tail at <m>(0,0)</m>.
+                Two vectors pointing in different directions. The first, <m>\mathbf{F}_1</m>, acts with a magnitude of <m>15\text{ N}</m> at an angle of <m>30^\circ</m> counterclockwise from the <m>x</m>-axis. The second, <m>\mathbf{F}_2</m>, acts with a magnitude of <m>8\text{ N}</m> at an angle of <m>135^\circ</m> counterclockwise from the <m>x</m>-axis.
                 </p>
               </description>
             </image>
@@ -217,7 +217,7 @@
             The first, <m>\mathbf{F}_1</m>, acts with a magnitude of <m>15\text{ N}</m> at an angle of <m>30^\circ</m> counterclockwise from the <m>x</m>-axis. The second, <m>\mathbf{F}_2</m>, acts with a magnitude of <m>8\text{ N}</m> at an angle of <m>135^\circ</m> counterclockwise from the <m>x</m>-axis. You may leave your answers to the following problems in terms of inverse trigonometric functions, if applicable.
           </p>
         </introduction>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               Find the magnitude of the resulting force.
@@ -229,7 +229,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               Find the angle that the resultant force makes with the <m>x</m>-axis.
@@ -237,7 +237,7 @@
           </statement>
           <answer>
             <p>
-              <m>\theta=\arctan\left(\dfrac{\frac{15}{2}+4\sqrt{2}}{\frac{15\sqrt{3}}{2}-4\sqrt{2}}\right)</m>
+              <m>\theta=\arctan\left(\dfrac{\frac{15}{2}+4\sqrt{2}}{\frac{15\sqrt{3}}{2}-4\sqrt{2}}\right)\text{ degrees}</m>
             </p>
           </answer>
         </task>
@@ -248,7 +248,7 @@
             A mass is suspended at rest by two identical, rigid, massless strings that make an angle of <m>45</m> degrees with the horizontal. Gravity exerts a <m>10\text{ N}</m> force on the mass directly downward.
           </p>
         </introduction>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               Draw a diagram for this problem
@@ -267,7 +267,7 @@
           </p>
         </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               What is the magnitude of the tension in each of the strings?
@@ -279,7 +279,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               Determine the horizontal components for the force of tension in each of the strings.
@@ -298,7 +298,7 @@
             Simplify the following trigonometric expressions to algebraic expressions involving <m>x</m> only.
           </p>
         </introduction>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               <m>\sin(\arcsin(x))</m>
@@ -310,7 +310,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               <m>\cos(\arcsin(x))</m>
@@ -322,7 +322,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               <m>\tan\left(\arcsin\left(\dfrac{x}{2}\right)\right)</m>
@@ -334,7 +334,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               <m>\tan\left(\arccos\left(\dfrac{x}{3}\right)\right)</m>
@@ -353,7 +353,7 @@
             Find the exact values of the following inverse trigonometric functions using any method. If the indicated expression doesn't exist, write DNE. Be careful of any possible domain restrictions.
           </p>
         </introduction>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               <m>\arcsin\left(\sin\left(\dfrac{3\pi}{2}\right)\right)</m>
@@ -365,7 +365,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               <m>\arcsin\left(\cos\left(-\dfrac{11\pi}{6}\right)\right)</m>
@@ -377,7 +377,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               <m>\arctan\left(\tan\left(\dfrac{3\pi}{4}\right)\right)</m>
@@ -389,7 +389,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               <m>\arcsin\left(\tan\left(\dfrac{\pi}{2}\right)\right)</m>
@@ -401,7 +401,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               <m>\arccos\left(\sin\left(\dfrac{-7\pi}{6}\right)\right)</m>
@@ -413,7 +413,7 @@
             </p>
           </answer>
         </task>
-        <task workspace="1in">
+        <task workspace=".5in">
           <statement>
             <p>
               <m>\arctan\left(\cos\left(\dfrac{5\pi}{4}\right)\right)</m>
@@ -466,7 +466,7 @@
         </statement>
         <answer>
           <p>
-            E
+            (E)
           </p>
         </answer>
       </exercise>
@@ -506,7 +506,7 @@
         </statement>
         <answer>
           <p>
-            A
+            (A)
           </p>
         </answer>
       </exercise>
@@ -546,7 +546,7 @@
         </statement>
         <answer>
           <p>
-            E
+            (E)
           </p>
         </answer>
       </exercise>
@@ -585,7 +585,7 @@
         </statement>
         <answer>
           <p>
-            C
+            (C)
           </p>
         </answer>
       </exercise>
@@ -624,7 +624,7 @@
         </statement>
         <answer>
           <p>
-            A
+            (A)
           </p>
         </answer>
       </exercise>
@@ -663,7 +663,7 @@
         </statement>
         <answer>
           <p>
-            D
+            (D)
           </p>
         </answer>
       </exercise>
@@ -702,7 +702,7 @@
         </statement>
         <answer>
           <p>
-            B
+            (B)
           </p>
         </answer>
       </exercise>
