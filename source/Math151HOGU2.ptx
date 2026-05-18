@@ -169,18 +169,30 @@
       <exercise number="2"><!-- #2 -->
         <introduction>
           <p>
-            
+            Use the method of vector projection to answer the following questions.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Find the distance from the point <m>\text{P}=(1,-2)</m> to the line <m>y=-x+3</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>2\sqrt{2}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the distance from the point <m>\text{P}=(3,2)</m> to the line <m>y=\dfrac{1}{2}x-1</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{3\sqrt{5}}{5}</m>
             </p>
           </answer>
         </task>
@@ -188,18 +200,66 @@
       <exercise number="3"><!-- #3 -->
         <introduction>
           <p>
-            
+            Eliminate the parameter <m>t</m> in each of the following parametric functions and simplify to Cartesian form involving <m>x</m> and <m>y</m> only.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              <m>y=1-t</m>, <m>x=3t-2</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>y=\dfrac{1}{3}-\dfrac{1}{3}x</m> or <m>x=1-3y</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>y=4t+1</m>, <m>x=t^2-5</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>x=\dfrac{1}{16}y^2-\dfrac{1}{8}y-\dfrac{79}{16}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>y=\sqrt{t}+8</m>, <m>x=7-2t</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>x=-2y^2+32y-121</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>y=1-\sin(t)</m>, <m>x=1+\cos(t)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>(1-y)^2+(x-1)^2=1</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>y=2\cos(t)+2</m>, <m>x=-1+3\sin(t)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\left(\dfrac{x+1}{3}\right)^2+\left(\dfrac{y-2}{2}\right)^2=1</m>
             </p>
           </answer>
         </task>
@@ -207,18 +267,54 @@
       <exercise number="4"><!-- #4 -->
         <introduction>
           <p>
-            
+            The work <m>\text{W}</m> (in Joules (<m>\text{J}</m>)) done by a force <m>\mathbf{F}</m> with a displacement <m>\mathbf{d}</m> is given by the formula <m>\text{W}=\mathbf{F}\cdot\mathbf{d}</m> or <m>\text{W}=|\mathbf{F}||\mathbf{d}|\cos(\theta)</m> where <m>\theta</m> is the angle between <m>\mathbf{F}</m> and <m>\mathbf{d}</m>.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Find the work done by the force <m>\mathbf{F}=6\mathbf{i}+2\mathbf{j}</m> with a displacement vector <m>\mathbf{d}=2\mathbf{i}+\mathbf{j}</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>14\text{ J}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the work done by the force <m>\mathbf{F}=6\mathbf{i}+2\mathbf{j}</m> with a displacement vector <m>\mathbf{d}=3\mathbf{i}+\mathbf{j}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>20\text{ J}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the work done by the force <m>\mathbf{F}=6\mathbf{i}+2\mathbf{j}</m> with a displacement vector <m>\mathbf{d}=-\mathbf{i}+3\mathbf{j}</m>. What else can you say about the vectors <m>\mathbf{F}</m> and <m>\mathbf{d}</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>0\text{ J}</m>, <m>\mathbf{F}</m> and <m>\mathbf{d}</m> are orthogonal
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the work done by the force <m>\mathbf{F}</m> with a displacement vector <m>\mathbf{d}</m> if <m>|\mathbf{F}|=8</m>, <m>|\mathbf{d}|=6</m>, and <m>\theta=\dfrac{\pi}{4}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>24\sqrt{2}\text{ J}</m>
             </p>
           </answer>
         </task>
