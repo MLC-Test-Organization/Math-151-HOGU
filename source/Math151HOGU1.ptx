@@ -160,7 +160,7 @@
       <exercise number="1"><!-- #1 -->
         <introduction>
           <p>
-            Consider vectors <m>\mathbf{a}=3\mathbf{i}+5\mathbf{j}</m> and <m>\mathbf{b}=2\mathbf{i}-4\mathbf{j}</m>
+            Consider vectors <m>\mathbf{a}=3\mathbf{i}+5\mathbf{j}</m> and <m>\mathbf{b}=2\mathbf{i}-4\mathbf{j}</m>.
           </p>
         </introduction>
         <task>
@@ -711,5 +711,4 @@
   </worksheet>
 
 </article>
-
 </pretext>

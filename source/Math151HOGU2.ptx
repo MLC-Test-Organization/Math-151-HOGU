@@ -1,0 +1,589 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="week2" label="7403"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH 151 Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+  <worksheet>
+    <title> Session #2 (Appendix J.1 &amp; J.2)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
+    </p>
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise><!-- #1 -->
+        <statement>
+          <p>
+            Let <m>\mathbf{a}=\langle x_1, y_1 \rangle</m> and <m>\mathbf{b}=\langle x_2, y_2 \rangle</m>. Match each formula, identity, or expression to its corresponding definition.
+          </p>
+          <sidebyside widths="75% 25%" valign="middle">
+            <p>
+              <ol marker="a)">
+                <li>
+                  <p>
+                    The scalar, or dot, product of <m>\mathbf{a}</m> and <m>\mathbf{b}</m>, <m>\mathbf{a}\cdot\mathbf{b}</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The scalar projection of <m>\mathbf{a}</m> onto <m>\mathbf{b}</m>, <m>\text{comp}_{\mathbf{b}}(\mathbf{a})</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The orthogonal, or vector, projection of <m>\mathbf{a}</m> onto <m>\mathbf{b}</m>, <m>\text{proj}_{\mathbf{b}}(\mathbf{a})</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    The angle between <m>\mathbf{a}</m> and <m>\mathbf{b}</m>, <m>\theta</m>.
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    This expression is meaningless.
+                  </p>
+                </li>
+              </ol>
+            </p>
+
+            <p>
+              <ol marker="I)">
+                <li>
+                  <p>
+                    <m>\cos^{-1}\left(\dfrac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{a}||\mathbf{b}|}\right)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\mathbf{a}\cdot\mathbf{b}+\mathbf{a}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\dfrac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{b}|}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>x_1x_2+y_1y_2</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\dfrac{\mathbf{a}\cdot\mathbf{b}}{|\mathbf{b}|^2}\mathbf{b}</m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </sidebyside>
+        </statement>
+        <answer>
+          <p>
+            a--IV, b--III, c--V, d--I, e--II
+          </p>
+        </answer>
+      </exercise>
+      <exercise><!-- #2 -->
+        <statement>
+          <p>
+            graph matching problem
+          </p>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+      <exercise number="1"><!-- #1 -->
+        <introduction>
+          <p>
+            Consider vectors <m>\mathbf{a}=-4\mathbf{i}+3\mathbf{j}</m> and <m>\mathbf{b}=2\mathbf{i}-5\mathbf{j}</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find the scalar, or dot, product of <m>\mathbf{a}</m> and <m>\mathbf{b}</m>, <m>\mathbf{a}\cdot\mathbf{b}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\mathbf{a}\cdot\mathbf{b}=-23</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the scalar projection of <m>\mathbf{a}</m> onto <m>\mathbf{b}</m>, <m>\text{comp}_{\mathbf{b}}(\mathbf{a})</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\text{comp}_{\mathbf{b}}(\mathbf{a})=\dfrac{-23\sqrt{29}}{29}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the orthogonal, or vector, projection of <m>\mathbf{a}</m> onto <m>\mathbf{b}</m>, <m>\text{proj}_{\mathbf{b}}(\mathbf{a})</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\text{proj}_{\mathbf{b}}(\mathbf{a})=\left\langle \dfrac{-46}{29}, \dfrac{115}{29}\right\rangle</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the angle between <m>\mathbf{a}</m> and <m>\mathbf{b}</m>, <m>\theta</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\theta=\cos^{-1}\left(\dfrac{-23\sqrt{29}}{145}\right)</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="2"><!-- #2 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="3"><!-- #3 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="4"><!-- #4 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="5"><!-- #5 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="6"><!-- #6 -->
+        <introduction>
+          <p>
+            Write down the equation of the line...
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              ...parallel to <m>\langle 2,1 \rangle</m>, passing through <m>(1,3)</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y-3=\dfrac{1}{2}(x-1)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              ...perpendicular to <m>\langle 1,2 \rangle</m>, passing through <m>(4,-1)</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y+1=-\dfrac{1}{2}(x-4)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              ...parallel to the line with the parametric equations <m>x(t)=3t+1</m> and <m>y(t)=2-t</m>, passing through the point <m>(2,0)</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y=-\dfrac{1}{3}(x-2)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              ...perpendicular to the line with the parametric equations <m>x(t)=2t</m> and <m>y(t)=t-1</m>, passing through the point <m>(0,2)</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y-2=-2x</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+      
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            Find the exact value of the cosine of the angle between the vectors <m>\langle 1,2 \rangle</m> and <m>\langle 2,1 \rangle</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{3}{5}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\sqrt{2}}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\sqrt{3}}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{5}{4}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{4}{5}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Find the distance from the point <m>(1,2)</m> to the line <m>3x+4y=10</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{1}{5}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2}{5}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{\sqrt{5}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{3}{5}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{4}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            A sled is dragged <m>10\text{ m}</m> up a <m>15^\circ</m> incline under a constant force of <m>20\text{ N}</m> applied at an angle of <m>30^\circ</m> to the ramp. Find the work done by the force on the sled.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>200\text{ J}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>100\sqrt{3}\text{ J}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>50\text{ J}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>200\sqrt{3}\text{ J}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>100\text{ J}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            If <m>\mathbf{a}=6\mathbf{i}-4\mathbf{j}</m> and <m>\mathbf{b}=-2\mathbf{i}+2\mathbf{j}</m>, then find <m>\text{proj}_{\mathbf{b}}(\mathbf{a})</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\left\langle -5,5 \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left\langle -\dfrac{5}{2},\dfrac{5}{2}  \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left\langle 5,-5  \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left\langle 10,-10  \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left\langle -10,10  \right\rangle</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Describe the motion of a particle subject to the function <m>\mathbf{r}(t)=\langle 3-2\sin(t),4-2\cos(t)\rangle</m> as <m>t</m> increases.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  Clockwise around a circle.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Counterclockwise around a circle.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Clockwise around an ellipse.
+                </p>
+              </li>
+              <li>
+                <p>
+                  Counterclockwise around an ellipse.
+                </p>
+              </li>
+              <li>
+                <p>
+                  None of these.
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="6"><!-- #6 -->
+        <statement>
+          <p>
+            Find the vector equation for a line perpendicular to <m>(4,3)</m> and passing through the point <m>(-1,2)</m>
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\mathbf{r}(t)=\langle -1-4t,2-3t\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}(t)=\langle -1-3t,2+4t\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}(t)=\langle 1-3t,-2+4t\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}(t)=\langle -1-3t,2-4t\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}(t)=\langle -1+4t,2+3t\rangle</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="7"><!-- #7 -->
+        <statement>
+          <p>
+            Eliminate the parameter <m>t</m> and simplify the parametric function <m>\langle 4t-3,2-2t^2 \rangle</m> to Cartesian form.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>y=-\dfrac{1}{4}x^2-\dfrac{3}{4}x+\dfrac{7}{8}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=-\dfrac{1}{8}x^2+\dfrac{3}{4}x+\dfrac{7}{8}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=-\dfrac{1}{8}x^2-\dfrac{3}{4}x-\dfrac{7}{8}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=-\dfrac{1}{8}x^2-\dfrac{3}{4}x+\dfrac{7}{8}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=-\dfrac{1}{8}x^2-\dfrac{3}{4}x+2</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+</pretext>
