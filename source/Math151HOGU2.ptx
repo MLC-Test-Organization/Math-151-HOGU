@@ -322,18 +322,34 @@
       <exercise number="5"><!-- #5 -->
         <introduction>
           <p>
-            
+            Suppose that a job has been pulled <m>15\text{ m}</m> up a <m>30^\circ</m> incline by a rope with a force <m>\mathbf{F}</m> with a magnitude <m>|\mathbf{F}|=100\text{ N}</m>. Note that the reference angle for work problems is always taken from the direction of motion.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Suppose that the force is applied parallel to the direction of motion, as shown in the figure below.
+
+              How much work does the rope do on the box?
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>1500\text{ J}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Suppose that the force is applied <m>30^\circ</m> counterclockwise from the direction of motion, as shown in the figure below.
+
+              How much work does the rope do on the box? How does this compare with your answer from part (a)?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>750\sqrt{3}\text{ J}</m>, it is less since the component of the applied force in the direction of motion is less
             </p>
           </answer>
         </task>
