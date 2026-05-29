@@ -1,0 +1,1043 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="week1" label="5372"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH 151 Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+  <worksheet>
+    <title> Session #5 (Sections 3.1, 3.2, 3.3, 3.4, \amp 3.5)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
+    </p>
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise><!-- #1 -->
+        <statement>
+          <p>
+            
+          </p>
+          <sidebyside widths="82% 18%" valign="middle">
+            <p>
+              <ol marker="a)">
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+
+            <p>
+              <ol marker="I)">
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m></m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </sidebyside>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+      <exercise><!-- #2 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+      </exercise>
+    </paragraphs>
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+      <exercise number="1"><!-- #1 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="2"><!-- #2 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="3"><!-- #3 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="4"><!-- #4 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+      </exercise>
+        <exercise number="5"><!-- #5 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="6"><!-- #6 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="7"><!-- #7 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="8"><!-- #8 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="9"><!-- #9 -->
+        <introduction>
+          <p>
+            
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+        </task>
+        </exercise>
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+      
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="6"><!-- #6 -->
+        <statement>
+          <p>
+            
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="7"><!-- #7 -->
+        <statement>
+          <p>
+            
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="8"><!-- #8 -->
+        <statement>
+          <p>
+            
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m></m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+</pretext>

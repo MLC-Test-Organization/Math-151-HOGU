@@ -1,0 +1,1144 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="week1" label="5372"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH 151 Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+  <worksheet>
+    <title> Session #5 (Sections 3.1, 3.2, 3.3, 3.4, &amp; 3.5)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
+    </p>
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise><!-- #1 -->
+        <statement>
+          <p>
+            Match the following functions with their corresponding derivatives.
+          </p>
+          <sidebyside widths="50% 50%" valign="middle">
+            <p>
+              <ol marker="a)">
+                <li>
+                  <p>
+                    <m>x^n</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>a^x</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>f(x)g(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\dfrac{f(x)}{g(x)}</m>, <m>g(x) \neq 0</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\sin(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\cos(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\tan(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\csc(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\sec(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\cot(x)</m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+
+            <p>
+              <ol marker="I)">
+                <li>
+                  <p>
+                    <m>-\sin(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\sec(x)\tan(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\cos(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\dfrac{g(x)f'(x)-f(x)g'(x)}{(g(x))^2}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>-\csc^2(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>nx^{n-1}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\sec^2(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>f'(x)g(x)+f(x)g'(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>a^x\ln(a)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>-\csc(x)\cot(x)</m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </sidebyside>
+        </statement>
+        <answer>
+          <p>
+            a--VI, b--IX, c--VIII, d--IV, e--III, f--I, g--VII, h--X, i--II, j--V
+          </p>
+        </answer>
+      </exercise>
+      <exercise><!-- #2 -->
+        <introduction>
+          <p>
+            The chain rule states that <m>[f(g(x))]' = f'(g(x))g'(x)</m>. That is, that the derivative of a composition of functions is "the derivative of the outside function <m>f(x)</m>, with the inside function <m>g(x)</m> plugged in, times the derivative of the inside function <m>g(x)</m>". Identify the outside function <m>f(x)</m> and the inside function <m>g(x)</m> for each of the following expressions.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=(3-x^2)^7</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f(x)=x^7</m>, <m>g(x)=3-x^2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=e^{\frac{1}{x^2-1}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f(x)=e^x</m>, <m>g(x)=\dfrac{1}{x^2-1}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=\sqrt{2x+5}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f(x)=\sqrt{x}</m>, <m>g(x)=2x+5</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=\sin^2(x)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f(x)=x^2</m>, <m>g(x)=\sin(x)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=\csc(\sqrt{-x})</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f(x)=\csc(x)</m>, <m>g_1(x)=\sqrt{x}</m>, <m>g_2(x)=-x</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=\tan^3((x-1)^5)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f(x)=x^3</m>, <m>g_1(x)=\tan(x)</m>, <m>g_2(x)=x^5</m>, <m>g_3(x)=x-1</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+    </paragraphs>
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+      <exercise number="1"><!-- #1 -->
+        <introduction>
+          <p>
+            Find the derivatives of the following functions using derivative rules.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=5</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=0</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>g(x)=x^2-5x+6</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>g'(x)=2x-5</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=x^3+3x^2-5x+1</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(x)=3x^2+6x-5</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>p(x)=4e^x+1</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>p'(x)=4e^x</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>q(x)=3x^2-e^2</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>q'(x)=6x</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>r(x)=-2x^3+3x-5+2e^x</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>r'(x)=-6x^2+3+2e^x</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="2"><!-- #2 -->
+        <introduction>
+          <p>
+            Find the derivatives of the following functions using derivative rules.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=x^3(1+x)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=3x^2(1+x)+x^3</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=(3x^2+5x)(5+2^x)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=(6x+5)(5+2^x)+(3x^2+5x)(2^x\ln(2))</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=\dfrac{1}{x^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=\dfrac{-2}{x^3}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=\dfrac{x^3+1}{x^2-4}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=\dfrac{(x^2-4)(3x^2)-(x^3+1)(2x)}{(x^2-4)^2}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=\dfrac{(x^3-2x+1)(3x-5)}{x^2+1}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=\dfrac{(x^2+1)((3x^2-2)(3x-5)+(x^3-2x+1)(3))-(x^3-2x+1)(3x-5)(2x)}{(x^2+1)^2}</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="3"><!-- #3 -->
+        <introduction>
+          <p>
+            Find the derivatives of the following functions using derivative rules.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=x+\sin(x)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=1+\cos(x)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=x\cos(x)+x^2\tan(x)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=\cos(x)-x\sin(x)+2x\tan(x)+x^2\sec^2(x)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=x^2\csc(x)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=2x\csc(x)-x^2\csc(x)\cot(x)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=\dfrac{(x^3+1)\sec(x)}{(x^2+1)\cos(x)}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=\dfrac{(x^2+1)\cos(x)((3x^2)\sec(x)+(x^3+1)\sec(x)\tan(x))-(x^3+1)\sec(x)((2x)\cos(x)-(x^2+1)\sin(x))}{((x^2+1)\cos(x))^2}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=\dfrac{\cot(x)}{x^2+1}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=\dfrac{-(x^2+1)\csc^2(x)-\cot(x)(2x)}{(x^2+1)^2}</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="4"><!-- #4 -->
+        <introduction>
+          <p>
+            Use the chain rule to find the derivatives of the following functions. Note that you may have to apply the chain rule more than once.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=(2x+1)^2</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(x)=8x+4</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=x(8x-5)^9</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(x)=(8x-5)^9+72x(8x-5)^8</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=(3x-5)^2(-5x+2)^3</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(x)=6(3x-5)(-5x+2)^3-15(3x-5)^2(-5x+2)^2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=\dfrac{1}{(4x^2-6)^{10}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(x)=\dfrac{-80x}{(4x^2-6)^{11}}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=\dfrac{(-2x^4+4)^7}{(3x+5)^6}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(x)=\dfrac{-56x^3(3x+5)(-2x^4+4)^6-18(-2x^4+4)^7}{(3x+5)^7}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=\dfrac{(1-x^2)^4(2x-7)^6}{\sqrt{x-3}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(x)=\dfrac{\sqrt{x-3}(4(1-x^2)^3(-2x)(2x-7)^6+6(2x-7)^5(2)(1-x^2)^4)-(1-x^2)^4(2x-7)^6\frac{1}{2\sqrt{x-3}}}{(\sqrt{x-3})^2}</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+        <exercise number="5"><!-- #5 -->
+        <introduction>
+          <p>
+            Use the chain rule to find the derivatives of the following functions. Note that you may have to apply the chain rule more than once.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=\dfrac{xe^{2x+1}}{4^{x^2}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=\dfrac{e^{2x+1}(1+2x-2x^2\ln(4))}{4^{x^2}}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>g(x)=x\cdot 3^{x^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>g'(x)=3^{x^2}(1+2x^2\ln(3))</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=5^{(x^2+1)^3}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(x)=6x(x^2+1)^2\cdot 5^{(x^2+1)^3}\ln(5)</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="6"><!-- #6 -->
+        <introduction>
+          <p>
+            Use implicit differentiation to solve for <m>\dfrac{dy}{dx}</m> in each of the following expressions.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>x^2+y^2=1</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{dy}{dx}=\dfrac{-x}{y}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>2x^2y-xy^2=4</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{dy}{dx}=\dfrac{y^2-4xy}{2x^2-2xy}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>2x-y^3=7xy+3e^y</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{dy}{dx}=\dfrac{7y-2}{-3y^2-7x-3e^y}</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="7"><!-- #7 -->
+        <introduction>
+          <p>
+            Recall that the equation for the line tangent to the function <m>f(x)</m> at <m>x=a</m> is given by <m>y-f(a)=f'(a)(x-a)</m>. Find the equation of the line tangent to the function provided at the given point.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=\tan(x^4)</m> at <m>x=1</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y-\tan(1)=4\sec^2(1)(x-1)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>g(x)=e^{-cos(x)}</m> at <m>x=\dfrac{\pi}{2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y-1=x-\dfrac{\pi}{2}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=2^{\sqrt{5x^2-1}}</m> at <m>x=-1</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y-4=-10\ln(2)(x+1)</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="8"><!-- #8 -->
+        <introduction>
+          <p>
+            <table>
+                <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>f'(x)</m></cell>
+                        <cell><m>g'(x)</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>5</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>0</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>-4</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>1</m></cell>
+                        <cell><m>-2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>6</m></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell><m>2</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>2</m></cell>
+                    </row>
+                </tabular>
+            </table>
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Use the table above to find <m>h'(-1)</m> if <m>h(x)=2xf(g(x))</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(-1)=18</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Use the table above to find <m>h'(1)</m> if <m>h(x)=\dfrac{3x^2}{g(f(x))}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(1)=-21</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="9"><!-- #9 -->
+        <introduction>
+          <p>
+            Find the following derivatives. Note that you don't need to simplify any large exponents.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f^{(2026)}(x)</m> if <m>f(x)=\sin(5x)</m>
+            </p>
+          </statement>
+            <hint>
+                <p>
+                    <m>f'(x)=5\cos(5x)</m>, <m>f''(x)=-5^2\sin(5x)</m>, <m>f'''(x)=-5^3\cos(5x)</m>, <m>f''''(x)=5^4\sin(5x)</m>, ...
+                </p>
+            </hint>
+          <answer>
+            <p>
+              <m>f^{(2026)}(x) = -5^{2026}\sin(5x)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>g^{(2026)}(t)</m> if <m>g(t)=te^t</m>
+            </p>
+          </statement>
+            <hint>
+                <p>
+                    <m>g'(t)=(t+1)e^t</m>, <m>g''(t)=(t+2)e^t</m>, <m>g'''(t)=(t+3)e^t</m>, <m>g''''(t)=(t+4)e^t</m>, ...
+                </p>
+            </hint>
+          <answer>
+            <p>
+              <m>g^{(2026)}(t)=(t+2026)e^t</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+      
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            Find the derivative of <m>f(x)=\dfrac{x\tan(x)}{e^x\csc(x)}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{(\tan(x))(e^x\csc(x))-(x\tan(x))(e^x\csc(x)+e^x(-\csc(x)\cot(x)))}{(e^x\csc(x))^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{(\tan(x)+x\sec^2(x))(e^x\csc(x))-(x\tan(x))(e^x\csc(x)+e^x(-\csc(x)\cot(x)))}{(e^x\csc(x))^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{(\tan(x)+x\sec^2(x))(e^x\csc(x))-(x\tan(x))(e^x\csc(x)-e^x(-\csc(x)\cot(x)))}{(e^x\csc(x))^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{(\tan(x)+x\sec^2(x))(e^x\csc(x))-(x\tan(x))(e^x\csc(x)+e^x(-\csc(x)\cot(x)))}{e^x\csc(x)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{(\tan(x)+x\sec^2(x))(e^x\csc(x))-(x\tan(x))(e^x\csc(x)-e^x(-\csc(x)\cot(x)))}{e^x\csc(x)}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Find the non-zero values of <m>A</m>, <m>B</m>, and <m>C</m> that make the function <md>f(x)=\begin{cases}Bx+A \amp x \lt 1\\ C \amp x = 1\\ \sqrt{Ax+B} \amp x \gt 1\end{cases}</md> differentiable everywhere.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>A=\dfrac{1}{2}</m>, <m>B=\dfrac{1}{2}</m>, <m>C=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A=\dfrac{2}{3}</m>, <m>B=\dfrac{1}{3}</m>, <m>C=2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A=\dfrac{2}{3}</m>, <m>B=\dfrac{1}{3}</m>, <m>C=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A=\dfrac{3}{4}</m>, <m>B=\dfrac{1}{4}</m>, <m>C=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A=\dfrac{1}{2}</m>, <m>B=\dfrac{1}{4}</m>, <m>C=2</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Find <m>f'(x)</m> if <m>f(x)=(2x-3)^5(1-x^2)^6</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>f'(x)=10(2x-3)^4(1-x^2)^5-12x(2x-3)^5(1-x^2)^6</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f'(x)=10(2x-3)^4(1-x^2)^5+12x(2x-3)^5(1-x^2)^6</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f'(x)=10(2x-3)^5(1-x^2)^4+12x(2x-3)^5(1-x^2)^6</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f'(x)=-120x(2x-3)^4(1-x^2)^5</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f'(x)=10(2x-3)^4(1-x^2)^6-12x(2x-3)^5(1-x^2)^5</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            Find <m>g'(x)</m> if <m>g(x)=e^{\frac{1}{(x-1)^2}}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>g'(x)=e^{\frac{1}{(x-1)^2}}\dfrac{-2}{(x-1)^3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g'(x)=e^{\frac{1}{(x-1)^2}}\dfrac{2}{(x-1)^3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g'(x)=e^{\frac{1}{(x-1)^2}}\dfrac{-1}{(x-1)^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g'(x)=e^{\frac{1}{(x-1)^2}}\dfrac{1}{(x-1)^3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>g'(x)=e^{\frac{1}{(x-1)^2}}\dfrac{2}{(x-1)^2}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Find <m>\dfrac{dy}{dx}</m> if <m>4xy^2-3y^2=8ye^{xy}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{dy}{dx}=\dfrac{-y^2+2ye^{xy}}{2xy-2e^{xy}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{dy}{dx}=\dfrac{-y^2+2ye^{xy}}{2xy-3y-2e^{xy}-2ye^{xy}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{dy}{dx}=\dfrac{-4y^2+8y^2e^{xy}}{4x-3-8e^{xy}-8xye^{xy}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{dy}{dx}=\dfrac{-2y^2+4y^2e^{xy}}{4xy-3y-4e^{xy}-4xye^{xy}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{dy}{dx}=\dfrac{-2y^2+4y^2e^{xy}}{2xy-3y-2e^{xy}-2ye^{xy}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="6"><!-- #6 -->
+        <statement>
+          <p>
+            Find the line tangent to the function <m>f(x)=e^{-\sin(x)}</m> at <m>x=\pi</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>y=-(x-\pi)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y-1=-(x-\pi)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y-1=x-\pi</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=x-\pi</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=x+\pi</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="7"><!-- #7 -->
+        <statement>
+          <p>
+            <table>
+                <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>f'(x)</m></cell>
+                        <cell><m>g'(x)</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-2</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>-1</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>0</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>1</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>1</m></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell><m>2</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>3</m></cell>
+                    </row>
+                </tabular>
+            </table>
+            Use the table above to find <m>h'(0)</m> if <m>h'(x)=-g(f(x))</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>h'(0)=-3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(0)=-2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(0)=-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(0)=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(0)=1</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="8"><!-- #8 -->
+        <statement>
+          <p>
+            Find the <m>2027</m>th derivative of <m>f(x)=2xe^{2x}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>f^{(2027)}(x)=2026\cdot 2^{2027}xe^{2x}+2^{2026}e^{2x}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f^{(2027)}(x)=2^{2027}xe^{2x}+2028\cdot 2^{2028}e^{2x}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f^{(2027)}(x)=2^{2027}xe^{2x}+2027\cdot 2^{2027}e^{2x}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f^{(2027)}(x)=2^{2028}xe^{2x}+2027\cdot 2^{2027}e^{2x}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f^{(2027)}(x)=2^{2028}xe^{2x}+2028\cdot 2^{2028}e^{2x}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+</pretext>
