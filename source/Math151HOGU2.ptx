@@ -235,7 +235,7 @@
           </statement>
           <answer>
             <p>
-              <m>x=-2y^2+32y-121</m>
+              <m>y=\sqrt{\dfrac{7-x}{2}}+8</m>
             </p>
           </answer>
         </task>
@@ -322,7 +322,7 @@
       <exercise number="5"><!-- #5 -->
         <introduction>
           <p>
-            Suppose that a job has been pulled <m>15\text{ m}</m> up a <m>30^\circ</m> incline by a rope with a force <m>\mathbf{F}</m> with a magnitude <m>|\mathbf{F}|=100\text{ N}</m>. Note that the reference angle for work problems is always taken from the direction of motion.
+            Suppose that a box has been pulled <m>15\text{ m}</m> up a <m>30^\circ</m> incline by a rope with a force <m>\mathbf{F}</m> with a magnitude <m>|\mathbf{F}|=100\text{ N}</m>. Note that the reference angle for work problems is always taken from the direction of motion.
           </p>
         </introduction>
         <task>
