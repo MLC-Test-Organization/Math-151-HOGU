@@ -24,16 +24,130 @@
     <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
       <title>Getting Warmed Up and in the Right Mindset</title>
       <exercise><!-- #1 -->
-        <statement>
+        <introduction>
           <p>
-            
+            Consider the following graph of <m>f(x)=x\sin\left(\dfrac{\pi}{6}x\right)</m> and the linear approximation of <m>f(x)</m> at <m>x=1</m>.
+            <image source="output/h8fig4" width="80%">
+              <shortdescription>A coordinate axis containing a graph of a composite function and a linear function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                A coordinate axis with <m>x</m>-values ranging from <m>-10</m> to <m>10</m> and <m>y</m>-values ranging from <m>-7</m> to <m>7</m> containing a graph of the function <m>f(x)=x\sin\left(\dfrac{\pi}{6}x\right)</m> and the linear approximation of <m>f(x)</m> at <m>x=1</m>.
+                </p>
+              </description>
+            </image>
           </p>
-        </statement>
-        <answer>
-          <p>
-            
-          </p>
-        </answer>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Complete the table below using the given <m>x</m>-values and compare your results to the linear approximation <m>L(x)</m> in the table, pictured above.
+              <table>
+                <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>L(x)</m></cell>
+                        <cell><m>f(x)</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-2</m></cell>
+                        <cell><m>-2.3603</m></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-1</m></cell>
+                        <cell><m>-1.4069</m></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>0</m></cell>
+                        <cell><m>-0.4534</m></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>1</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell><m>2</m></cell>
+                        <cell><m>1.4534</m></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell><m>3</m></cell>
+                        <cell><m>2.4069</m></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell><m>4</m></cell>
+                        <cell><m>3.3603</m></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <table>
+                <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>L(x)</m></cell>
+                        <cell><m>f(x)</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-2</m></cell>
+                        <cell><m>-2.3603</m></cell>
+                        <cell><m>\sqrt{3}</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-1</m></cell>
+                        <cell><m>-1.4069</m></cell>
+                        <cell><m>\dfrac{1}{2}</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>0</m></cell>
+                        <cell><m>-0.4534</m></cell>
+                        <cell><m>0</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>1</m></cell>
+                        <cell><m>0.5</m></cell>
+                        <cell><m>\dfrac{1}{2}</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>2</m></cell>
+                        <cell><m>1.4534</m></cell>
+                        <cell><m>\sqrt{3}</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>3</m></cell>
+                        <cell><m>2.4069</m></cell>
+                        <cell><m>3</m></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell><m>4</m></cell>
+                        <cell><m>3.3603</m></cell>
+                        <cell><m>2\sqrt{3}</m></cell>
+                    </row>
+                </tabular>
+            </table>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What do you notice as you get further away from <m>x=1</m>? What do you notice when you are close to <m>x=1</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              The accuracy of the approximation of <m>f(x)</m> by <m>L(x)</m> gets worse the further <m>x</m> gets from <m>1</m>.
+            </p>
+          </answer>
+        </task>
       </exercise>
       <exercise><!-- #2 -->
         <statement>
@@ -128,7 +242,7 @@
           </statement>
           <hint> 
             <p>
-                <m>\sqrt{3.95} = f(3.95) \approx L(2.1)</m>
+                <m>\sqrt{3.95} = f(3.95) \approx L(3.95)</m>
             </p>
           </hint>
           <answer>
@@ -281,42 +395,42 @@
       <exercise number="4"><!-- #4 -->
         <introduction>
           <p>
-            
+            Find the absolute extrema (maxima and minima) of each function on the given interval. Be careful to check whether the derivative changes sign at the critical points by using a sign chart, and to check the function values of <m>x</m>-values at the closed endpoints of the interval by using a T-chart.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              <m>f(x)=\sqrt{x}e^{-x}</m> on <m>[0,1]</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              Absolute maximum at <m>\left(\dfrac{1}{2},\dfrac{\sqrt{2}}{2}e^{-\frac{1}{2}}\right)</m>; Absolute minimum at <m>\left(0,0\right)</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>g(t)=\sin(2^t)</m> on <m>(0,\log_2(\pi)]</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              Absolute maximum at <m>\left(\log_2\left(\dfrac{\pi}{2}\right),1\right)</m>; Absolute minimum at <m>\left(\log_2(\pi),0\right)</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>h(\theta)=\dfrac{\theta^3}{\theta^2-3}</m> on <m>[0,4)</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              No absolute maximum; No absolute minimum
             </p>
           </answer>
         </task>
@@ -324,42 +438,42 @@
         <exercise number="5"><!-- #5 -->
         <introduction>
           <p>
-            
+            What is/are the value(s) of <m>c</m> that satisfy the conclusion of Rolle's Theorem for the given functions on the given intervals? If Rolle's Theorem does not apply, state which condition(s) it fails.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              <m>f(x)=x^2-4x+3</m> on <m>[1,3]</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>c=2</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>g(x)=\dfrac{1}{x^2}</m> on <m>[-1,1]</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              Since <m>g(x)</m> is not continuous or differentiable at <m>x=0</m>, <m>g(x)</m> is not continuous for all <m>x</m> in <m>[-1,1]</m>, nor differentiable for all <m>x</m> in <m>(-1,1)</m>, and the Rolle's Theorem does not apply.
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>h(x)=\cos(x)</m> on <m>[0,2\pi]</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>c=\pi</m>
             </p>
           </answer>
         </task>
@@ -367,42 +481,42 @@
         <exercise number="6"><!-- #6 -->
         <introduction>
           <p>
-            
+            What is/are the value(s) of <m>c</m> that satisfy the conclusion of the Mean Value Theorem for the given functions on the given intervals? If the Mean Value Theorem does not apply, state which condition(s) it fails.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              <m>f(x)=x^2+3x</m> on <m>[1,4]</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>c=\dfrac{5}{2}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>g(x)=\ln(x)</m> on <m>[2,e]</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>c=\dfrac{e-2}{1-\ln(2)}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>h(x)=|x|</m> on <m>[-1,1]</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              Since <m>h(x)</m> is not differentiable at <m>x=0</m>, <m>h(x)</m> is not differentiable for all <m>x</m> in <m>(-1,1)</m>, and the Mean Value Theorem does not apply.
             </p>
           </answer>
         </task>
@@ -410,42 +524,42 @@
         <exercise number="7"><!-- #7 -->
         <introduction>
           <p>
-            
+            Identify the critical points, intervals of increasing/decreasing, and the <m>x</m>-coordinates of all local extrema for the following functions. Verify that your answers are local extrema using the first or second derivative tests.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              <m>f(x)=x^3-3x^2+2</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              Increasing on <m>(-\infty,0)\cup(2,\infty)</m>; Decreasing on <m>(0,2)</m>; Local maximum at <m>x=0</m>; Local minimum at <m>x=2</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>g(x)=xe^{-x}</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              Increasing on <m>(-\infty,1)</m>; Decreasing on <m>(1,\infty)</m>; Local maximum at <m>x=1</m>; No local minimum
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>h(x)= \begin{cases}2\sqrt{x} \amp x \le 1\\ x^3-\dfrac{7}{2}x^2+2x-4 \amp x \gt 1\end{cases}</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              Increasing on <m>(0,1)\cup(2,\infty)</m>; Decreasing on <m>(1,2)</m>; Local maximum at <m>x=1</m>; Local minimum at <m>x=2</m>
             </p>
           </answer>
         </task>
@@ -459,36 +573,36 @@
         <task>
           <statement>
             <p>
-              f(x) = 
+              <m>f(x)=x^3-6x^2+9x+1</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              Concave up on <m>(2,\infty)</m>, Concave down on <m>(-\infty,2)</m>, Inflection point at <m>x=2</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>g(x)=\dfrac{x}{x^2+1}</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              Concave up on <m>(-\sqrt{3},0)\cup(\sqrt{3},\infty)</m>, Concave down on <m>(-\infty,-\sqrt{3})\cup(0,\sqrt{3})</m>, Inflection points at <m>x=0,\pm\sqrt{3}</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>h(x)=\ln(x^2+9)</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              Concave up on <m>(-3,3)</m>, Concave down on <m>(-\infty,-3)\cup(3,\infty)</m>, Inflection points at <m>x=\pm 3</m>
             </p>
           </answer>
         </task>
