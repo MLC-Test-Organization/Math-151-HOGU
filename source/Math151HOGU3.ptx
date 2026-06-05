@@ -1,0 +1,793 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="week1" label="4827"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH 151 Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+  <worksheet>
+    <title> Session #3 (Sections 2.2, 2.3, &amp; 2.5)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
+    </p>
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise><!-- #1 -->
+        <statement>
+          <p>
+            Let <m>f(x)</m> and <m>g(x)</m> be function and suppose that <m>\displaystyle \lim_{x\rightarrow a}f(x)</m> and <m>\displaystyle \lim_{x\rightarrow a}g(x)</m> exists and are finite. Choose either TRUE or FALSE for each of the following statements. Keep in mind potential counterexamples.
+          </p>
+          <ol marker="a)">
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}[6f(x)-2g(x)] = 6\lim_{x\rightarrow a}f(x) - 2\lim_{x\rightarrow a}g(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}[f(x)g(x)] = \left(\lim_{x\rightarrow a}f(x)\right)\left(\lim_{x\rightarrow a}g(x)\right)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}\dfrac{f(x)}{g(x)} = \dfrac{\displaystyle \lim_{x\rightarrow a}f(x)}{\displaystyle \lim_{x\rightarrow a}g(x)}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}\sqrt[4]{f(x)} = \sqrt[4]{\lim_{x\rightarrow a}f(x)}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}\ln(f(x)) = \ln\left(\lim_{x\rightarrow a}f(x)\right)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}\arctan(f(x)) = \arctan\left(\lim_{x\rightarrow a}f(x)\right)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}e^{f(x)} = e^{\left(\displaystyle \lim_{x\rightarrow a}f(x)\right)}</m>
+                  </p>
+                </li>
+              </ol>
+        </statement>
+        <answer>
+          <p>
+            (a)-T, (b)-T, (c)-F, (d)-F, (e)-T, (f)-T, (g)-T
+          </p>
+        </answer>
+      </exercise>
+      <exercise><!-- #2 -->
+        <statement>
+            <p>
+              Identify the points on the graph below where the function <m>f(x)</m> is discontinuous. Then, classify each discontinuity as a jump discontinuity, a removable discontinuity (hole), or a vertical asymptote.
+              <image source="output/h3fig1" width="80%">
+                <shortdescription>A graph of a piecewise function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                  <p>
+                  A graph of a piecewise <m>f(x)</m> with four disconnected regions. The first, an upward facing parabola from <m>x=-5</m> to <m>x=-2</m>, with roots at <m>-4</m> and <m>-2</m>, empty dots at <m>(-3,-1), (-2,0)</m>, and a solid dot at <m>(-3,2)</m>. The second region, from <m>x=-2</m> to <m>x=3</m>, shaped like an inverted square root function from <m>x=-2</m> to <m>x=1</m>, increasing from left to right with a solid dot at <m>(-2,-3)</m>, and the left half of a hyperbola from <m>x=1</m> to <m>x=3</m>, increasing from left to right with an empty dot at <m>x=2</m>, and a dashed line at <m>x=3</m>. The third, from <m>x=3</m> to <m>x=4</m>, is the right half of a hyperbola, increasing from left to right with a solid dot at <m>(4,-1)</m>. The fourth, from <m>x=4</m> to <m>x=5</m> is an almost linear curve increasing from left to right with an empty dot at <m>(4,1)</m>.
+                  </p>
+                </description>
+              </image>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Discontinuous at <m>x=-3</m> (removable discontinuity), <m>x=-2</m> (jump discontinuity), <m>x=2</m> (removable discontinuity), <m>x=3</m> (vertical asymptote), <m>x=4</m> (jump discontinuity)
+            </p>
+          </answer>
+      </exercise>
+    </paragraphs>
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+      <exercise number="1"><!-- #1 -->
+        <introduction>
+          <p>
+            Determine if the following parametric functions pass through the given points.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\mathbf{r}(t)=\langle 2-t, 3t+1 \rangle</m>, <m>(0,7)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Yes
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\mathbf{r}(t)=\langle 5-t^2, 7+2t \rangle</m>, <m>(-4,13)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Yes
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\mathbf{r}(t)=\langle 2\sqrt{t}-4, -5t+t^2 \rangle</m>, <m>(-5,0)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              No
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\mathbf{r}(t)=\langle 3+2\cos(t), \sin(t)-3 \rangle</m>, <m>(3,-3)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              No
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="2"><!-- #2 -->
+        <statement>
+            <p>
+              <image source="output/h3fig2" width="80%">
+                <shortdescription>A graph of a piecewise function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                  <p>
+                  Graph Setup: The image shows a standard 2D grid with a horizontal x-axis and a vertical f(x)-axis, both ranging from -10 to 10 with tick marks at intervals of 1. Three dashed orange vertical lines run through the entire height of the grid at x = -5, x = 4, and x = 7. Behavior of the Piecewise Function from Left to Right:
+                  From x = -10 to x = -3: Approaching from x = -10, the curve lies just below the x-axis and plunges downward toward negative infinity as it approaches x = -5. To the right of x = -5, the curve emerges from positive infinity and slopes downward, ending at x = -3 with an open circle at (-3, 0.5).
+                  From x = -3 to x = 0: This segment begins with a solid closed circle at (-3, 2), creating a jump discontinuity from the previous section. It travels upward as a straight line with a positive slope, connecting smoothly to the next section at (0, 4).
+                  From x = 0 to x = 4: The segment starts at (0, 4) and curves gently downward. At x = 1, an open circle sits at (1, 3), while a solid closed circle is plotted below it at (1, -1). The curve continues downward past this point and terminates at a solid closed circle at (4, 2).
+                  From x = 4 to x = 7: This segment is bound between x = 4 and x = 7. The curve forms an inverted U-shape entirely below the x-axis, approaching negative infinity as it gets closer to both x = 4 and x = 7.
+                  From x = 7 to x = 10: This segment begins at a solid closed circle at (7, 5), which serves as the vertex of a parabola. The curve opens upward and arches toward the top-right corner of the grid as x approaches 10.
+                  </p>
+                </description>
+              </image>
+              Complete the table below, describing the value/behavior of the function <m>f(x)</m> at the given <m>a</m>-values and using the given graph. If the value does not exist, and is not <m>\pm \infty</m>, write DNE.
+              <table>
+                <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                        <cell><m>a</m></cell>
+                        <cell><m>\displaystyle \lim_{x \rightarrow a^-}f(x)</m></cell>
+                        <cell><m>\displaystyle \lim_{x \rightarrow a^+}f(x)</m></cell>
+                        <cell><m>\displaystyle \lim_{x \rightarrow a}f(x)</m></cell>
+                        <cell><m>f(a)</m></cell>
+                        <cell>Continuous at <m>x=a</m>?</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-5</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-3</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>0</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>1</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>4</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell><m>7</m></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                        <cell></cell>
+                    </row>
+                </tabular>
+            </table>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <table>
+                <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                        <cell><m>a</m></cell>
+                        <cell><m>\displaystyle \lim_{x \rightarrow a^-}f(x)</m></cell>
+                        <cell><m>\displaystyle \lim_{x \rightarrow a^+}f(x)</m></cell>
+                        <cell><m>\displaystyle \lim_{x \rightarrow a}f(x)</m></cell>
+                        <cell><m>f(a)</m></cell>
+                        <cell>Continuous at <m>x=a</m>?</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-5</m></cell>
+                        <cell><m>-\infty</m></cell>
+                        <cell><m>+\infty</m></cell>
+                        <cell>DNE</cell>
+                        <cell>DNE</cell>
+                        <cell>No</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-3</m></cell>
+                        <cell><m>\dfrac{1}{2}</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell>DNE</cell>
+                        <cell><m>2</m></cell>
+                        <cell>No</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>0</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell>Yes</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>1</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell>No</cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>4</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>-\infty</m></cell>
+                        <cell>DNE</cell>
+                        <cell><m>2</m></cell>
+                        <cell>No</cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell><m>7</m></cell>
+                        <cell><m>-\infty</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell>DNE</cell>
+                        <cell><m>5</m></cell>
+                        <cell>No</cell>
+                    </row>
+                </tabular>
+            </table>
+            </p>
+          </answer>
+      </exercise>
+      <exercise number="3"><!-- #3 -->
+        <introduction>
+          <p>
+            Evaluate each of the following limits algebraically. h. If a limit does not exist, and is not <m>\pm \infty</m>, write DNE.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow -3}\dfrac{x^2-9}{x+3}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-6</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 1}\dfrac{x^2-5x+6}{x^2-2x+1}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>+\infty</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow -2}\dfrac{x^2-2x-8}{x^2-4x-12}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{3}{4}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 9}\dfrac{\sqrt{x}-3}{9-x}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\dfrac{1}{6}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 4}\dfrac{x-4}{\sqrt{x}-2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>4</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow -1}e^{\left(\frac{1}{x+1}\right)}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              DNE
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 6^-}\dfrac{1}{x-6}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\infty</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow -4^+}\dfrac{1-x^2}{x^2+5x+4}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>+\infty</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow -3^-}\dfrac{x^2-3x-4}{x^2+4x+3}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>+\infty</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="4"><!-- #4 -->
+        <introduction>
+          <p>
+            Evaluate each of the following limits algebraically. If a limit does not exist, and is not <m>\pm \infty</m>, write DNE.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow 6}\dfrac{|x-6|}{x-6}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              DNE
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow -3^+}\dfrac{|x+3|}{2x+6}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{1}{2}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow 1^-}\dfrac{x^2-1}{|x-1|}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow 4^+}f(x)</m> if <m>f(x)=\begin{cases}x^2-x-1 \amp x \le 4\\ \dfrac{4-x}{\sqrt{x}-2} \amp x \gt 4\end{cases}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-4</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow -1}g(x)</m> if <m>g(x)=\begin{cases}\dfrac{x^2-6x-7}{x^2-1} \amp x \lt -1\\ 5 \amp x = -1\\ 2x^2+3x+5 \amp x \gt -1\end{cases}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>4</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow 2}h(x)</m> if <m>h(x)=\begin{cases}\dfrac{x^2-4}{x-2} \amp x \lt 2\\ 4 \amp x = 2\\ x^3-x-4 \amp x \gt 2\end{cases}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              DNE
+            </p>
+          </answer>
+        </task>
+      </exercise>
+        <exercise number="5"><!-- #5 -->
+        <introduction>
+          <p>
+            Use the Squeeze Theorem to evaluate the following limits.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 2}g(x)</m> where <m>f(x) \le g(x) \le h(x)</m> on <m>[1,2]</m> with <m>f(x)=-x^3+6x^2-12x+15</m> and <m>h(x)=x^2-4x+11</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>7</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 0}x^3\sin\left(\dfrac{3}{x}\right)</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>-1 \le \sin(t) \le 1</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>0</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 0}x^4e^{\cos\left(-\frac{2}{x}\right)}</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>-1 \le \cos(t) \le 1</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>0</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+      
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            At which of these <m>a</m>-values does <m>\displaystyle \lim_{x\rightarrow a}f(x)</m> not exist?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>a = -3, -1, 1, 2, 4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>a = 1, 2, 4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>a = -3, -1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>a = -1, 1, 2, 4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>a = 1, 4</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Which of the following points does the parametric function <m>\mathbf{r}(t)=\langle t^2-5t, 3-6t\rangle</m> pass through?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>(14,35)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(-4,-15)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(6,-33)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(-6,-12)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(0,0)</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 2}\ln\left(\dfrac{x^2-4}{x^2-2x}\right)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\ln(2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  DNE
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\infty</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 25}\dfrac{\sqrt{x}-5}{25-x}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{1}{10}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{5}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{10}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{2}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 5^-}\dfrac{2x-10}{|x-5|}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-2</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="6"><!-- #6 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 0}x^3\cos\left(\dfrac{5}{x}\right)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>5</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+</pretext>

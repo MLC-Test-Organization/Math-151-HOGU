@@ -893,7 +893,7 @@
       </exercise>
       <p>
         Use the following graph of <m>f'(x)</m> to answer questions 8 and 9.
-        <image source="output/h8fig1" width="60%">
+            <image source="output/h8fig1" width="60%">
               <shortdescription>A graph of a polynomial function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
