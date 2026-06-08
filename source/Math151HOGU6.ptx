@@ -1,0 +1,1042 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="week6" label="7492"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH 151 Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+  <worksheet>
+    <title> Session #6 (Sections 3.6, 3.7, &amp; 3.8, Appendix K.1 &amp; K.2)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
+    </p>
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise><!-- #1 -->
+        <statement>
+          <p>
+            
+          </p>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+      <exercise number="1"><!-- #1 -->
+        <introduction>
+          <p>
+            Recall the general derivative for logarithmic functions: <md>\dfrac{d}{dx}\log_b(f(x))=\dfrac{1}{f(x)}\dfrac{1}{\ln(b)}f'(x)</md>. Use the chain rule to find the derivatives of the following functions. Note that you may have to apply the chain rule more than once.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x) = \log(\sqrt{x})</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x) = \dfrac{1}{2\ln(10)}\dfrac{1}{x}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>g(x) = (\ln(3x+1))^4</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>g'(x) = \dfrac{12(\ln(3x+1))^3}{3x+1}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=\dfrac{(1-5x^3)^4}{\log_2(5x)}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(x)=\dfrac{-60x^2(1-5x^3)^3\log_2(5x)-\frac{(1-5x^3)^4}{x\ln(2)}}{(\log_2(5x))^2}</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="2"><!-- #2 -->
+        <introduction>
+          <p>
+            Find the derivatives of the following functions using logarithmic differentiation.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=x^{\sin(2x)}</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+                <m>\ln(f(x))=\ln\left(x^{\sin(2x)}\right)=\sin(2x)\ln(x)</m>
+            </p>
+          </hint>
+          <hint>
+            <p>
+                <m>\dfrac{1}{f(x)}f'(x)=2\cos(2x)\ln(x)+\dfrac{\sin(2x)}{x}</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>f'(x)=x^{\sin(2x)}\left(2\cos(2x)\ln(x)+\dfrac{\sin(2x)}{x}\right)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>g(x)=\cos^{\tan(x)}(x)</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+                <m>\ln(g(x))=\ln\left(\cos^{\tan(x)}(x)\right)=\tan(x)\ln(\cos(x))</m>
+            </p>
+          </hint>
+          <hint>
+            <p>
+                <m>\dfrac{1}{g(x)}g'(x)=\sec^2(x)\ln(\cos(x))+\tan(x)\dfrac{1}{\cos(x)}(-\sin(x))</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>g'(x)=\cos^{\tan(x)}(x)\left(\sec^2(x)\ln(\cos(x))-\tan^2(x)\right)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=\dfrac{(2x+7)^7(-x-6)^3}{(-3x+4)^4(-8x-9)^{10}}</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+                <m>\ln(h(x))=\ln\left(\dfrac{(2x+7)^7(-x-6)^3}{(-3x+4)^4(-8x-9)^{10}}\right) = 7\ln(2x+7)+3\ln(-x-6)-4\ln(-3x+4)-10\ln(-8x-9)</m>
+            </p>
+          </hint>
+          <hint>
+            <p>
+                <m>\dfrac{1}{h(x)}h'(x)=\dfrac{7}{2x+7}(2)+\dfrac{3}{-x-6}(-1)-\dfrac{4}{-3x+4}(-3)-\dfrac{10}{-8x-9}(-8)</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>h'(x)=\dfrac{(2x+7)^7(-x-6)^3}{(-3x+4)^4(-8x-9)^{10}}\left(\dfrac{14}{2x+7}-\dfrac{3}{-x-6}+\dfrac{12}{-3x+4}+\dfrac{80}{-8x-9}\right)</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="3"><!-- #3 -->
+        <introduction>
+          <p>
+            Find the derivatives of the following functions.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=\sin^{-1}(5x-9)</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>\left(\sin^{-1}(x)\right)'=\dfrac{1}{\sqrt{1-x^2}}</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>f'(x)=\dfrac{5}{\sqrt{1-(5x-9)^2}}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>g(x)=\cos^{-1}\left(\sqrt{3x+6}\right)</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>\left(\cos^{-1}(x)\right)'=\dfrac{-1}{\sqrt{1-x^2}}</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>g'(x)=\dfrac{-3}{2\sqrt{3x+6}\sqrt{-3x-5}}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=e^{\arctan(2x)}</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>\left(\arctan(x)\right)'=\dfrac{1}{1+x^2}</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>h'(x)=\dfrac{2e^{\arctan(2x)}}{1+4x^2}</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="4"><!-- #4 -->
+        <introduction>
+          <p>
+            Suppose that <m>x(t)=t^2-9t+20</m> and <m>y(t)=t^3-6t^2+9t</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find the <m>t</m>-values where the graph of <m>\langle x(t),y(t) \rangle</m> has a horizontal tangent line.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              A tangent line to <m>\langle x(t),y(t) \rangle</m> is horizontal when <m>\dfrac{dy}{dt} = 0</m>, but <m>\dfrac{dx}{dt} \neq 0</m>.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>t=1,3</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the <m>t</m>-values where the graph of <m>\langle x(t),y(t) \rangle</m> has a vertical tangent line.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              A tangent line to <m>\langle x(t),y(t) \rangle</m> is vertical when <m>\dfrac{dx}{dt} = 0</m>, but <m>\dfrac{dy}{dt} \neq 0</m>.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>t=\dfrac{9}{2}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the slope of the line tangent to the graph of <m>\langle x(t),y(t) \rangle</m> at <m>t=2</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>\dfrac{dy}{dx}=\dfrac{\frac{dy}{dt}}{\frac{dx}{dt}}</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>\dfrac{3}{5}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the equation of the line tangent to the graph of <m>\langle x(t),y(t) \rangle</m> at <m>t=2</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y-2=\dfrac{3}{5}(x-6)</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+        <exercise number="5"><!-- #5 -->
+        <introduction>
+          <p>
+            Consider the parametric curve given by <m>\mathbf{s}(t) = \langle 3-2t, t^2e^{-t}\rangle</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find <m>\mathbf{s}'(t)</m> at <m>t=1</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>\mathbf{s}'(t) = \langle x'(t), y'(t)\rangle</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>\langle -2, e^{-1} \rangle</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the speed of the particle at <m>t=1</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Speed = <m>|\text{Velocity}|</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>\sqrt{4+e^{-2}}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the slope of the line tangent to the graph of <m>\mathbf{s}(t)</m> at <m>t = \dfrac{1}{2}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\dfrac{3}{8}e^{-\frac{1}{2}}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the equation of the line tangent to the graph of <m>\mathbf{s}(t)</m> at <m>t = \dfrac{1}{2}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y-\dfrac{1}{4}e^{-\frac{1}{2}}=-\dfrac{3}{8}e^{-\frac{1}{2}}(x-2)</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="6"><!-- #6 -->
+        <introduction>
+          <p>
+            Suppose that a particle height changes according to the function <m>r(t)=-t^2+5t-4</m> (measured in feet), with <m>t \geq 0</m> (measured in seconds).
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find an expression for the velocity, <m>v(t)</m>, of the particle at time <m>t</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>v(t)=r'(t)</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>v(t)=(-2t+5)\frac{\text{ft}}{\text{s}}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find an expression for the acceleration, <m>a(t)</m>, of the particle at time <m>t</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>a(t)=v'(t)</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>a(t)=-2\dfrac{\text{ft}}{\text{s}^2}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              At what time(s) is the particle stationary? What is the maximum height of the particle?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>\text{Stationary}\Rightarrow v(t)=0</m>
+            </p>
+          </hint>
+          <hint>
+            <p>
+              What kind of graph is <m>r(t)</m>? Where does its maximum occur?
+            </p>
+          </hint>
+          <answer>
+            <p>
+              The particle is stationary at <m>t=\dfrac{5}{2}\text{s}</m>. The maximum height of the particle occurs at <m>r\left(\dfrac{5}{2}\right)=\dfrac{9}{4}\text{ft}</m>.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What is the total distance traveled by the particle in the first <m>4</m> seconds?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              The distance traveled is not necessarily the same as the displacement of the particle.
+            </p>
+          </hint>
+          <hint>
+            <p>
+              Split the problem into parts where the velocity is positive and parts where the velocity is negative.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>8.5\text{ft}</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="7"><!-- #7 -->
+        <introduction>
+          <p>
+            The growth of a population of bacteria is often modeled exponentially with the equation <md>y(t)=y(0)e^{kt}</md>, where <m>y(0)</m> represents the initial population, <m>k</m> is the relative growth rate, and <m>t</m> represent time. You may leave answers to the following questions in mathematical symbols, but be sure to include units!
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Suppose that a population of bacteria initially contains <m>3</m> million cells and grows exponentially at a relative growth rate of <m>40\%</m> per hour. Find an expression for the number of bacteria present after <m>t</m> hours.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y(t)=3e^{0.4t}\text{million cells}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              At what time will the population of bacteria reach <m>6\text{million cells}</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>t = \dfrac{\ln(2)}{0.4}\text{hours}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What is the instantaneous rate of growth of the bacteria present after <m>6</m> hours?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y'(6)=1.2e^{2.4}\dfrac{\text{million cells}}{\text{hour}}</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="8"><!-- #8 -->
+        <introduction>
+          <p>
+            Radiocarbon dating is used to determine the age or organic matter by measuring the amount of radioactive Carbon-<m>14</m> in the material compared to the non-radioative Carbon-<m>12</m> in the material. The half life of Carbon-<m>14</m> is <m>5730</m> years, and we model the decay of Carbon-<m>14</m> into Carbon-<m>12</m> with the equation <md>y(t)=y(0)e^{kt}</md>, where <m>y(0)</m> represents the initial amount of Carbon-<m>14</m> in the material, <m>k</m> is the relative decay rate, and <m>t</m> represents time. You may leave your answers to the following questions in mathematical symbols, but be sure to include units!
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              What is the relative decay rate for Carbon-<m>14</m>?
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>y(5730)=\dfrac{1}{2}y(0)</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>k=\dfrac{-\ln(2)}{5730}\text{year}^{-1}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find an expression for the proportion of Carbon-<m>14</m> remaining in the material after <m>t</m> years.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>p(t)=\dfrac{y(t)}{y(0)}</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>p(t)=e^{\frac{-\ln(2)}{5730}t}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What proportion of Carbon-<m>14</m> remains in the material after <m>2000</m> years?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>p(2000)=e^{\frac{-\ln(2)}{5730}(2000)}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the instantaneous rate of decay of the proportion of Carbon-<m>14</m> in the material after <m>2000</m> years.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>p'(2000)=\dfrac{-\ln(2)}{5730}e^{\frac{-\ln(2)}{5730}(2000)}\text{year}^{-1}</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="9"><!-- #9 -->
+        <introduction>
+          <p>
+            We often model change in temperature using Newton's Law of Cooling with the equation <md>T(t)=T_s+(T(0)-T_s)e^{kt}</md>, where <m>T(0)</m> is represents the initial temperature of the object, <m>T_s</m> represents the temperature of the surroundings, <m>k</m> is the relative rate of change, and <m>t</m> represents time.
+            Suppose that a cup of recently brewed coffee is currently too hot to drink, being <m>200^\circ\text{F}</m>, and that the temperature of the room is <m>70^\circ\text{F}</m>. After half an hour, the coffee is measured to be at a temperature of <m>80^\circ\text{F}</m>.
+            You may leave answers to the following questions in mathematical symbols, but be sure to include units!
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find an expression for the temperature, in degrees Fahrenheit, of the coffee in the cup after <m>t</m> minutes.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              Write down all of your known information. Solve for the constants in the model that you don't know.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>T(t)=70+130e^{\frac{-\ln(13)}{30}t}{^\circ\text{F}}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              How long after brewing the coffee will it be ready to drink, at a temperature of <m>120^\circ\text{F}</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>t=\dfrac{-30\ln\left(\frac{5}{13}\right)}{\ln(13)}\text{min}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              What is the instantaneous rate of change of the temperature of the coffee after <m>2</m> minutes?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>T'(2)=\dfrac{-13\ln(13)}{3}e^{\frac{-\ln(13)}{15}}{^\circ\text{F}}</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+      
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            Find the derivative of <m>f(x)=\dfrac{\ln(x^2+4)}{xe^x}+x^3+2^x</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{\frac{2x}{x^2+4}-(1+x)\ln(x^2+4)}{xe^x}+3x^2+2^x</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\frac{2x}{x^2+4}-(1+x)\ln(x^2+4)}{x^2e^x}+3x^2+2^x\ln(2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\frac{2x^2}{x^2+4}+(1+x)\ln(x^2+4)}{x^2e^x}+3x^2+2^x\ln(2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\frac{2x^2}{x^2+4}-(1+x)\ln(x^2+4)}{x^2e^x}+3x^2+2^x\ln(2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\frac{2x^2}{x^2+4}-(1+x)\ln(x^2+4)}{x^2e^x}+3x^2+2^x</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Find <m>y'</m> if <m>y=\sin^{\cos(x)}(x)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>y'=\sin^{\cos(x)}(x)\left(-\sin(x)\ln(\sin(x))+\cot(x)\cos(x)\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y'=\sin^{\cos(x)}(x)\left(-\sin(x)\cos(x)\ln(\sin(x))+\cot(x)\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y'=\sin^{\cos(x)}(x)\left(-\sin(x)\ln(\sin(x))-\cot(x)\cos(x)\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y'=\sin^{\cos(x)}(x)\left(-\sin(x)\cos(x)\ln(\sin(x))-\cot(x)\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y'=\sin^{\cos(x)}(x)\left(-\cos(x)\ln(\sin(x))+\cot(x)\right)</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Find <m>h'(x)</m> if <m>h(x)=e^{-\sin^{-1}(x)}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>h'(x) = \dfrac{e^{-\sin^{-1}(x)}}{\sqrt{1-x^2}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(x) = -\dfrac{e^{-\sin^{-1}(x)}}{\sqrt{1-x^2}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(x) = e^{-\sin^{-1}(x)}\sqrt{1-x^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(x) = -\dfrac{e^{-\sin^{-1}(x)}}{1+x^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(x) = \dfrac{e^{-\sin^{-1}(x)}}{1+x^2}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            Find the <m>t</m>-values where the parametric curve <m>x(t)=\dfrac{2}{3}t^3-4t^2+6t-3</m>, <m>y(t)=-t^3+\dfrac{21}{2}t^2-36t+5</m> has a vertical tangent line.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>t=1,3,4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=1,3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=3,4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=1</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Find the equation of the line tangent to the parametric curve <m>\mathbf{s}(t)=\langle t^2+1,3t-2\rangle</m> at the point where <m>t=2</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>y=\dfrac{3}{4}x-\dfrac{1}{4}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=\dfrac{4}{3}x+\dfrac{1}{4}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=\dfrac{3}{4}x+\dfrac{1}{4}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=\dfrac{4}{3}x-\dfrac{1}{4}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=\dfrac{3}{4}x+\dfrac{5}{4}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="6"><!-- #6 -->
+        <statement>
+          <p>
+            The displacement of a particle is given by <m>\mathbf{s}(t)=\left\langle 3t^2-2t+1, \dfrac{1}{2}t^3-e^{2t}\right\rangle</m>, with <m>t\geq 0</m>. Find the acceleration vector at time <m>t=2</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\mathbf{a}(t)=\langle 6,3-4e^4 \rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{a}(t)=\langle 10,2-e^4 \rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{a}(t)=\langle 6,6-e^4 \rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{a}(t)=\langle 6,6-4e^4 \rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{a}(t)=\langle 10,6-4e^4 \rangle</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="7"><!-- #7 -->
+        <statement>
+          <p>
+            The displacement of a particle is given by <m>r(t)=t^3-6t^2+9t</m> meters, where <m>t\geq 0</m> is measured in seconds. What is the velocity of the particle when the acceleration of the particle is <m>6\dfrac{\text{m}}{\text{s}^2}</m>?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>v=-6\dfrac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>v=0\dfrac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>v=3\dfrac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>v=6\dfrac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>v=9\dfrac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="8"><!-- #8 -->
+        <statement>
+          <p>
+            The height of a ball, which has been thrown vertically, is given by <m>r(t)=-10t^2+80t-120</m> where <m>r(t)</m> is measured in meters and <m>t\geq 0</m> is measured in seconds. Find the total distance traveled by the ball in the first <m>5</m> seconds.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>30\text{m}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>40\text{m}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>150\text{m}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>170\text{m}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>200\text{m}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="9"><!-- #9 -->
+        <statement>
+          <p>
+            A bacteria culture initially contains <m>5</m> million bacteria and doubles every hour. Find the number of bacteria present after <m>90</m> minutes.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>P=5e^{\frac{3\ln(2)}{2}}\text{million bacteria}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>P=5e^{90\ln(2)}\text{million bacteria}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>P=15\text{million bacteria}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>P=5e^{1.3\ln(2)}\text{million bacteria}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>P=13\text{million bacteria}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="10"><!-- #10 -->
+        <statement>
+          <p>
+            A sample of organic matter initially contains <m>10\text{g}</m> if Carbon-<m>14</m>, which decays at a rate proportional to its amount. The half-life of Carbon-<m>14</m> is <m>5730</m> years. How much Carbon-<m>14</m> remains in the material after <m>1500</m> years?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{\ln(2)}{570}e^{\frac{-\ln(2)}{5730}(1500)}\text{g}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>10e^{\frac{-\ln(2)}{5730}(1500)}\text{g}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>10e^{\frac{\ln(2)}{5730}(1500)}\text{g}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\ln(2)}{570}e^{\frac{\ln(2)}{5730}(1500)}\text{g}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  There is not enough information to determine the amount of Carbon-<m>14</m> remaining in the material.
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="11"><!-- #11 -->
+        <statement>
+          <p>
+            Suppose that some ice water, at a temperature of <m>5^\circ\text{C}</m>, has been left out in a room with an ambient room temperature of <m>20^\circ\text{C}</m> subject to Newton's Law of Cooling/Warming. After <m>5</m> minutes, the temperature of the ice water is <m>9^\circ\text{C}</m>. How long will it take the ice water to reach a temperature of <m>15^\circ\text{C}</m>?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{5\ln\left(3\right)}{\ln\left(\frac{11}{15}\right)}\text{minutes}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{5\ln\left(\frac{1}{2}\right)}{\ln\left(\frac{11}{15}\right)}\text{minutes}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\ln\left(\frac{1}{3}\right)}{\ln\left(\frac{11}{15}\right)}\text{minutes}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\ln\left(\frac{11}{15}\right)}{5\ln\left(\frac{1}{2}\right)}\text{minutes}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{5\ln\left(\frac{1}{3}\right)}{\ln\left(\frac{11}{15}\right)}\text{minutes}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+</pretext>
