@@ -26,8 +26,141 @@
       <exercise><!-- #1 -->
         <statement>
           <p>
-            
+            Match each of the following expressions to its corresponding graph. Think about identifying characteristics for each graph, i.e. asymptotes, interecepts, etc.
           </p>
+          <sidebyside widths="33.333% 33.333% 33.333%" valign="middle">
+            <p>
+              <ol marker="(A)">
+                <li>
+                  <p>
+                    <image source="output/h6fig1" width="100%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        </p>
+                      </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="output/h6fig2" width="100%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        </p>
+                      </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="output/h6fig3" width="100%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        </p>
+                      </description>
+                    </image>
+                  </p>
+                </li>
+              </ol>
+            </p>
+
+            <p>
+              <ol marker="(D)">
+                <li>
+                  <p>
+                    <image source="output/h6fig4" width="100%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        </p>
+                      </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="output/h6fig5" width="100%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        </p>
+                      </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="output/h6fig6" width="100%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        </p>
+                      </description>
+                    </image>
+                  </p>
+                </li>
+              </ol>
+            </p>
+
+            <p>
+              <ol marker="(G)">
+                <li>
+                  <p>
+                    <image source="output/h6fig7" width="100%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        </p>
+                      </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="output/h6fig8" width="100%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        </p>
+                      </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="output/h6fig9" width="100%">
+                      <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        </p>
+                      </description>
+                    </image>
+                  </p>
+                </li>
+              </ol>
+            </p>
+          </sidebyside>
         </statement>
         <answer>
           <p>
