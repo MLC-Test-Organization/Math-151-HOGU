@@ -1,0 +1,1692 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="week4" label="8875"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH 151 Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+  <worksheet>
+    <title> Session #4 (Sections 2.6, 2.7, &amp; 2.8, Exam I Review)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. The Exam I review begins in the 'Now Grades Go Up' section.
+    </p>
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise><!-- #1 -->
+        <introduction>
+          <p>
+            Use the graph below to complete the following tasks.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Draw the secant line passing through the points <m>(-2,2)</m> and <m>(1,-1)</m>. What is its slope?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>m=-1</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Draw the tangent line passing through the point <m>(1,-1)</m>. What is its slope, approximately?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(1) \approx -1</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Why do you think these two values are similar?
+            </p>
+          </statement>
+          <hint>
+            <p>
+                Think about the definition of the slope of the secant line between two points, <m>(a,f(a))</m> and <m>(a+h,f(a+h))</m>, separated by <m>h</m> units.
+                Compare this to the definition of the slope of the tangent line between two points.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              For relatively small values of <m>h</m>, in this case <m>h=3</m>, <m>f'(1) = \displaystyle\lim_{h\rightarrow 0}\dfrac{f(1+h)-f(1)}{h} \approx \dfrac{f(1+h)-f(1)}{h} = \dfrac{f(4)-f(1)}{3} = -1</m>.
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise><!-- #2 -->
+        <statement>
+            <p>
+              For the graph below, indicate the points where <m>f(x)</m> is not differentiable. Then, categorize each as a jump discontinuity, a removable discontinuity (hole), a vertical asymptote, cusp, corner, or vertical tangent.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              
+            </p>
+          </answer>
+      </exercise>
+    </paragraphs>
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+      <exercise number="1"><!-- #1 -->
+        <introduction>
+          <p>
+            The following questions address the continuity of piecewise functions.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find the value(s) of <m>A</m> that make <m>f(x) = \begin{cases}\sqrt{Ax+5} \amp x \ge 2\\ 3x-A-1 \amp x \lt 1\end{cases}</m> continuous everywhere on its domain.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>A=2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the value(s) of <m>B</m> that make <m>g(x) = \begin{cases}7x^3-2x^2+Bx+1 \amp x \le 2\\ \frac{2-Bx}{x^2} \amp x \gt 1\end{cases}</m> continuous everywhere on its domain.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>B=-2</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="2"><!-- #2 -->
+        <introduction>
+          <p>
+            Use the Intermediate Value Theorem (IVT) to answer the following questions.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Does the interval <m>(-2,0)</m> contain a root to the function <m>f(x)=x^2-4x+2</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Possibly, but not guaranteed by the IVT
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Does the interval <m>(0,1)</m> contain a root to the function <m>f(x)=x^2-4x+2</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Yes, by the IVT
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Does the interval <m>(1,3)</m> contain a root to the function <m>f(x)=x^2-4x+2</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Possibly, but not guaranteed by the IVT
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Does the interval <m>(3,4)</m> contain a root to the function <m>f(x)=x^2-4x+2</m>?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Yes, by the IVT
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="3"><!-- #3 -->
+        <introduction>
+          <p>
+            Evaluate the following limits algebraically. If a limit does not exist, and is not <m>\pm \infty</m>, write DNE. Do not use L'Hospital's rule.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow\infty}\dfrac{x^2+3x-7}{x^3+2x+8}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>0</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow-\infty}\dfrac{4x^2-x+5}{7+x^2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>4</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow\infty}\arctan\left(\dfrac{2x^4+1}{x^3+5x-1}\right)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{\pi}{2}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow\infty}\dfrac{9+3x^2}{\sqrt{x^4+5}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>3</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow-\infty}\dfrac{\sqrt{x^6+2x^2-1}}{x^2-x+10}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\infty</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow-\infty}\dfrac{2e^{4x}-5e^{-5x}}{7e^{-5x}+3e^{4x}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\dfrac{5}{7}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow\infty}\dfrac{-6^{2x}+2(0.2)^{3x}}{-4(0.1)^{4x}+5 \cdot 6^{2x}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\dfrac{1}{5}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow\infty}\left(\sqrt{4x^4+4x^2}-\sqrt{4x^4-2x}\right)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>1</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow\infty}\left(\ln(2x^3+4x)-\ln(x^3+x^2)\right)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\ln(2)</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="4"><!-- #4 -->
+        <introduction>
+          <p>
+            Identify the horizontal asymptotes for the following functions.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=\dfrac{\sqrt{9x^4-2x+4}}{x^2+4x-6}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y=3</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>g(x)=\dfrac{-2e^{8x}+6e^{-x}}{3e^{8x}-8e^{-x}}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y=-\dfrac{2}{3}</m>, <m>y=-\dfrac{3}{4}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=\arctan\left(\dfrac{2x^3-7x+4}{4x^2+2x-7}\right)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y=\dfrac{\pi}{2}</m>, <m>y=-\dfrac{\pi}{2}</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+        <exercise number="5"><!-- #5 -->
+        <introduction>
+          <p>
+            Find the average rate of change of the following functions on the given intervals.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=x^3-3x^2+2x</m> on <m>[0,2]</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>m=0</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>g(x)=\sqrt{x-2}</m> on <m>[2,6]</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>m=\dfrac{1}{2}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(x)=\dfrac{4}{x}</m> on <m>[2,4]</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>m=-\dfrac{1}{2}</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="6"><!-- #6 -->
+        <introduction>
+          <p>
+            Complete the following tasks to find the instantaneous rate of change of <m>f(x)=x^2+2x-1</m> at <m>x=1</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Compute <m>f(1+h)</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f(1+h)=h^2+4h+2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Compute <m>f(1+h)-f(1)</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f(1+h)=(h^2+4h+2)-(1^2+2-1)=h^2+4h</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Compute <m>\dfrac{f(1+h)-f(1)}{h}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{f(1+h)-f(1)}{h} = \dfrac{h^2+4h}{h} = h+4</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Compute <m>\displaystyle \lim_{h\rightarrow 0}\dfrac{f(1+h)-f(1)}{h}</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\displaystyle \lim_{h\rightarrow 0}\dfrac{f(1+h)-f(1)}{h} = \lim_{h\rightarrow 0}(h+4)=4</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="7"><!-- #7 -->
+        <introduction>
+          <p>
+            Use the limit definition of the derivative, <m>f'(x)=\displaystyle\lim_{h\rightarrow 0}\dfrac{f(x+h)-f(x)}{h}</m>, to find the derivatives of the following functions. Do not use any derivative rules from outside this section.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=x^2-3x+4</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>f'(x)=2x-3</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>g(t)=\sqrt{t+2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>g'(t)=\dfrac{1}{2\sqrt{t+2}}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>h(\theta)=\dfrac{5}{\theta}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>h'(\theta)=-\dfrac{5}{\theta^2}</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="8"><!-- #8 -->
+        <introduction>
+          <p>
+            Suppose that the displacement of a particle, measured in centimeters, is given by <m>s(t)=5t^2-t+4</m> with <m>t\geq 0</m> measured in seconds.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find the average velocity of the particle on the interval <m>[0,1]</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+                Average velocity is the average rate of change of displacement.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>v_{\text{average}}=m=4\frac{\text{cm}}{\text{s}}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the instantaneous velocity of the particle at <m>t=1</m>.
+            </p>
+          </statement>
+          <hint>
+            <p>
+                Instantaneous velocity is the derivative of displacement.
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>v_{\text{instantaneous}}(t=1)=s'(1)=9\frac{\text{cm}}{\text{s}}</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="9"><!-- #9 -->
+        <introduction>
+          <p>
+            Find the equation of the line tangent to the functions at the given points.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=2x^2+3x-1</m> at <m>x=-2</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y-1=-5(x+2)</m> or <m>y=-5x-9</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>f(x)=\sqrt{5-x}</m> at <m>x=1</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y-2=-\dfrac{1}{4}(x-1)</m> or <m>y=-\dfrac{1}{4}x+\dfrac{9}{4}</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+      
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            Simplify <m>\tan(\arcsin(-2x))</m> to an algebraic expression involving <m>x</m> only.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{1+4x^2}{2x}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{2x}{\sqrt{1-4x^2}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2x}{\sqrt{1-4x^2}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{2x}{1+4x^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{\sqrt{1-4x^2}}{2x}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Given <m>\mathbf{a}=3\mathbf{i}+4\mathbf{j}</m> and <m>\mathbf{b}=12\mathbf{i}-5\mathbf{j}</m>, find a unit vector perpendicular to the vector <m>\mathbf{v}=5\mathbf{a}+4\mathbf{b}</m>, <m>\widehat{\mathbf{v}^{\perp}}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\mathbf{i}-\mathbf{j}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{4}{\sqrt{41}}\mathbf{i}+\dfrac{5}{\sqrt{41}}\mathbf{j}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\mathbf{j}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{i}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-4\mathbf{a}+5\mathbf{b}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Given <m>\mathbf{a}=3\mathbf{i}+4\mathbf{j}</m> and <m>\mathbf{b}=12\mathbf{i}-5\mathbf{j}</m>, find the projection of <m>\mathbf{b}</m> onto <m>\mathbf{a}</m>, <m>\text{proj}_{\mathbf{a}}(\mathbf{b})</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\langle 12,-5\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\langle 3,4\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left\langle \dfrac{16}{25},\dfrac{16}{25}\right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left\langle \dfrac{64}{25},\dfrac{48}{25}\right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left\langle \dfrac{48}{25},\dfrac{64}{25}\right\rangle</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            Given <m>\mathbf{a}=3\mathbf{i}+4\mathbf{j}</m> and <m>\mathbf{b}=12\mathbf{i}-5\mathbf{j}</m>, find the exact value of the cosine of the angle between the vectors <m>\mathbf{a}</m> and <m>\mathbf{b}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{36}{65}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{16}{65}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{16}{25}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{20}{65}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{65}{16}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Find the shortest distance from the point <m>(3,1)</m> to the line <m>2x+y=5</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{2}{5}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\sqrt{5}}{5}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2\sqrt{5}}{5}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2}{5}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="6"><!-- #6 -->
+        <statement>
+          <p>
+            Two forces act on an object. The first force, <m>\mathbf{F}_1</m>, is of magnitude <m>10\text{N}</m> at an angle of <m>30^\circ</m> counterclockwise from the positive
+            <m>x</m>-axis. The second force, <m>\mathbf{F}_2</m>, is of magnitude <m>20\text{N}</m> at an angle of <m>150^\circ</m> counterclockwise from the positive <m>x</m>-axis.
+            What is the magnitude of the resultant force vector?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>5\sqrt{2}\text{N}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>5\sqrt{3}\text{N}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>10\sqrt{2}\text{N}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>10\sqrt{3}\text{N}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>30\text{N}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="7"><!-- #7 -->
+        <statement>
+          <p>
+            In the previous problem, what angle does the resultant force vector make with respect to the positive <m>x</m>-axis, measured counterclockwise?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>30^\circ</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>60^\circ</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>120^\circ</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>150^\circ</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>180^\circ</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="8"><!-- #8 -->
+        <statement>
+          <p>
+            A box is being pulled <m>0.5\text{m}</m> up an inclined plane by a rope with a force of <m>100\text{N}</m> at an angle of <m>30</m> degrees, measured counterclockwise with respect to the direction of motion of the box. How much work does the force do on the box?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>25\text{J}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>25\sqrt{3}\text{J}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>50\text{J}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>50\sqrt{3}\text{J}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>100\text{J}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="9"><!-- #9 -->
+        <statement>
+          <p>
+            Describe the motion of a particle whose motion is subject to the function <m>\mathbf{r}(t)=\langle 5-3\sin(t),1+2\cos(t)\rangle</m> as <m>t</m> increases.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  Clockwise around a circle
+                </p>
+              </li>
+              <li>
+                <p>
+                  Counterclockwise around a circle
+                </p>
+              </li>
+              <li>
+                <p>
+                  Clockwise around an ellipse
+                </p>
+              </li>
+              <li>
+                <p>
+                  Counterclockwise around an ellipse
+                </p>
+              </li>
+              <li>
+                <p>
+                  None of these
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="10"><!-- #10 -->
+        <statement>
+          <p>
+            Find the vector equation for a line parallel to <m>\langle -2,7 \rangle</m> and passing through the point <m>(3,-2)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\mathbf{r}(t)=\langle -2-2t,3+7t \rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}(t)=\langle 3+2t,-2+7t \rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}(t)=\langle -2-7t,3+2t \rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}(t)=\langle 3-7t,-2-2t \rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}(t)=\langle 3-2t,-2+7t \rangle</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="11"><!-- #11 -->
+        <statement>
+          <p>
+            Eliminate the parameter <m>t</m> and simplify the parametric function <m>\langle t^2+1,2t-4 \rangle</m> to Cartesian form.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>(y+4)^2=4x</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(y+4)^2=4(x-1)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y+4=2(x-1)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y^2=4(x-1)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(y+4)^2=x-1</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="12"><!-- #12 -->
+        <statement>
+          <p>
+            Which of the following points lies on the curve of the parametric function <m>\mathbf{r}(t)=\left\langle \sqrt{2t+1},2t-t^2 \right\rangle</m>?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>(-1,0)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(-2,9)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(2,-7)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(3,-8)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(4,6)</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="13"><!-- #13 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 4}\dfrac{4-x}{\sqrt{x}-2}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="14"><!-- #14 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow -2}\dfrac{2x^2+3x-2}{x^3-3x^2-10x}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{1}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{5}{7}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{5}{7}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{5}{14}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{5}{14}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="15"><!-- #15 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 4^+}\dfrac{x^2-3x-4}{|4-x|}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>5</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-5</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="16"><!-- #16 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 1}(1-x)^2\sin\left(\dfrac{3}{x-1}\right)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>3</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="17"><!-- #17 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow -\infty}\dfrac{7e^{-5x}-2e^{6x}}{3e^{-5x}+9e^{6x}}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{2}{9}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{7}{3}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="18"><!-- #18 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow \infty}\left(\ln(9x^2-2x+15)-\ln(3x^2+12)\right)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\ln(3)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\ln(6)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="19"><!-- #19 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow -\infty}\arctan\left(\dfrac{5x^2+9x-2x^4}{-4x^3-6x+12}\right)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{\pi}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\pi}{2}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="20"><!-- #20 -->
+        <statement>
+          <p>
+            Identify the vertical and horizontal asymptotes of the function <m>f(x)=\dfrac{x^2+5x+6}{x^2-9}</m>
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  Vertical asymptotes at <m>x=-3,3</m>, Horizontal asymptote at <m>y=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Vertical asymptote at <m>x=3</m>, Horizontal asymptote at <m>y=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Vertical asymptote at <m>x=3</m>, Horizontal asymptote at <m>y=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Vertical asymptotes at <m>x=-3,3</m>, Horizontal asymptote at <m>y=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  No vertical asymptote, Horizontal asymptote at <m>y=1</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="21"><!-- #21 -->
+        <statement>
+          <p>
+            According to the Intermediate Value Theorem, which of the following intervals contains a solution to the equation <m>x^3-3x+1=0</m>?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>(-2,1)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(-1,0)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(-1,2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(0,1)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>(2,3)</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="22"><!-- #22 -->
+        <statement>
+          <p>
+            Find the value(s) of <m>A</m> and <m>B</m> that make the function <m>g(x) = \begin{cases}Ax+B \amp x \lt 2\\ 4 \amp x = 2\\ x^2-A \amp x \gt 2\end{cases}</m> continuous everywhere.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>A=0</m>, <m>B=2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A=2</m>, <m>B=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A=0</m>, <m>B=4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A=3</m>, <m>B=-2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>A=2</m>, <m>B=1</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="23"><!-- #23 -->
+        <statement>
+          <p>
+            Given the graph below, which of the following is false?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>f(x)</m> has a vertical asymptote at <m>x=-3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is continuous from the left at <m>x=-2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is continuous <m>x=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is continuous at <m>x=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is continuous from the right at <m>x=2.5</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="24"><!-- #24 -->
+        <statement>
+          <p>
+            Find the average rate of change of the function <m>f(x)=\sqrt{3x+1}</m> on the interval <m>[1,8]</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{5}{7}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2}{7}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{4}{7}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{9}{7}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{3}{7}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="25"><!-- #25 -->
+        <statement>
+          <p>
+            Find the instantaneous rate of change of the function <m>f(x)=\dfrac{1}{2x+3}</m> at <m>x=1</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{1}{5}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{2}{25}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{5}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{3}{16}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="26"><!-- #26 -->
+        <statement>
+          <p>
+            Find the equation of the line tangent to the curve <m>x^2-5x+3</m> at <m>x=4</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>y=4x-13</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=3x-5</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=2x+1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=3x-13</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=3x-7</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="27"><!-- #27 -->
+        <statement>
+          <p>
+            The displacement of a particle, measured in meters, is given by <m>s(t)=t^3-2t^2+1</m> with <m>t\geq 0</m> measured in seconds. Find the average velocity of the particle on the interval <m>[1,2]</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-1\frac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0\frac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0.5\frac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>1\frac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>1.5\frac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="28"><!-- #28 -->
+        <statement>
+          <p>
+            Given the graph below, which of the following is true?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>f(x)</m> is differentiable at <m>x=-3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is differentiable at <m>x=-2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is differentiable at <m>x=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is differentiable at <m>x=2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  None of these are true
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="29"><!-- #29 -->
+        <statement>
+          <p>
+            Given the graph of <m>f(x)</m> below, sketch a graph of the derivative <m>f'(x)</m>.
+          </p>
+        </statement>
+        <answer>
+          <p>
+            
+          </p>
+        </answer>
+      </exercise>
+      
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+</pretext>
