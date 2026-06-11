@@ -1,0 +1,1388 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="week7" label="8149"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH 151 Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+  <worksheet>
+    <title> Session #7 (Sections 3.9, Exam II Review)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you. The Exam II review begins in the 'Now Grades Go Up' section.
+    </p>
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise><!-- #1 -->
+        <introduction>
+          <p>
+            A <m>13\text{ft}</m> ladder rests against a vertical wall. If the bottom of the ladder slides away at a rate of <m>3\frac{\text{ft}}{\text{s}}</m>, how fast is the top of the ladder sliding down the wall when the top of the ladder is <m>5\text{ft}</m> from the ground?
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Write down all known information (with units), identify the unknown(s), and draw a picture (given below).
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>x=?\text{ft}</m>, <m>y=5\text{ft}</m>, <m>z=13\text{ft}</m>, <m>\dfrac{dx}{dt}=3\frac{\text{ft}}{\text{s}}</m>, <m>\dfrac{dy}{dt}=?\frac{\text{ft}}{\text{s}}</m>, <m>\dfrac{dz}{dt}=0\frac{\text{ft}}{\text{s}}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Write equations to relate the variables to each other.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>x^2+y^2=z^2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Take derivatives, using the chain rule, to relate the rates to each other.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>2x\dfrac{dx}{dt}+2y\dfrac{dy}{dt}=2z\dfrac{dz}{dt}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Plug in numbers and solve for the unknown.
+            </p>
+          </statement>
+          <hint>
+            <p>
+              You didn't know <m>x</m> in the part (a), but do you know it now?
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>2\left(\sqrt{13^2-5^2}\right)(3)+2(5)\dfrac{dy}{dt}=2(13)(0) \Rightarrow \dfrac{dy}{dt}=-\dfrac{36}{5}\frac{\text{ft}}{\text{s}}</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+    </paragraphs>
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            Water is being drained from an inverted conical tank with a radius of <m>20\text{m}</m> and a height of <m>16\text{m}</m>.
+            If the water level is falling at a rate of <m>2\frac{\text{m}}{\text{min}}</m> when the water level is <m>8\text{m}</m> from the bottom of the tank,
+            at what rate is the water being drained from the tank?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            PICTURE OF THE PROBLEM HERE
+          </p>
+        </hint>
+        <hint>
+          <p>
+            The larger and smaller triangles are similar...
+          </p>
+        </hint>
+        <hint>
+          <p>
+            ...therefore, <m>\dfrac{r}{R} = \dfrac{h}{H}</m>.
+          </p>
+        </hint>
+        <hint>
+          <p>
+            The equation describing the volume of a cone, <m>V=\dfrac{1}{3}\pi r^2h</m>, has too many variables in it. Can you eliminate one of them now, before taking the derivative?
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>\dfrac{dV}{dt}=-200\pi\frac{\text{m}^3}{\text{min}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            A <m>6\text{ft}</m> tall person walks toward a <m>9\text{ft}</m> tall lamppost at a speed of <m>4\frac{\text{ft}}{\text{s}}</m>.
+            How fast is the length of their shadow on the ground changing when they are <m>4\text{ft}</m> from the base of the lamppost?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            PICTURE OF THE PROBLEM HERE
+          </p>
+        </hint>
+        <hint>
+          <p>
+            The larger and smaller triangles are similar...
+          </p>
+        </hint>
+        <hint>
+          <p>
+            ...therefore <m>\dfrac{s}{x+s}=\dfrac{h}{H}</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>\dfrac{ds}{dt}=-8\frac{\text{ft}}{\text{s}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            A spotlight on the ground shines on a wall <m>20\text{ft}</m> away. A <m>5\text{ft}</m> tall person walks toward the wall from
+            the spotlight at a speed of <m>3\frac{\text{ft}}{\text{s}}</m>. How fast is the length of their shadow on the wall changing when
+            the person is <m>10\text{ft}</m> from the wall?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            PICTURE OF THE PROBLEM HERE
+          </p>
+        </hint>
+        <hint>
+          <p>
+            The larger and smaller triangles are similar...
+          </p>
+        </hint>
+        <hint>
+          <p>
+            ...therefore, <m>\dfrac{D-x}{D}=\dfrac{h}{s}</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>\dfrac{ds}{dt}=-3\frac{\text{ft}}{\text{s}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            A spherical scoop of ice cream is melting such that its surface area is decreasing at a rate of <m>2\frac{\text{cm}^2}{\text{min}}</m>.
+            At what rate is the volume of the ice cream changing when its radius is <m>3\text{cm}</m>? You may assume that the ice cream is always a sphere.
+          </p>
+        </statement>
+        <hint>
+          <p>
+            PICTURE OF THE PROBLEM HERE
+          </p>
+        </hint>
+        <hint>
+          <p>
+            The formula for the surface area of a sphere is <m>S=4\pi r^2</m>.
+          </p>
+        </hint>
+        <hint>
+          <p>
+            The formula for the volume of a sphere is <m>V=\dfrac{4}{3}\pi r^3</m>.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>\dfrac{dV}{dt}=-3\frac{\text{cm}^3}{\text{min}}</m>
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            An airplane flies <m>12\text{km}</m> directly overhead away from you at a speed of <m>800\frac{\text{km}}{\text{hr}}</m>.
+            At what rate is the angle of elevation between you and the plane changing when the horizontal distance between you and the plane is <m>9\text{km}</m>?
+          </p>
+        </statement>
+        <hint>
+          <p>
+            PICTURE OF THE PROBLEM HERE
+          </p>
+        </hint>
+        <hint>
+          <p>
+            SOHCAHTOA
+          </p>
+        </hint>
+        <hint>
+          <p>
+            Which trigonometric function relates the angle to the opposite and adjacent sides?
+          </p>
+        </hint>
+        <hint>
+          <p>
+            Rewrite any remaining trigonometric functions as their corresponding ratio of sides after taking the derivative.
+          </p>
+        </hint>
+        <answer>
+          <p>
+            <m>\dfrac{d\theta}{dt}=-\dfrac{128}{3}\frac{\text{rad}}{\text{hr}}</m>
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+      
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            Given the graph below, which of the following statements is true?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>f(x)</m> is differentiable at <m>x=-4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is differentiable at <m>x=-2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is differentiable at <m>x=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is differentiable at <m>x=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is differentiable at <m>x=2</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Given the function <m>f(x)=\begin{cases}\sqrt{1-x}-1 \amp x \le 0\\ x^2+\frac{1}{2}x \amp 0 \lt x \le 1 \\ \ln(x)+\frac{3}{2}x \amp x \gt 1\end{cases}</m>, which of the following statements is true?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>f(x)</m> is continuous at <m>x=0</m> but not <m>x=1</m>, <m>f(x)</m> is differentiable at <m>x=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is continuous at <m>x=1</m> but not <m>x=0</m>, <m>f(x)</m> is differentiable at <m>x=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is continuous at <m>x=0,1</m>, <m>f(x)</m> is differentiable at <m>x=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is continuous at <m>x=0,1</m>, <m>f(x)</m> is differentiable at <m>x=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(x)</m> is continuous and differentiable everywhere
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Find the derivative of the function <m>f(x)=5^{-x}\log(x)(2x-6)^{10}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\ln(5)5^{-x}\log(x)(2x-6)^{10}+\dfrac{5^{-x}(2x-6)^{10}}{x\ln(10)}+20\cdot 5^{-x}\log(x)(2x-6)^{9}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\ln(5)5^{-x}\log(x)(2x-6)^{10}+\dfrac{5^{-x}(2x-6)^{10}}{x\ln(10)}+20\cdot 5^{-x}\log(x)(2x-6)^{9}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\ln(5)5^{-x}\log(x)(2x-6)^{10}+\dfrac{5^{-x}(2x-6)^{10}}{\ln(10)}+20\cdot 5^{-x}\log(x)(2x-6)^{9}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\ln(5)5^{-x}\log(x)(2x-6)^{10}+\dfrac{5^{-x}(2x-6)^{10}}{\ln(10)}+20\cdot 5^{-x}\log(x)(2x-6)^{9}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-5^{-x}\log(x)(2x-6)^{10}+\dfrac{5^{-x}(2x-6)^{10}}{x}+20\cdot 5^{-x}\log(x)(2x-6)^{9}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            Find the derivative of the function <m>h(x)=\dfrac{\sec(x)+\csc(x)}{x^{\frac{2}{3}}+\cot(x)}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{(\sec(x)\tan(x)-\csc(x)\cot(x))(x^{\frac{2}{3}}+\cot(x))-(\sec(x)+\csc(x))(-\csc^2(x))}{(x^{\frac{2}{3}}+\cot(x))^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{(\sec(x)\tan(x)+\csc(x)\cot(x))(x^{\frac{2}{3}}+\cot(x))-(\sec(x)+\csc(x))(\frac{2}{3}x^{-\frac{1}{3}}-\csc^2(x))}{(x^{\frac{2}{3}}+\cot(x))^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{(\sec(x)\tan(x)-\csc(x)\cot(x))(x^{\frac{2}{3}}+\cot(x))-(\sec(x)+\csc(x))(\frac{2}{3}x^{-\frac{1}{3}}-\csc^2(x))}{(x^{\frac{2}{3}}+\cot(x))^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{(\sec(x)+\csc(x))(\frac{2}{3}x^{-\frac{1}{3}}-\csc^2(x))-(\sec(x)\tan(x)-\csc(x)\cot(x))(x^{\frac{2}{3}}+\cot(x))}{(x^{\frac{2}{3}}+\cot(x))^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{(\sec(x)-\csc(x))(\frac{2}{3}x^{-\frac{1}{3}}-\csc^2(x))-(\sec(x)\tan(x)-\csc(x)\cot(x))(x^{\frac{2}{3}}+\cot(x))}{(x^{\frac{2}{3}}+\cot(x))^2}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Find the derivative of the function <m>h(x)=\arctan(\cos(3x))</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{-3\sin(3x)}{1+\cos(3x)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{-3\sin(3x)}{1+\cos^2(3x)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{3\sin(3x)}{1+\cos^2(3x)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{-3\sin(3x)}{1+\sin^2(3x)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{-3\sin(3x)}{1+\sin(3x)}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="6"><!-- #6 -->
+        <statement>
+          <p>
+            Find <m>\dfrac{dy}{dx}</m> if <m>-3xy^3+2x^2y=e^{xy}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{dy}{dx}=\dfrac{e^{xy}y+3y^3-4xy}{-9xy^2+2x^2-xe^{xy}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{dy}{dx}=\dfrac{e^{xy}y-3y^3-4xy}{9xy^2-2x^2+xe^{xy}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{dy}{dx}=\dfrac{e^{xy}y-3y^3+4xy}{-9xy^2+2x^2-xe^{xy}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{dy}{dx}=\dfrac{e^{xy}y+3y^3-4xy}{-9xy^2+2x^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{dy}{dx}=\dfrac{e^{xy}y+3y^3-4xy}{-9xy^2-2x^2-xe^{xy}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="7"><!-- #7 -->
+        <statement>
+          <p>
+            Find the line tangent to the curve of the function <m>f(x)=\dfrac{\log_3(x)}{\sqrt{x}}</m> at <m>x=9</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>y-\dfrac{2}{3}=\dfrac{1-2\ln(3)}{27\ln(3)}(x-9)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y-\dfrac{2}{3}=\dfrac{1-\ln(3)}{27\ln(3)}(x-9)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y-\dfrac{2}{3}=\dfrac{1-\frac{1}{2}\log_3(9)}{27}(x-9)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y-\dfrac{2}{3}=\dfrac{\ln(3)-1}{27\ln(3)}(x-9)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y-\dfrac{2}{3}=\dfrac{1-\ln(3)}{27\ln(3)}(x-1)</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="8"><!-- #8 -->
+        <statement>
+          <p>
+            Use the table below to find <m>h'(2)</m> if <m>h(x)=\dfrac{g(f(x))}{f(x)}</m>.
+            <table>
+                <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                        <cell><m>x</m></cell>
+                        <cell><m>f(x)</m></cell>
+                        <cell><m>g(x)</m></cell>
+                        <cell><m>f'(x)</m></cell>
+                        <cell><m>g'(x)</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-2</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>1</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>-1</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>0</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>2</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>1</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell><m>2</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>-3</m></cell>
+                    </row>
+                </tabular>
+            </table>
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>h'(2)=-\dfrac{3}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(2)=-\dfrac{3}{4}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(2)=-\dfrac{3}{8}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(2)=-\dfrac{1}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>h'(2)=\dfrac{3}{8}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="9"><!-- #9 -->
+        <statement>
+          <p>
+            Find the <m>2026</m>th derivative of <m>f(t)=t\cos(t)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>f^{(2026)}(t)=t\sin(t)+2026\cos(t)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f^{(2026)}(t)=-t\cos(t)+2026\cos(t)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f^{(2026)}(t)=t\cos(t)+2026\sin(t)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f^{(2026)}(t)=-t\sin(t)-2026\cos(t)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f^{(2026)}(t)=-t\cos(t)-2026\sin(t)</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="10"><!-- #10 -->
+        <statement>
+          <p>
+            Find the derivative of <m>f(x)=\dfrac{5^x}{\log_4(1+2x)}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{5^x(\ln(5)\log_4(1+2x)+\frac{2}{(1+2x)\ln(4)})}{(\log_4(1+2x))^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{5^x((\ln(5)-1)\log_4(1+2x)-\frac{2}{(1+2x)\ln(4)})}{(\log_4(1+2x))^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{5^x\ln(5)}{\log_4(1+2x)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{5^x(\ln(5)\log_4(1+2x)-\frac{2}{(1+2x)\ln(4)})}{(\log_4(1+2x))^2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{5^x((\ln(5)-1)\log_4(1+2x)+\frac{2}{(1+2x)\ln(4)})}{(\log_4(1+2x))^2}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="11"><!-- #11 -->
+        <statement>
+          <p>
+            Find the derivative of <m>h(x)=x\tan(x)^{\sec(x)}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>x\tan(x)^{\sec(x)}\left(\sec(x)\tan(x)\ln(\tan(x))+\dfrac{\sec^3(x)}{\tan(x)}\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\tan(x)^{\sec(x)}\left(1+x(\sec(x)\tan(x)\ln(\tan(x))+\sec^2(x))\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\tan(x)^{\sec(x)}\left(1+x\sec(x)\tan(x)\ln(\tan(x))\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\tan(x)^{\sec(x)}\left(1+x(\sec(x)\tan(x)\ln(\tan(x))+\dfrac{\sec^3(x)}{\tan(x)})\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x\tan(x)^{\sec(x)}\left(1+x(\sec(x)\tan(x)\ln(\tan(x))+\sec^2(x))\right)</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="12"><!-- #12 -->
+        <statement>
+          <p>
+            Find the vector tangent to the parametric curve <m>\mathbf{r}(t)=\left\langle \dfrac{t^{-\frac{1}{3}}}{5^{-t}},\log_2(\sqrt{t}) \right\rangle</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\mathbf{r}'(t)=\left\langle 5^t\left(\dfrac{1}{3}t^{-\frac{4}{3}}+t^{-\frac{1}{3}}\ln(5)\right),\dfrac{1}{2t\ln(2)} \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}'(t)=\left\langle 5^tt^{-\frac{1}{3}}\ln(5),\dfrac{1}{2t\ln(2)} \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}'(t)=\left\langle -\dfrac{1}{3}t^{-\frac{4}{3}}5^t+t^{-\frac{1}{3}},\dfrac{1}{2t\ln(2)} \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}'(t)=\left\langle 5^t\left(-\dfrac{1}{3}t^{-\frac{4}{3}}+t^{-\frac{1}{3}}\ln(5)\right),\dfrac{1}{2t} \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\mathbf{r}'(t)=\left\langle 5^t\left(-\dfrac{1}{3}t^{-\frac{4}{3}}+t^{-\frac{1}{3}}\ln(5)\right),\dfrac{1}{2t\ln(2)} \right\rangle</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="13"><!-- #13 -->
+        <statement>
+          <p>
+            Find the <m>t</m>-values where the parametric curve <m>\mathbf{s}(t)=\langle \arctan(t^2),t^2e^{-2t}\rangle</m> has a horizontal tangent line.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>t=-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=-1,1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=2</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="14"><!-- #14 -->
+        <statement>
+          <p>
+            Find the <m>t</m>-values where the parametric curve <m>\mathbf{s}(t)=\langle (3-3t)^3(5t+5)^5,t^3-3t+5 \rangle</m> has a vertical tangent line.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>t=-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=\dfrac{1}{4}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=\pm\dfrac{1}{4}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=\pm 1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=1</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="15"><!-- #15 -->
+        <statement>
+          <p>
+            Find the equation of the line tangent to the parametric curve given by <m>\mathbf{s}(t)=\left\langle -3\sin\left(-\dfrac{t}{2}\right)+2,2\cos\left(\dfrac{t}{4}\right)-1 \right\rangle</m> for <m>0 \leq t \lt 2\pi</m>, at the point where the <m>y</m>-coordinate of <m>\mathbf{s}(t)</m> is zero.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>y=-\dfrac{\sqrt{3}}{3}x-\left(\dfrac{3}{2}+\dfrac{2\sqrt{3}}{3}\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=\dfrac{\sqrt{3}}{3}x-\left(\dfrac{3}{2}+\dfrac{2\sqrt{3}}{3}\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=-\dfrac{\sqrt{3}}{3}x+\left(\dfrac{3}{2}+\dfrac{2\sqrt{3}}{3}\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>y=\dfrac{\sqrt{3}}{3}x+\left(\dfrac{3}{2}+\dfrac{2\sqrt{3}}{3}\right)</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="16"><!-- #16 -->
+        <statement>
+          <p>
+            The displacement of a particle is modeled by <m>r(t)=\dfrac{1}{6}t^4+\dfrac{1}{3}t^3-12t^2+48t-60</m> inches, where <m>t\geq 0</m> is measured in seconds. Find the velocity of the particle when the acceleration of the particle is zero.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-3\frac{\text{in}}{\text{sec}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0\frac{\text{in}}{\text{sec}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>3\frac{\text{in}}{\text{sec}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>6\frac{\text{in}}{\text{sec}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>9\frac{\text{in}}{\text{sec}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="17"><!-- #17 -->
+        <statement>
+          <p>
+            The displacement of a particle is modeled by <m>r(t)=2t^3-3t^2-36t+45</m> centimeters, where <m>t\geq 0</m> is measured in seconds. Find the total distance traveled by the particle in the first <m>5</m> seconds of motion.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>76\text{cm}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>81\text{cm}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>117\text{cm}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>121\text{cm}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>157\text{cm}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="18"><!-- #18 -->
+        <statement>
+          <p>
+            The flight path of a bird is modeled by the parametric function <m>\mathbf{s}(t)=\left\langle 4t^2+\dfrac{1}{16}t\text{ mi},7te^{-t}\text{ mi} \right\rangle</m> where
+            <m>t\geq 0</m> is measured in hours. Find the acceleration vector of the bird when the velocity of the bird has an <m>x</m>-coordinate of <m>\dfrac{17}{16}\frac{\text{mi}}{\text{hr}}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\left\langle 8\frac{\text{mi}}{\text{hr}^2},\dfrac{105}{8}e^{-\frac{1}{8}}\frac{\text{mi}}{\text{hr}^2} \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left\langle 8\frac{\text{mi}}{\text{hr}^2},-\dfrac{111}{8}e^{-\frac{1}{8}}\frac{\text{mi}}{\text{hr}^2} \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left\langle 8\frac{\text{mi}}{\text{hr}^2},-\dfrac{105}{8}e^{-\frac{1}{8}}\frac{\text{mi}}{\text{hr}^2} \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left\langle 8\frac{\text{mi}}{\text{hr}^2},-\dfrac{105}{8}e^{-1}\frac{\text{mi}}{\text{hr}^2} \right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\left\langle 1\frac{\text{mi}}{\text{hr}^2},-\dfrac{105}{8}e^{-\frac{1}{8}}\frac{\text{mi}}{\text{hr}^2} \right\rangle</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="19"><!-- #19 -->
+        <statement>
+          <p>
+            A bacteria culture initially containing <m>2</m> million bacteria grows exponentially and is measured to contain <m>8</m> million cells after <m>1</m> hour.
+            What is the rate of change of the number of bacteria present after <m>90</m> minutes?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>8\ln(4)\frac{\text{million cells}}{\text{hour}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>16\frac{\text{million cells}}{\text{hour}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>16\ln(4)\frac{\text{million cells}}{\text{hour}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>2\ln(4)\frac{\text{million cells}}{\text{hour}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>8\frac{\text{million cells}}{\text{hour}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="20"><!-- #20 -->
+        <statement>
+          <p>
+            A sample of organic matter initially contains <m>20\text{mg}</m> of Carbon-<m>14</m>, and the amount of Carbon-<m>14</m> in the material decays proportionally to its size.
+            The half-life of Carbon-<m>14</m> is <m>5730</m> years. What is the age of the sample at the point where <m>30\%</m> of the Carbon-<m>14</m> in the sample remains?
+           </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>t=\dfrac{5730\ln(2)}{\ln(3)}\text{years}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=\dfrac{5730\ln(2)}{\ln\left(\frac{5}{2}\right)}\text{years}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=\dfrac{5730\ln(2)}{\ln\left(\frac{10}{3}\right)}\text{years}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=\dfrac{5730\ln\left(\frac{10}{3}\right)}{\ln(2)}\text{years}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=\dfrac{5730\ln\left(\frac{10}{3}\right)}{\ln\left(\frac{5}{2}\right)}\text{years}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="21"><!-- #21 -->
+        <statement>
+          <p>
+            Suppose that a cup of recently brewed tea is currently too hot to drink, being <m>190^\circ\text{F}</m> and that the temperature of the surrounding room is <m>70^\circ\text{F}</m>.
+            After half an hour, the temperature of the tea is measured to be at a temperature of <m>75^\circ\text{F}</m>. Assuming that the temperature of the tea is modeled using Newton's Law of Cooling,
+            after how long would the tea be ready to drink at a temperature of <m>120^\circ\text{F}</m>?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>t=\dfrac{\ln\left(\frac{5}{12}\right)}{2\ln\left(\frac{1}{24}\right)}\text{hours}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=\dfrac{\ln\left(\frac{1}{12}\right)}{2\ln\left(\frac{1}{24}\right)}\text{hours}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=-\dfrac{\ln\left(\frac{1}{24}\right)}{2\ln\left(6\right)}\text{hours}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=\dfrac{\ln\left(\frac{1}{6}\right)}{2\ln\left(\frac{1}{24}\right)}\text{hours}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>t=-\dfrac{\ln\left(\frac{1}{3}\right)}{2\ln\left(24\right)}\text{hours}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="22"><!-- #22 -->
+        <statement>
+          <p>
+            A <m>25\text{ft}</m> long ladder rests against a vertical wall. If the top of the ladder is sliding down at a rate of <m>3\frac{\text{ft}}{\text{s}}</m>, how fast is the angle
+            that the ladder makes with the ground changing with respect to time when the ladder is <m>7\text{ft}</m> from the ground?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{5}{6}\frac{\text{rad}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{3}{7}\frac{\text{rad}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{4}{5}\frac{\text{rad}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{24}{25}\frac{\text{rad}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{8}\frac{\text{rad}}{\text{s}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="23"><!-- #23 -->
+        <statement>
+          <p>
+            Water is being drained at a rate of <m>10\frac{\text{ft}^3}{\text{min}}</m> from a <m>20\text{ft}</m> long trough whose cross-sections are isosceles triangles, with the
+            length of its horizontal side being <m>8\text{ft}</m> and the length of its diagonal sides being <m>5\text{ft}</m>. At what rate is the water level changing when the water
+            level is <m>6\text{in}</m> from the bottom of the trough?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{3}{16}\frac{\text{ft}}{\text{min}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{3}{8}\frac{\text{ft}}{\text{min}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{2}\frac{\text{ft}}{\text{min}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{2}{5}\frac{\text{ft}}{\text{min}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{4}\frac{\text{ft}}{\text{min}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="24"><!-- #24 -->
+        <statement>
+          <p>
+            A <m>6\text{ft}</m> tall person walks away from a <m>12\text{ft}</m> tall lamppost at a speed of <m>5\frac{\text{ft}}{\text{s}}</m>. How fast is the length of their shadow
+            changing when they are <m>5\text{ft}</m> from the lamppost?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>10\frac{\text{ft}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>3\frac{\text{ft}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>5\frac{\text{ft}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>1\frac{\text{ft}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>2.5\frac{\text{ft}}{\text{s}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="25"><!-- #25 -->
+        <statement>
+          <p>
+            Two cars depart from the same starting location. One of the cars travels north at a speed of <m>45\text{mph}</m>. The other car travels west at a speed of <m>60\text{mph}</m>.
+            At what rate is the distance between the cars changing <m>4</m> hours after the cars depart?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>45</m> mph
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>60</m> mph
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>75</m> mph
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>90</m> mph
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>105</m> mph
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+            <exercise number="26"><!-- #26 -->
+        <statement>
+          <p>
+            An ice cube is melting at a rate of <m>150\frac{\text{cm}^3}{\text{s}}</m>. At what rate is the side length of the ice cube changing when the surface area of the ice cube is
+            <m>150\text{cm}^2</m>? You may assume that the ice cube always remains a cube.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{3}{2}\frac{\text{cm}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-2\frac{\text{cm}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{2}{3}\frac{\text{cm}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{2}\frac{\text{cm}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-3\frac{\text{cm}}{\text{s}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="27"><!-- #27 -->
+        <statement>
+          <p>
+            A person is standing a distance of <m>600\text{m}</m> from the launchpad of a rocket. The rocket takes off and begins rising at a speed of <m>80\frac{\text{m}}{\text{s}}</m>.
+            At what rate is the angle of elevation between the person and the rocket changing when the vertical distance between the launchpad and the rocket is <m>800\text{m}</m>?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{3}{25}\frac{\text{rad}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{125}\frac{\text{rad}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{16}{25}\frac{\text{rad}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{6}{125}\frac{\text{rad}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{4}\frac{\text{rad}}{\text{s}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+</pretext>
