@@ -90,7 +90,7 @@
         <statement>
           <p>
             Water is being drained from an inverted conical tank with a radius of <m>20\text{m}</m> and a height of <m>16\text{m}</m>.
-            If the water level is falling at a rate of <m>2\frac{\text{m}}{\text{min}}</m> when the water level is <m>8\text{m}</m> from the bottom of the tank,
+            If the water level is falling at a rate of <m>2\frac{\text{m}}{\text{min}}</m> when the water depth is <m>8\text{m}</m>,
             at what rate is the water being drained from the tank?
           </p>
         </statement>
@@ -208,7 +208,7 @@
       <exercise number="5"><!-- #5 -->
         <statement>
           <p>
-            An airplane flies <m>12\text{km}</m> directly overhead away from you at a speed of <m>800\frac{\text{km}}{\text{hr}}</m>.
+            An airplane flies horizontally at a constant altitude of <m>12\text{km}</m> directly overhead. It passes directly overhead and continues at a speed of <m>800\frac{\text{km}}{\text{hr}}</m>.
             At what rate is the angle of elevation between you and the plane changing when the horizontal distance between you and the plane is <m>9\text{km}</m>?
           </p>
         </statement>
@@ -291,22 +291,22 @@
             <ol marker="(A)">
               <li>
                 <p>
-                  <m>f(x)</m> is continuous at <m>x=0</m> but not <m>x=1</m>, <m>f(x)</m> is differentiable at <m>x=0</m>
+                  <m>f(x)</m> is continuous at <m>x=0</m> but not <m>x=1</m>; <m>f(x)</m> is differentiable at <m>x=0</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m>f(x)</m> is continuous at <m>x=1</m> but not <m>x=0</m>, <m>f(x)</m> is differentiable at <m>x=1</m>
+                  <m>f(x)</m> is continuous at <m>x=1</m> but not <m>x=0</m>; <m>f(x)</m> is differentiable at <m>x=1</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m>f(x)</m> is continuous at <m>x=0,1</m>, <m>f(x)</m> is differentiable at <m>x=0</m>
+                  <m>f(x)</m> is continuous at <m>x=0,1</m>; <m>f(x)</m> is differentiable at <m>x=0</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m>f(x)</m> is continuous at <m>x=0,1</m>, <m>f(x)</m> is differentiable at <m>x=1</m>
+                  <m>f(x)</m> is continuous at <m>x=0,1</m>; <m>f(x)</m> is differentiable at <m>x=1</m>
                 </p>
               </li>
               <li>
