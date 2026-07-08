@@ -8,7 +8,7 @@
     <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
   </docinfo>
 
-<article xml:id="week1" label="5837"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+<article xml:id="week1" label="0001"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
   <title>MATH 151 Hands-On, Grades Up</title>
   <introduction>
     <p>
@@ -120,7 +120,7 @@
         <statement>
           <p>
             Let <m>\mathbf{a}</m> and <m>\mathbf{b}</m> be given in the graph below.
-            <image source="output/h1fig1" width="60%">
+            <image source="h1/images/h1fig1" width="60%">
               <shortdescription>Graph of two vectors plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
@@ -135,7 +135,7 @@
         </statement>
         <answer>
           <p>
-            <image source="output/h1fig2" width="60%">
+            <image source="h1/images/h1fig2" width="60%">
               <shortdescription>Graph of several plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
@@ -204,7 +204,7 @@
         <introduction>
           <p>
             Two forces act on an object, as shown in the picture below.
-            <image source="output/h1fig4" width="80%">
+            <image source="h1/images/h1fig4" width="80%">
               <shortdescription>Two vectors pointing in different directions. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>
@@ -256,7 +256,7 @@
           </statement>
           <answer>
           <p>
-            <image source="output/h1fig3" width="80%">
+            <image source="h1/images/h1fig3" width="80%">
               <shortdescription>A mass suspended at rest by two identical, rigid, massless strings. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
               <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                 <p>

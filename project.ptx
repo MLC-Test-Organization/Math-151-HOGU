@@ -16,8 +16,8 @@
     <target name="Math151HOGU9" source="Math151HOGU9.ptx" format="html" deploy-dir="Math151HOGU9" />
     <target name="Math151HOGU10" source="Math151HOGU10.ptx" format="html" deploy-dir="Math151HOGU10" />
     <target name="Math151HOGU11" source="Math151HOGU11.ptx" format="html" deploy-dir="Math151HOGU11" />
-    <target name="Math151HOGU12Part1" source="Math151HOGU12Part1.ptx" format="html" deploy-dir="Math151HOGU12Part1" />
-    <target name="Math151HOGU12Part2" source="Math151HOGU12Part2.ptx" format="html" deploy-dir="Math151HOGU12Part2" />
+    <target name="Math151HOGU12" source="Math151HOGU12.ptx" format="html" deploy-dir="Math151HOGU12" />
+    <target name="Math151HOGU13" source="Math151HOGU13.ptx" format="html" deploy-dir="Math151HOGU13" />
     <target name="print" format="pdf" />
   </targets>
 </project>

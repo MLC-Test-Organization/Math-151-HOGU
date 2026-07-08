@@ -8,7 +8,7 @@
     <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
   </docinfo>
 
-<article xml:id="week6" label="7492"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+<article xml:id="week6" label="0006"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
   <title>MATH 151 Hands-On, Grades Up</title>
   <introduction>
     <p>
@@ -33,7 +33,7 @@
               <ol marker="(A)">
                 <li>
                   <p>
-                    <image source="output/h6fig1" width="100%">
+                    <image source="h6/images/h6fig1" width="100%">
                       <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
@@ -46,7 +46,7 @@
                 </li>
                 <li>
                   <p>
-                    <image source="output/h6fig2" width="100%">
+                    <image source="h6/images/h6fig2" width="100%">
                       <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
@@ -59,7 +59,7 @@
                 </li>
                 <li>
                   <p>
-                    <image source="output/h6fig3" width="100%">
+                    <image source="h6/images/h6fig3" width="100%">
                       <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
@@ -77,7 +77,7 @@
               <ol marker="(D)">
                 <li>
                   <p>
-                    <image source="output/h6fig4" width="100%">
+                    <image source="h6/images/h6fig4" width="100%">
                       <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
@@ -90,7 +90,7 @@
                 </li>
                 <li>
                   <p>
-                    <image source="output/h6fig5" width="100%">
+                    <image source="h6/images/h6fig5" width="100%">
                       <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
@@ -103,7 +103,7 @@
                 </li>
                 <li>
                   <p>
-                    <image source="output/h6fig6" width="100%">
+                    <image source="h6/images/h6fig6" width="100%">
                       <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
@@ -121,7 +121,7 @@
               <ol marker="(G)">
                 <li>
                   <p>
-                    <image source="output/h6fig7" width="100%">
+                    <image source="h6/images/h6fig7" width="100%">
                       <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
@@ -134,7 +134,7 @@
                 </li>
                 <li>
                   <p>
-                    <image source="output/h6fig8" width="100%">
+                    <image source="h6/images/h6fig8" width="100%">
                       <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
@@ -147,7 +147,7 @@
                 </li>
                 <li>
                   <p>
-                    <image source="output/h6fig9" width="100%">
+                    <image source="h6/images/h6fig9" width="100%">
                       <shortdescription>Graph of a function plotted on coordinate axes. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
