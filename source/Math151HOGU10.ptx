@@ -37,12 +37,12 @@
                 </li>
                 <li>
                   <p>
-                    For Riemann sums, <m>\lim_{n\rightarrow\infty}L_n=\lim_{n\rightarrow\infty}R_n=\lim_{n\rightarrow\infty}M_n</m>.
+                    For Riemann sums, <m>\displaystyle \lim_{n\rightarrow\infty}L_n=\lim_{n\rightarrow\infty}R_n=\lim_{n\rightarrow\infty}M_n</m>.
                   </p>
                 </li>
                 <li>
                   <p>
-                    The integral <m>\int_{a}^{b}f(x)\ dx</m> represents the total area between the function <m>f(x)</m> and the <m>x</m>-axis.
+                    The integral <m>\displaystyle \int_{a}^{b}f(x)\ dx</m> represents the total area between the function <m>f(x)</m> and the <m>x</m>-axis.
                   </p>
                 </li>
                 <li>
@@ -52,12 +52,12 @@
                 </li>
                 <li>
                   <p>
-                    To find the total distance traveled by a particle at time <m>t</m>, we find the net area under the velocity vs. time curve from time <m>0</m> to time <m>t</m>. 
+                    To find the total distance traveled by a particle at time <m>t</m>, we find the net area under the velocity vs. time curve from time <m>0</m> to time <m>t</m>.
                   </p>
                 </li>
                 <li>
                   <p>
-                    The formula for a Right Riemann sum of a function <m>f(x)</m> on the interval <m>[a,b]</m> is given by <m>R_n=\sum_{i=1}^{n}f\left(x_i^*\right)\delta x = \sum_{i=1}^{n}f\left(a+i\left(\dfrac{b-a}{n}\right)\right)\left(\dfrac{b-a}{n}\right)</m>.
+                    The formula for a Right Riemann sum of a function <m>f(x)</m> on the interval <m>[a,b]</m> is given by <m>\displaystyle R_n=\sum_{i=1}^{n}f\left(x_i^*\right)\Delta x = \sum_{i=1}^{n}f\left(a+i\left(\dfrac{b-a}{n}\right)\right)\left(\dfrac{b-a}{n}\right)</m>.
                   </p>
                 </li>
                 <li>
@@ -118,66 +118,52 @@
       <exercise number="2"><!-- #2 -->
         <introduction>
           <p>
-            
+            Consider the following table of velocity and time values for a particle.
+              <table>
+                <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>7</m></cell>
+                        <cell><m>10</m></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell><m>v(t)</m></cell>
+                        <cell><m>-3</m></cell>
+                        <cell><m>-1</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>5</m></cell>
+                        <cell><m>9</m></cell>
+                    </row>
+                </tabular>
+            </table>
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Approximate the displacement of the particle on the interval from <m>t=1</m> to <m>t=7</m> using left endpoints.
             </p>
           </statement>
           <answer>
             <p>
-              
+              Displacement <m>= 10</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Approximate the total distance traveled by the particle on the interval from <m>t=1</m> to <m>t=7</m> using left endpoints.
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              Total distance <m>= 14</m>
             </p>
           </answer>
         </task>
@@ -185,66 +171,30 @@
       <exercise number="3"><!-- #3 -->
         <introduction>
           <p>
-            
+            Use the formulas for left and right Riemann sums to answer the following questions.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Approximate the integral of <m>f(x)=x^2+7x+10</m> using left endpoints with <m>n=3</m> rectangles of equal width on the interval <m>[-2,1]</m>. State whether your answer is an overapproximation or an underapproximation.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\displaystyle \int_{-2}^{1}f(x)\ dx \approx 14</m>, underapproximation
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Approximate the integral of <m>g(x)=-x^2+4x</m> using right endpoints with <m>n=4</m> rectangles of equal width on the interval <m>[2,10]</m>. State whether your answer is an overapproximation or an underapproximation.
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              <m>\displaystyle \int_{2}^{10}f(x)\ dx \approx -208</m>, underapproximation
             </p>
           </answer>
         </task>
@@ -252,78 +202,30 @@
       <exercise number="4"><!-- #4 -->
         <introduction>
           <p>
-            
+            Using integral rules, solve the following problems.
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              Given <m>\displaystyle \int_{1}^{-3}f(x)\ dx = 2</m>, <m>\displaystyle \int_{-3}^{5}f(x)\ dx = 7</m>, and <m>\displaystyle \int_{5}^{7}f(x)\ dx = -4</m>, find <m>\displaystyle \int_{1}^{7}f(x)\ dx</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\displaystyle \int_{1}^{7}f(x)\ dx=5</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              Given <m>\displaystyle \int_{2}^{-4}f(x)\ dx = -3</m>, <m>\displaystyle \int_{-4}^{3}f(x)\ dx = 9</m>, <m>\displaystyle \int_{3}^{6}f(x)\ dx = 5</m>, and <m>\displaystyle \int_{2}^{6}g(x)\ dx = 2</m>, find <m>\displaystyle \int_{2}^{6}(2f(x)-3g(x))\ dx</m>.
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              <m>\displaystyle \int_{2}^{6}(2f(x)-3g(x))\ dx = 16</m>
             </p>
           </answer>
         </task>
@@ -331,190 +233,55 @@
         <exercise number="5"><!-- #5 -->
         <introduction>
           <p>
-            
+            Using properties of the definite integral, and the graph below, evaluate the following definite integrals.
+            IMAGE
           </p>
         </introduction>
         <task>
           <statement>
             <p>
-              
+              <m>\displaystyle \int_{0}^{A}f(x)\ dx</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\displaystyle \int_{0}^{A}f(x)\ dx=25</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>\displaystyle \int_{A}^{C}f(x)\ dx</m>
             </p>
           </statement>
           <answer>
             <p>
-              
+              <m>\displaystyle \int_{A}^{C}f(x)\ dx=15</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>\displaystyle \int_{D}^{A}f(x)\ dx</m>
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
-        <exercise number="6"><!-- #6 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              <m>\displaystyle \int_{D}^{A}f(x)\ dx=-5</m>
             </p>
           </answer>
         </task>
         <task>
           <statement>
             <p>
-              
+              <m>\displaystyle \int_{C}^{C}f(x)\ dx</m>
             </p>
           </statement>
           <answer>
             <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
-        <exercise number="7"><!-- #7 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
-        <exercise number="8"><!-- #8 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        </exercise>
-        <exercise number="9"><!-- #9 -->
-        <introduction>
-          <p>
-            
-          </p>
-        </introduction>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
-            </p>
-          </answer>
-        </task>
-        <task>
-          <statement>
-            <p>
-              
-            </p>
-          </statement>
-          <answer>
-            <p>
-              
+              <m>\displaystyle \int_{C}^{C}f(x)\ dx=0</m>
             </p>
           </answer>
         </task>
@@ -527,39 +294,39 @@
       <exercise number="1"><!-- #1 -->
         <statement>
           <p>
-            
+            Approximate <m>\sqrt[3]{124.25}</m> using linear approximation or differentials.
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>4.9</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>4.95</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>4.99</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>4.999</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>5.01</m>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (C)
           </p>
         </answer>
       </exercise>
@@ -567,39 +334,39 @@
       <exercise number="2"><!-- #2 -->
         <statement>
           <p>
-            
+            The radius of a sphere was measured to be <m>0.5</m> ft with a maximum error in measurement of <m>0.5</m> inches. Use differentials to estimate the percentage error in the calculated volume of the sphere.
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>12.5\%</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>15\%</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>25\%</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>30\%</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>50\%</m>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (C)
           </p>
         </answer>
       </exercise>
@@ -607,39 +374,39 @@
       <exercise number="3"><!-- #3 -->
         <statement>
           <p>
-            
+            Find the critical number(s) of the function <m>f(x)=-3x^{\frac{1}{3}}(1-x^2)^4</m>.
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>0</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>\pm\dfrac{1}{5}</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>0,\pm 1</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>\pm\dfrac{1}{5},\pm 1</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>0, \pm\dfrac{1}{5},\pm 1</m>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (E)
           </p>
         </answer>
       </exercise>
@@ -647,39 +414,39 @@
       <exercise number="4"><!-- #4 -->
         <statement>
           <p>
-            
+            Find the critical numbers of the function <m>g(t)=|t^2-2t-3|</m>.
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  <m>1</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>-1,1</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>-1,3</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>-1,1,3</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  <m>-1,0,1,3</m>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (D)
           </p>
         </answer>
       </exercise>
@@ -687,39 +454,12 @@
       <exercise number="5"><!-- #5 -->
         <statement>
           <p>
-            
+            Find the relative extrema of the function <m>g(t)=t^3+3t^2-24t-40</m>.
           </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
         </statement>
         <answer>
           <p>
-            
+            Relative maximum at <m>(-4,40)</m>, relative minimum at <m>(2,-68)</m>
           </p>
         </answer>
       </exercise>
@@ -727,39 +467,12 @@
       <exercise number="6"><!-- #6 -->
         <statement>
           <p>
-            
+            Find the absolute extrema of the function <m>f(x)=x^4-2x^3-2x^2+6</m> on the interval <m>(0,3]</m>.
           </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
         </statement>
         <answer>
           <p>
-            
+            Absolute maximum at <m>(3,15)</m>, absolute minimum at <m>(2,-2)</m>
           </p>
         </answer>
       </exercise>
@@ -767,39 +480,12 @@
       <exercise number="7"><!-- #7 -->
         <statement>
           <p>
-            
+            Identify the intervals where the function <m>h(x)=\begin{cases}\ln\left(x^2+1\right) \amp x \lt 0\\ e^{-x^3+2x^2}-2 \amp x \geq 0 \end{cases}</m> is increasing and decreasing, as well as the <m>x</m>-coordinates of any local extrema.
           </p>
-            <ol marker="(A)">
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-              <li>
-                <p>
-                  <m></m>
-                </p>
-              </li>
-            </ol>
         </statement>
         <answer>
           <p>
-            
+            Increasing on <m>\left(0,\dfrac{4}{3}\right)</m>. Decreasing on <m>(-\infty,0)\cup\left(\dfrac{4}{3},\infty\right)</m>. Local maximum at <m>x=\dfrac{4}{3}</m>. Local minimum at <m>x=0</m>.
           </p>
         </answer>
       </exercise>
@@ -807,39 +493,649 @@
       <exercise number="8"><!-- #8 -->
         <statement>
           <p>
-            
+            Identify the intervals where the function <m>f(x)=\dfrac{1}{4}x^4-x^3-12x^2+15x+100</m> is concave up and concave down, as well as the <m>x</m>-coordinates of any inflection point(s).
+          </p>
+        </statement>
+        <answer>
+          <p>
+            Concave up on <m>(-\infty,-2)\cup(4,\infty)</m>. Concave down on <m>(-2,4)</m>. Inflection points at <m>x=-2,4</m>.
+          </p>
+        </answer>
+      </exercise>
+      <p>
+        Use the graph below of <m>\mathbf{f'(x)}</m> to answer questions <m>9</m> and <m>10</m>.
+        GRAPH
+      </p>
+      <exercise number="9"><!-- #9 -->
+        <statement>
+          <p>
+            On what intervals if <m>f(x)</m> increasing/decreasing?
           </p>
             <ol marker="(A)">
               <li>
                 <p>
-                  <m></m>
+                  Increasing on <m>(-\infty,A),(H,J)</m>, Decreasing on <m>(A,D),(D,H),(J,\infty)</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  Increasing on <m>(B,D),(F,I)</m>, Decreasing on <m>(-\infty,B),(D,F),(I,\infty)</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  Increasing on <m>(-\infty,B),(D,F),(I,\infty)</m>, Decreasing on <m>(B,D),(F,I)</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  Increasing on <m>(C,E),(G,\infty)</m>, Decreasing on <m>(-\infty,C),(E,G)</m>
                 </p>
               </li>
               <li>
                 <p>
-                  <m></m>
+                  Increasing on <m>(A,D),(D,H),(J,\infty)</m>, Decreasing on <m>(-\infty,A),(H,J)</m>
                 </p>
               </li>
             </ol>
         </statement>
         <answer>
           <p>
-            
+            (E)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="10"><!-- #10 -->
+        <statement>
+          <p>
+            Identify the <m>x</m>-coordinates of any inflection point(s) of <m>f(x)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>x=A,D,H,J</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=B,D,F,I</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=B,F,I</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=C,E,G</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=A,H,J</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="11"><!-- #11 -->
+        <statement>
+          <p>
+            Sketch a possible graph of a continuous function, <m>f(x)</m>, that satisfies the following properties simultaneously.
+          </p>
+            <ul>
+              <li>
+                <p>
+                  <m>f'(x)\lt 0</m> on <m>(-5,1)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f'(x)\gt 0</m> on <m>(-\infty,-5)\cup(1,\infty)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f''(x)\lt 0</m> on <m>(-\infty,-2)\cup(6,\infty)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f''(x)\gt 0</m> on <m>(-2,6)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>f(-8)=1</m>, <m>f(1)=3</m>, <m>f(6)=6</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\displaystyle \lim_{x\rightarrow -\infty}f(x)=-\infty</m>, <m>\displaystyle \lim_{x\rightarrow \infty}f(x)=8</m>
+                </p>
+              </li>
+            </ul>
+            <p>
+              GRAPH
+            </p>
+        </statement>
+        <answer>
+          <p>
+            GRAPH
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="12"><!-- #12 -->
+        <statement>
+          <p>
+            What are the value(s) of <m>c</m> that satisfy the conclusion of Rolle's Theorem for the function <m>f(x)=\arcsin(\sin(2x))</m> on the interval <m>\left[0,\dfrac{\pi}{2}\right]</m>?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>c=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c=\dfrac{\pi}{6}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=\dfrac{\pi}{4}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=\dfrac{\pi}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Rolle's Theorem doesn't apply.
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="13"><!-- #13 -->
+        <statement>
+          <p>
+            What are the value(s) of <m>c</m> that satisfy the conclusion of the Mean Value Theorem for the function <m>g(x)=\sqrt{2x^2-1}</m> on the interval <m>[1,5]</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>c=\dfrac{3\sqrt{2}}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c=\pm\dfrac{3\sqrt{2}}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c=1,5</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c=1,\dfrac{3\sqrt{2}}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  The Mean Value Theorem doesn't apply.
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="14"><!-- #14 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 0}\dfrac{\sin(x)(e^x-1)}{x}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>e</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\infty</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="15"><!-- #15 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow \infty}\left(1-\dfrac{2}{x}\right)^{\frac{x}{2}}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>e^{-1}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>e</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>e^2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>e^{-2}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="16"><!-- #16 -->
+        <statement>
+          <p>
+            A cardboard box with an open top is construction by cutting squares out of the corners of a sheet of cardboard and folding the sides upward. The cardboard sheet is <m>9</m> inches long and <m>24</m> inches wide. What is the maximum volume of the box?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>108\text{ in}^3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>200\text{ in}^3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>216\text{ in}^3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>300\text{ in}^3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>486\text{ in}^3</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="17"><!-- #17 -->
+        <statement>
+          <p>
+            A poster is to be printed with <m>1</m>-inch margins on the top and bottom, and <m>2</m>-inch margins on both sides. The total area of the poster is <m>800\text{ in}^2</m>. Find the dimensions of the poster which maximize the area of the printed region.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>16\text{ in}\times50\text{ in}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>50\text{ in}\times16\text{ in}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>10\text{ in}\times80\text{ in}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>40\text{ in}\times20\text{ in}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>20\text{ in}\times40\text{ in}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="18"><!-- #18 -->
+        <statement>
+          <p>
+            Find the most general antiderivative of the function <m>f(x)=\dfrac{x^{\frac{3}{2}}+x^3}{\sqrt{x}}-\sec(x)\tan(x)+\dfrac{1}{1+x^2}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{1}{2}x^2+\dfrac{2}{7}x^{\frac{7}{2}}-\sec(x)+\arctan(x)+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{2}x^2+\dfrac{2}{7}x^{\frac{7}{2}}-\sec(x)+\arccos(x)+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2}{3}x^{\frac{3}{2}}+\dfrac{1}{3}x^{3}-\csc(x)+\arctan(x)+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{2}x^2+\dfrac{2}{7}x^{\frac{7}{2}}-\csc(x)+\arcsin(x)+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{2}x^2+\dfrac{5}{2}x^{\frac{3}{2}}-\csc(x)+\arccos(x)+C</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="19"><!-- #19 -->
+        <statement>
+          <p>
+            Find <m>g(x)</m> if <m>g'(x)=\dfrac{2}{x}+3^x-\sqrt[4]{x}</m> and <m>g(1)=\dfrac{3}{\ln(3)}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>2\ln|x|+3^x\ln(3)-\dfrac{1}{4}x^{-\frac{3}{4}}+\dfrac{1}{4}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>2\ln|x|+\dfrac{3^x}{\ln(3)}-\dfrac{1}{4}x^{-\frac{3}{4}}+\dfrac{3}{\ln(3)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>2\ln|x|+3^x\ln(3)-\dfrac{4}{5}x^{-\frac{5}{4}}-3\ln(3)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>2\ln|x|+3^x\ln(3)-\dfrac{4}{5}x^{-\frac{5}{4}}+\dfrac{3}{\ln(3)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>2\ln|x|+\dfrac{3^x}{\ln(3)}-\dfrac{4}{5}x^{\frac{5}{4}}+\dfrac{4}{5}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="20"><!-- #20 -->
+        <statement>
+          <p>
+            Suppose that a particle moves subject to an acceleration vector <m>\vec{a}(t)=\langle 2-e^t,-10t \rangle</m>, where <m>\vec{v}(0)=\langle 5,-1 \rangle</m> represents the velocity vector at time <m>t=0</m> and <m>\vec{s}(0)=\langle -1,e \rangle</m> represents the displacement vector at time <m>t=0</m>. Determine the displacement vector of the particle, <m>\vec{s}(t)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\vec{s}(t)=\left\langle t^2-e^t+6t,-\dfrac{5}{3}t^3-t+e\right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\vec{s}(t)=\left\langle t^2-e^t+6t,-\dfrac{5}{3}t^3-t-e\right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\vec{s}(t)=\left\langle t^2-e^t+5t-1,-\dfrac{5}{3}t^3-t+e\right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\vec{s}(t)=\left\langle t^2-e^t+6t+1,-\dfrac{5}{3}t^3-t\right\rangle</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\vec{s}(t)=\left\langle t^2-e^t+5t-1,-\dfrac{5}{3}t^3-t+e\right\rangle</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="21"><!-- #21 -->
+        <statement>
+          <p>
+            Set up the limit to find the integral of <m>g(x)=\sqrt{x+3}</m> on the interval <m>[-1,2]</m> using a right Riemann sum.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\displaystyle \lim_{n\rightarrow\infty}\sum_{i=0}^{n-1}\dfrac{3}{i}\sqrt{-1+\dfrac{3i}{n}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\displaystyle \lim_{n\rightarrow\infty}\sum_{i=1}^{n}\dfrac{3}{i}\sqrt{-1+\dfrac{3i}{n}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\displaystyle \lim_{n\rightarrow\infty}\sum_{i=0}^{n-1}\dfrac{3}{i}\sqrt{2+\dfrac{3i}{n}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\displaystyle \lim_{n\rightarrow\infty}\sum_{i=1}^{n}\dfrac{3}{i}\sqrt{3+\dfrac{3i}{n}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\displaystyle \lim_{n\rightarrow\infty}\sum_{i=1}^{n}\dfrac{3}{i}\sqrt{2+\dfrac{3i}{n}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="22"><!-- #22 -->
+        <statement>
+          <p>
+            Estimate the net area under the graph of <m>f(x)=x^2-5x+6</m> on the interval <m>[0,4]</m> using <m>4</m> rectangles of equal width and midpoints. 
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>4</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>5</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>5.5</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>6</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>8</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="23"><!-- #23 -->
+        <statement>
+          <p>
+            Given <m>\displaystyle \int_{-2}^{5}f(x)\ dx=3</m>, <m>\displaystyle \int_{2}^{-2}f(x)\ dx=-4</m>, <m>\displaystyle \int_{2}^{3}f(x)\ dx=5</m>, and <m>\displaystyle \int_{3}^{5}g(x)\ dx=1</m>, find <m>\displaystyle \int_{2}^{5}(f(x)+5g(x))\ dx</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>6</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-6</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-1</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+      <exercise number="24"><!-- #24 -->
+        <statement>
+          <p>
+            Use the graph below to evaluate <m>\displaystyle \int_{-9}^{8}f(x)\ dx</m>. You may assume that the region in the middle from <m>x=-2</m> to <m>x=2</m> is a semicircle, and that all other regions are linear.
+            GRAPH
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{93}{4}+2\pi</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{75}{4}+2\pi</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{93}{4}+4\pi</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{75}{4}+2\pi</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>26+4\pi</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
           </p>
         </answer>
       </exercise>
