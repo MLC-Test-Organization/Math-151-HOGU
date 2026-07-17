@@ -1,0 +1,890 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="week11" label="0011"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH 151 Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+  <worksheet>
+    <title> Session #10 (Sections 5.3, 5.4, &amp; 5.5)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
+    </p>
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise><!-- #1 -->
+        <introduction>
+          <p>
+            All of the integrals below can be evaluated using <m>u</m>-substitution. Identify the correct choice of <m>u</m> and <m>du</m> for the substitution rule in each of the following integrals.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int\left(3x-1\right)^{10}\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>u=3x-1</m>, <m>du=3\ dx</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int\sqrt{5x-7}\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>u=5x-7</m>, <m>du=5\ dx</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int\dfrac{1}{2x+3}\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>u=2x+3</m>, <m>du=2\ dx</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int 4xe^{x^2-3}\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>u=x^2-3</m>, <m>du=2x\ dx</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int 6x\sin\left(3x^2\right)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>u=3x^2</m>, <m>du=6x\ dx</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int \sin^2(x)\cos(x)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>u=\sin(x)</m>, <m>du=\cos(x)\ dx</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int \left(x^2-2x\right)\ln\left(x^3-3x^2\right)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y=x^3-3x^2</m>, <m>du=3x^2-6x\ dx</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int \dfrac{3x}{\sqrt{9-x^2}}\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>u=9-x^2</m>, <m>du=-2x\ dx</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+    </paragraphs>
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+      <exercise number="1"><!-- #1 -->
+        <introduction>
+          <p>
+            Use FTC1 to evaluate the following expressions. If FTC1 doesn't apply, then state so.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \dfrac{d}{dx}\int_{1}^{x}\ln(t)\ dt</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\ln(x)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \dfrac{d}{dx}\int_{-1}^{x}\sqrt{t-5}\ dt</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              FTC1 does not apply since <m>\sqrt{t-5}</m> is not continuous on <m>(-1,x)</m>.
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \dfrac{d}{dx}\int_{-2}^{x}\tan(t)\ dt</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\tan(x)</m>, <m>x \lt -\dfrac{\pi}{2}</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="2"><!-- #2 -->
+        <introduction>
+          <p>
+            Use FTC2 to evaluate the following expressions. If FTC2 doesn't apply, then state so.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int_{-1}^{2}\dfrac{1}{1+t^2}\ dt</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\arctan(2)+\dfrac{\pi}{4}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int_{-\frac{\pi}{4}}^{\frac{\pi}{3}}\sec^2(t)\ dt</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\sqrt{3}+1</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int_{-2}^{2}\dfrac{1}{t}\ dt</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              FTC2 doesn't apply since <m>\dfrac{1}{t}</m> is not continuous on <m>(-2,2)</m>.
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="3"><!-- #3 -->
+        <introduction>
+          <p>
+            Evaluate the indefinite integrals below.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int\left(x^2+3x+2\right)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{x^3}{3}+\dfrac{3x^2}{2}+2x+C</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int\left(\dfrac{5}{x^{\frac{1}{3}}}+7x^{\frac{3}{2}}\right)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{15}{2}x^{\frac{2}{3}}+\dfrac{14}{5}x^{\frac{5}{2}}+C</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int\left(\dfrac{2x^2+x+1}{x}\right)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>x^2+x+\ln|x|+C</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int\left(\sin(x)+3\cos(x)+4\right)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\cos(x)+3\sin(x)+4x+C</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int\left(e^x+5x^4-\sqrt{x}\right)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>e^x+x^5-\dfrac{2}{3}x^{\frac{3}{2}}+C</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int\left(\dfrac{x^3+x+1}{\sqrt{x}}\right)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{2}{7}x^{\frac{7}{2}}+\dfrac{2}{3}x^{\frac{3}{2}}+2x^{\frac{1}{2}}+C</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="4"><!-- #4 -->
+        <introduction>
+          <p>
+            Use the Net Change Theorem to evaluate the following definite integrals.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int_{0}^{2}\left(3x^2+4x\right)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>16</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int_{1}^{4}\left(\dfrac{6}{\sqrt{x}}-2x^{\frac{3}{2}}\right)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\dfrac{64}{5}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int_{0}^{\frac{\pi}{2}}\left(\cos(x)+2\right)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>1+\pi</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+        <exercise number="5"><!-- #5 -->
+        <introduction>
+          <p>
+            Suppose that an acceleration function is given by <m>a(t)=6t+3</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find the velocity function <m>v(t)</m> if <m>v(0)=2</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>v(t)=3t^2+3t+2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Find the position function <m>x(t)</m> if <m>x(0)=-5</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>x(t)=t^3+\dfrac{3}{2}t^2+2t-5</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="6"><!-- #6 -->
+        <introduction>
+          <p>
+            Suppose that an acceleration function is given by <m>a(t)=\dfrac{1}{2}t^2-12t+4</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Find the net change of velocity from time <m>t=-3</m> to <m>t=3</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>33</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              If <m>v(0)=1</m>, find the net change of position from time <m>t=-3</m> to <m>t=3</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-102</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="7"><!-- #7 -->
+        <introduction>
+          <p>
+            Evaluate the following integrals using substitution.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int x\sqrt{x^2+4}\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{1}{3}\left(x^2+4\right)^{\frac{3}{2}}+C</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int \dfrac{x^3}{(x^4+1)^2}\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\dfrac{1}{4}\dfrac{1}{x^4+1}+C</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int \dfrac{\cos(\ln(x))}{x}\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\sin(\ln(x))+C</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int \dfrac{x}{\sqrt{1-x^2}}\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\left(1-x^2\right)^{\frac{1}{2}}+C</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int \tan(5x)\sec^2(5x)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{\tan^2(5x)}{10}+C</m>
+            </p>
+          </answer>
+        </task>
+          <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int \dfrac{e^{\sqrt{x}}}{\sqrt{x}}\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>2e^{\sqrt{x}}+C</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+      
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            Find the indefinite integral of <m>f'(x)=\dfrac{x^3-2x}{\sqrt{x}}+\sec^2(x)+5e^x</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{2}{7}x^{\frac{7}{2}}-\dfrac{4}{3}x^{\frac{3}{2}}+\tan(x)+5e^x+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2}{7}x^{\frac{7}{2}}+\dfrac{4}{3}x^{\frac{3}{2}}+\tan(x)+5e^x+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2}{7}x^{\frac{5}{2}}-\dfrac{4}{3}x^{\frac{3}{2}}+\tan(x)+5e^x+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2}{7}x^{\frac{7}{2}}-\dfrac{4}{3}x^{\frac{3}{2}}+5e^x+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{7}x^{\frac{7}{2}}-\dfrac{4}{3}x^{\frac{3}{2}}+\tan(x)+5e^x+C</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Find the indefinite integral of <m>g'(x)=\dfrac{3}{x}+\sin(x)+\sec(x)\tan(x)+2^x</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>3\ln|x|+\cos(x)+\sec(x)+\dfrac{2^x}{\ln(2)}+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>3\ln|x|-\cos(x)+\sec(x)-\dfrac{2^x}{\ln(2)}+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\ln(x^3)-\cos(x)+\sec(x)+\dfrac{2^x}{\ln(2)}+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>3\ln|x|-\cos(x)+\sec(x)+2^x+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>3\ln|x|-\cos(x)+\tan(x)+2^x+C</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Evaluate <m>\dfrac{d}{dx}\displaystyle \int_{1}^{x}t^{-t}\ dt</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>x^{-x}-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-x^{-x}+1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x^{-x}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-x^{-x}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  DNE
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \int){0}^{\frac{\pi}{3}}\left(\sec(x)\tan(x)-e^{3x}\right)\ dx</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{8}{3}-\dfrac{1}{3}e^{\pi}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{8}{3}-e^{\pi}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{4}{3}-e^{\pi}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{4}{3}-\dfrac{1}{3}e^{\pi}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  DNE
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \int_{1}^{3}f'(x)\ dx</m> if <m>f(x)=\dfrac{2}{3}x^3-4x^2+2x-5</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{20}{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{38}{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{28}{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{70}{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{32}{3}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="6"><!-- #6 -->
+        <statement>
+          <p>
+            Find the position function <m>x(t)</m> if <m>a(t)=-5t^2</m> with <m>x(0)=-2</m> and <m>v(0)=6</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>x(t)=-\dfrac{5}{12}t^4+6t+2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x(t)=\dfrac{5}{12}t^4+6t-2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x(t)=-\dfrac{5}{12}t^4+6t-2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x(t)=-\dfrac{5}{3}t^3+6</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x(t)=-\dfrac{5}{3}t^3+6t-2</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="7"><!-- #7 -->
+        <statement>
+          <p>
+            If <m>a(t)=7t^2-3t+10</m> is an acceleration function, find the net change of velocity from time <m>t=-1</m> to <m>t=3</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{260}{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{280}{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{159}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>44</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{220}{3}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="8"><!-- #8 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \int\dfrac{6x+1}{\sqrt{9x^2+3x-12}}\ dx</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{1}{3}\sqrt{9x^2+3x-12}+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\sqrt{9x^2+3x-12}+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\ln|6x+1|+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2}{3}\sqrt{9x^2+3x-12}+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2}{3\left(9x^2+3x-12\right)^{\frac{1}{2}}}+C</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="9"><!-- #9 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \int\left(x^2-2x\right)e^{x^3-3x^2+6}\ dx</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{1}{6}e^{x^3-3x^2+6}+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>e^{x^3-3x^2+6}+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{2}e^{x^3-3x^2+6}+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{3}e^{x^3-3x^2+6}+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{3}x^3-3x^2+6+C</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="10"><!-- #10 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \int\dfrac{\ln(x)}{x}\ dx</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{1}{2}(\ln(x))^2+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>((\ln(x))^2+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\ln\left(x^2\right)+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\ln(x)}{2x}+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{2}x^2(\ln(x))^2+C</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+</pretext>
