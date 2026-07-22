@@ -1,0 +1,1200 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="week12-2" label="0013"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH 151 Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+  <worksheet>
+    <title> Session #13 (Final Exam Review, Part 2)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
+    </p>
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise><!-- #1 -->
+        <introduction>
+          <p>
+            Consider the function <m>f(x)=x^4-4x^3</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Determine the critical numbers of <m>f</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>x=0,3</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Determine the <m>x</m> and <m>y</m>-coordinates of any local extrema of <m>f</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>x=3, y=-27</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Determine the interval(s) where <m>f</m> is/are increasing and the interval(s) where <m>f</m> is/are decreasing
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Increasing on <m>(3,\infty)</m>, decreasing on <m>(-\infty,0)\cup(0,3)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Determine the interval(s) where <m>f</m> is/are concave up and the interval(s) where <m>f</m> is/are concave down.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              Concave up on <m>(-\infty,0)\cup(2,\infty)</m>, concave down on <m>(0,2)</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Determine the <m>x</m> and <m>y</m>-coordinates of any inflection points of <m>f</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>(0,0)</m> and <m>(2,-16)</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+    </paragraphs>
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+      <exercise number="1"><!-- #1 -->
+          <statement>
+            <p>
+              Find the equations of both tangent lines to the parabola <m>f(x)=x^2+3x+8</m> which pass through the point <m>(0,4)</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>y-18=7(x-2)</m> and <m>y-6=-(x+2)</m> OR <m>y=7x+4</m> and <m>y=-x+4</m>
+            </p>
+          </answer>
+      </exercise>
+      <exercise number="2"><!-- #2 -->
+          <statement>
+            <p>
+              Water is being drained from an inverted conical tank with a radius of <m>20</m>m and a height of <m>12</m>m. If the water level is falling at a rate of <m>\dfrac{3}{10}\frac{\text{m}}{\text{min}}</m> when the water level is <m>3</m>m from the bottom of the tank, at what rate is the water being drained from the tank.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\dfrac{15}{2}\frac{\text{m}^3}{\text{min}}</m>
+            </p>
+          </answer>
+      </exercise>
+      <exercise number="3"><!-- #3 -->
+        <introduction>
+          <p>
+            The acceleration vector of a particle, in meters and as a function of time <m>t\geq 0</m>, is modelled by the vector function <m>\mathbf{a}(t)=\langle 6t,4\sqrt{t}\rangle</m>.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              Determine the velocity vector <m>\mathbf{v}(t)</m> if <m>\mathbf{v}(0)=\langle -3,2\rangle</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\mathbf{v}(t)=\left\langle 3t^2-3,\dfrac{8}{3}t^{\frac{3}{2}}+2 \right\rangle</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              Determine the position vector <m>\mathbf{s}(t)</m> if <m>\mathbf{s}(0)=\langle 1,4 \rangle</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\mathbf{s}(t)=\left\langle t^3-3t-1, \dfrac{16}{15}t^{\frac{5}{2}}+2t-4 \right\rangle</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              At what time(s), if any, is the particle stationary?
+            </p>
+          </statement>
+          <answer>
+            <p>
+              The particle is never stationary.
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="4"><!-- #4 -->
+          <statement>
+            <p>
+              An open top box with a square base is to be constructed from a material that costs <m>8</m> cents per <m>\text{in}^2</m>. Given that the volume of the box is to be <m>2744\text{in}^3</m>, find the dimensions of the box that minimize the cost of the box. What is the minimum cost of the box? Show that your answer is a minimum using any of the methods you've learned in class.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>L=W=14\sqrt[3]{2}</m>in, <m>H=\dfrac{14}{\sqrt[3]{4}}</m>in, the minimum cost is <m>\dfrac{32\cdot2744}{14\sqrt[3]{2}}\approx 7467</m> cents or <m>\$74.67</m>.
+              You may show that your answer is a local minimum using the first or second derivative tests on the cost objective function.
+            </p>
+          </answer>
+      </exercise>
+        <exercise number="5"><!-- #5 -->
+          <statement>
+            <p>
+              Find the most general antiderivative of <m>y=7x^7-7^x+\dfrac{7}{\sqrt{1-x^2}}-7\csc(7x)\cot(7x)</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>Y=\dfrac{7}{8}x^8-\dfrac{7^x}{\ln(7)}+7\arcsin(x)+\csc(7x)+C</m>
+            </p>
+          </answer>
+      </exercise>
+        <exercise number="6"><!-- #6 -->
+        <introduction>
+          <p>
+            Evaluate the following integral using formulas from geometry. Use of integration techniques for Exercise 6 is discouraged.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int_{-3}^{3}3\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>18</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int_{-6}^{2}(|x|-2)\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>4</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \int_{-4}^{0}\sqrt{16-x^2}\ dx</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>4\pi</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+        <exercise number="7"><!-- #7 -->
+          <statement>
+            <p>
+              Consider the following table of velocity and time values for a particle.
+              <table>
+                <tabular halign="center">
+                    <row header="yes" bottom="minor">
+                        <cell><m>t</m></cell>
+                        <cell><m>0</m></cell>
+                        <cell><m>1</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>4</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>9</m></cell>
+                    </row>
+                    <row bottom="medium">
+                        <cell><m>v(t)</m></cell>
+                        <cell><m>6</m></cell>
+                        <cell><m>3</m></cell>
+                        <cell><m>-4</m></cell>
+                        <cell><m>-6</m></cell>
+                        <cell><m>2</m></cell>
+                        <cell><m>5</m></cell>
+                    </row>
+                </tabular>
+            </table>
+              Approximate the total distance traveled by the particle by the particle on the interval from <m>t=0</m> to <m>t=6</m> using left endpoints.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>28</m>
+            </p>
+          </answer>
+      </exercise>
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+      
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            A <m>34</m>m ladder rests against a vertical wall. If the bottom of the ladder slides away at a rate of <m>6\frac{\text{m}}{\text{s}}</m>, at what rate is the angle between the top of the ladder and the wall changing when the top of the ladder is <m>16</m>m from the ground?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{1}{5}\frac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{8}{3}\frac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{8}{3}\frac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{3}{8}\frac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{5}\frac{\text{m}}{\text{s}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            A <m>6</m>ft tall person walks toward a <m>10</m>ft tall lamppost at a speed of <m>4\frac{\text{ft}}{\text{s}}</m>. How fast is the length of their shadow on the ground changing when they are <m>2</m>ft from the base of the lamppost?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-2\frac{\text{ft}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-4\frac{\text{ft}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-6\frac{\text{ft}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-8\frac{\text{ft}}{\text{s}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-10\frac{\text{ft}}{\text{s}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Approximate <m>\sqrt{24.8}</m> using linear approximation or differentials.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>4.95</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>4.975</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>4.98</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>4.99</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>5.01</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            The diameter of a sphere was measured to be <m>2</m>ft with a maximum error in measurement of <m>2</m>in. Use differentials to estimate the maximum percent error in the calculated volume of the sphere.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>10\%</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>12.5\%</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>20\%</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>25\%</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>30\%</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Find the critical numbers of the function <m>f(x)=-5x^{\frac{2}{3}}\left(6-x^2\right)^{\frac{1}{3}}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\pm \dfrac{\sqrt{2}}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\pm \sqrt{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0,\pm\dfrac{\sqrt{2}}{2},\pm\sqrt{6}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0,\pm\sqrt{3},\pm\sqrt{6}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="6"><!-- #6 -->
+        <statement>
+          <p>
+            Find the <m>x</m>-coordinates of all absolute extrema of the function <m>g(x)=\begin{cases}\sqrt{1-x}+2 \amp x\lt 1\\ 2x^2-4x-1 \amp x\geq 1\end{cases}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  Absolute minimum at <m>x=1</m>, Absolute maximum at <m>x=3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Absolute minimum at <m>x=3</m>, Absolute maximum at <m>x=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Absolute minimum at <m>x=1</m>, No absolute maximum
+                </p>
+              </li>
+              <li>
+                <p>
+                  No absolute minimum, Absolute maximum at <m>x=3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  No absolute minimum, No absolute minimum
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="7"><!-- #7 -->
+        <statement>
+          <p>
+            Find all inflection points of the function <m>f(x)=-xe^{2x}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>x=-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=\pm 1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=0,\pm 1</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="8"><!-- #8 -->
+        <statement>
+          <p>
+            What are the value(s) of <m>c</m> that satisfy the conclusion of Rolle's Theorem for the function <m>f(x)=x^3-9x</m> on the interval <m>[0,3]</m>?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>c=\dfrac{2\sqrt{3}}{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c=\dfrac{2\sqrt{3}}{3},\sqrt{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c=0,\sqrt{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c=\pm\sqrt{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c=\sqrt{3}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="9"><!-- #9 -->
+        <statement>
+          <p>
+            What are the value(s) of <m>c</m> that satisfy the conclusion of the Mean Value Theorem for the function <m>f(x)=\log(x)</m> on the interval <m>[1,10]</m>?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>c=\dfrac{1}{\ln(10)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c=\dfrac{4}{\ln(10)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c=\dfrac{9}{\ln(10)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>c=\dfrac{10}{\ln(10)}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  The Mean Value Theorem does not apply.
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+    <p>
+        Use the following graph of <m>f'(x)</m> for Exercises 10 and Exercise 11.
+        IMAGE
+    </p>
+
+    <exercise number="10"><!-- #10 -->
+        <statement>
+          <p>
+            On what intervals is <m>f(x)</m> increasing/decreasing?
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  Increasing on <m>(-\infty,A),(G,J)</m>, Decreasing on <m>(A,D),(D,G),(J,\infty)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Increasing on <m>(B,D),(F,I)</m>, Decreasing on <m>(-\infty,B),(D,F),(I,\infty)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Increasing on <m>(-\infty,C),(E,H)</m>, Decreasing on <m>(C,E),(H,\infty)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Increasing on <m>(A,D),(D,G),(J,\infty)</m>, Decreasing on <m>(-\infty,A),(G,J)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  Increasing on <m>(-\infty,B),(D,F),(I,\infty)</m>, Decreasing on <m>(B,D),(F,I)</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="11"><!-- #11 -->
+        <statement>
+          <p>
+            Identify the <m>x</m>-coordinates of any inflection points of <m>f(x)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>x=C,E,H</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=A,G,J</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=B,D,F,I</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=A,D,G,J</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>x=A,B,C,D,E,F,G,H,I,J</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="12"><!-- #12 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 0}\ln\left(x^2\right)\sin(x)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>e</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\infty</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="13"><!-- #13 -->
+        <statement>
+          <p>
+            Set up, but do not evaluate, the limit to find the integral of <m>f(x)=\ln(x+1)</m> on the interval <m>[1,5]</m> using <m>n</m> rectangles of equal width and a right Riemann sum.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\displaystyle \lim_{n\rightarrow \infty}\sum_{i=1}^{n}\dfrac{4}{n}\ln\left(2+\dfrac{4i}{n}\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\displaystyle \lim_{n\rightarrow \infty}\sum_{i=0}^{n-1}\dfrac{4}{n}\ln\left(2+\dfrac{4i}{n}\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\displaystyle \lim_{n\rightarrow \infty}\sum_{i=1}^{n}\dfrac{4}{n}\ln\left(1+\dfrac{4i}{n}\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\displaystyle \lim_{n\rightarrow \infty}\sum_{i=0}^{n-1}\dfrac{4}{n}\ln\left(1+\dfrac{4i}{n}\right)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\displaystyle \lim_{n\rightarrow \infty}\sum_{i=1}^{n}\dfrac{4}{n}\ln\left(5-\dfrac{4i}{n}\right)</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="14"><!-- #14 -->
+        <statement>
+          <p>
+            Approximate <m>\displaystyle \int_{-1}^{3}\left(9-x^2\right)\ dx</m> using right endpoints with <m>n=4</m> rectangles of equal width.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>9\pi</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>30</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{80}{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{9\pi}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>22</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="15"><!-- #15 -->
+        <statement>
+          <p>
+            If <m>\displaystyle \int_{3}^{-2}f(x)\ dx=-3</m>, <m>\displaystyle \int_{-2}^{5}f(x)</m>, and <m>\displaystyle \int_{5}^{6}f(x)\ dx=7</m>, find <m>\displaystyle \int_{3}^{6}f(x)\ dx</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-15</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-9</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>5</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="16"><!-- #16 -->
+        <statement>
+          <p>
+            Use the graph of <m>f(x)</m> below to evaluate <m>\displaystyle \int_{-4}^{7}f(x)\ dx</m>. You may assume that the region in the middle from <m>x=-2</m> to <m>x=4</m> is a semicircle and that all other regions are linear.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>25+\dfrac{9}{2}\pi</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>36+9\pi</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>25+9\pi</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>41+\dfrac{9}{2}\pi</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>36+\dfrac{9}{2}\pi</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (C)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="17"><!-- #17 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \int \left(4e^{-3x}+\dfrac{2}{\sqrt{1-x^2}}-5\csc^2(x)-\pi\right)\ dx</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{4}{3}e^{-3x}+2\arcsin(x)-5\tan(x)-\pi x+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{4}{3}e^{-3x}+2\arctan(x)-5\tan(x)-\pi x+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{4}{3}e^{-3x}+2\arctan(x)+5\cot(x)-\pi x+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{4}{3}e^{-3x}+2\arcsin(x)+5\cot(x)-\pi x+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{4}{3}e^{-3x}+2\arcsin(x)-5\cot(x)-\pi x+C</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="18"><!-- #18 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \dfrac{d}{dx}\displaystyle\int_{-1}^{x}\arctan(-t)\ dt</m> where it is defined.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\arctan(-x)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\arctan(-x)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\arctan(-x)+\arctan(1)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\arctan(-x)-\arctan(1)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{-1}{\sqrt{1-x^2}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="19"><!-- #19 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \int_{4}^{9}\left(x^{-\frac{3}{2}}+\dfrac{1}{7}x^2-8\right)\ dx</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>5</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{137}{18}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{881}{108}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-8</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  DNE
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (D)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="20"><!-- #20 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \int_{-\frac{\pi}{3}}^{-\frac{\pi}{4}}\left(\sec^2(t)-\dfrac{9}{t}\right)\ dt</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>9\ln\left(\frac{4}{3}\right)+\sqrt{3}-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>9\ln\left(\frac{3}{4}\right)+\sqrt{3}-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>9\ln\left(\frac{3}{4}\right)-\sqrt{3}+1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>9\ln\left(\frac{4}{3}\right)-\sqrt{3}+1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  DNE
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="21"><!-- #21 -->
+        <statement>
+          <p>
+            If <m>a(t)</m> represents the acceleration of an object in <m>\frac{\text{m}}{\text{s}^2}</m> and <m>v(1)=2</m> represents the velocity of the object in <m>\frac{\text{m}}{\text{s}}</m> at time <m>t=1</m>, find the net change of position of the object during the time interval from <m>t=1</m> to <m>t=3</m>.
+           </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-27</m>m
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-12</m>m
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-9</m>m
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>12</m>m
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>27</m>m
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="22"><!-- #22 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \int\dfrac{\ln\left(\sqrt{x}\right)}{x}\ dx</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\left(\ln\left(|x|\right)\right)^2+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{2}\left(\ln\left(x\right)\right)^2+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{2}\left(\ln\left(|x|\right)\right)^2+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{4}\left(\ln\left(|x|\right)\right)^2+C</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{4}\left(\ln\left(x\right)\right)^2+C</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+    <exercise number="23"><!-- #23 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \int_{0}^{\frac{\pi}{2}}\cos^2(x)\sin(x)\ dx</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{1}{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{3}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  DNE
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+</pretext>
