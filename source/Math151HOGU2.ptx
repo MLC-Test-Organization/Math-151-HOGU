@@ -176,6 +176,14 @@
           <statement>
             <p>
               Find the distance from the point <m>\text{P}=(1,-2)</m> to the line <m>y=-x+3</m>.
+            <image source="h2/images/h2fig10" width="60%">
+              <shortdescription>Graph of the line and point given in the problem. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                A graph of the line <m>y=-x+3</m> and the point <m>\text{P}=(1,-2)</m> on coordinate axes with <m>x</m>-values from <m>-1</m> to <m>6</m> and <m>y</m>-values from <m>-3</m> to <m>3</m>.
+                </p>
+              </description>
+            </image>
             </p>
           </statement>
           <answer>
@@ -188,6 +196,14 @@
           <statement>
             <p>
               Find the distance from the point <m>\text{P}=(3,2)</m> to the line <m>y=\dfrac{1}{2}x-1</m>.
+            <image source="h2/images/h2fig11" width="60%">
+              <shortdescription>Graph of the line and point given in the problem. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                A graph of the line <m>y=\dfrac{1}{2}x-1</m> and the point <m>\text{P}=(3,2)</m> on coordinate axes with <m>x</m>-values from <m>-1</m> to <m>6</m> and <m>y</m>-values from <m>-3</m> to <m>3</m>.
+                </p>
+              </description>
+            </image>
             </p>
           </statement>
           <answer>
@@ -329,7 +345,14 @@
           <statement>
             <p>
               Suppose that the force is applied parallel to the direction of motion, as shown in the figure below.
-
+            <image source="h2/images/h2fig12" width="60%">
+              <shortdescription>A force applied to a box on a ramp. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                A force applied to a box on a ramp, parallel to the direction of motion.
+                </p>
+              </description>
+            </image>
               How much work does the rope do on the box?
             </p>
           </statement>
@@ -343,7 +366,14 @@
           <statement>
             <p>
               Suppose that the force is applied <m>30^\circ</m> counterclockwise from the direction of motion, as shown in the figure below.
-
+            <image source="h2/images/h2fig13" width="60%">
+              <shortdescription>A force applied to a box on a ramp. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+              <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                <p>
+                A force applied to a box on a ramp, at an angle <m>30^\circ</m> counterclockwise from the direction of motion.
+                </p>
+              </description>
+            </image>
               How much work does the rope do on the box? How does this compare with your answer from part (a)?
             </p>
           </statement>

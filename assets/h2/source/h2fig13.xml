@@ -1,0 +1,17 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,150)" margins="5">
+<definition>a=(0,0)</definition>
+<definition>b=(12,0)</definition>
+<definition>c=(12,12)</definition>
+<definition>p=(4.75,6.0)</definition>
+<definition>d=(7.25,8.5)</definition>
+<definition>f=(6.362,10.883)</definition>
+  <coordinates bbox="(0,0,12,12)">
+    <triangle vertices="(a,b,c)" stroke="black" thickness="2" angle-markers="yes"/>
+    <angle-marker points="(b,a,c)" clear-background="no"><m>\scriptsize 30^\circ</m></angle-marker>
+    <line endpoints="(p, d)" stroke="orange" dash="9 9"/>
+    <line endpoints="(p, f)" stroke="orange" thickness="3" arrows="1"/>
+    <angle-marker points="(d,p,f)" clear-background="no"><m>\scriptsize 30^\circ</m></angle-marker>
+    <polygon points="((4,4),(5,5),(4.5,7),(3.5,6))" closed="yes" stroke="black" thickness="1" fill="blue"/>
+    <label anchor="f" alignment="se"><m>\textbf{F}</m></label>
+  </coordinates>
+</diagram>
