@@ -6,4 +6,3 @@
     <line endpoints="((1,-2),(3,f(3)))" stroke="orange" dash="9 9"/>
     <point at="point" p="(1,-2)" alignment="se" size="6" fill="blue" stroke="blue"></point>
   </coordinates>
-</diagram>

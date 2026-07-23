@@ -99,12 +99,218 @@
       <exercise><!-- #2 -->
         <statement>
           <p>
-            graph matching problem
+            Match each of the given expressions on the left to its corresponding graph on the right. You may assume that <m>t</m> is increasing. Note the end behavior of <m>\arctan(x)</m>.
           </p>
+          <sidebyside widths="25% 25% 25% 25%" valign="middle">
+            <p>
+              <ol marker="(A)">
+                <li>
+                  <p>
+                    <m>\arcsin(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\arccos(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\arctan(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\footnotesize x=1-2\cos(t),\\ \footnotesize y=-1+2\sin(t)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\footnotesize x=1+\sin(t),\\ \footnotesize y=-1-\cos(t)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\footnotesize x=-1-2\cos(t),\\ \footnotesize y=2+\sin(t)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\footnotesize x=-1-2\sin(t),\\ \footnotesize y=2+\cos(t)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\footnotesize x=-1+\sin(t),\\ \footnotesize y=2+\cos(t)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\footnotesize x=1-\cos(t),\\ \footnotesize y=-1-2\sin(t)</m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+
+            <p>
+              <ul marker="">
+                <li>
+                  <p>
+                    <image source="h2/images/h2fig1" width="80%">
+                    <shortdescription>Graph of a circle. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                    <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                      <p>
+                      A graph of a circle on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-3</m> to <m>3</m>. 
+                      The circle is centered at <m>(-1,2)</m> with radius <m>1</m> in the clockwise direction.
+                      </p>
+                    </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="h2/images/h2fig2" width="80%">
+                    <shortdescription>Graph of an ellipse. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                    <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                      <p>
+                      A graph of an ellipse on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-3</m> to <m>3</m>. 
+                      The ellipse is centered at <m>(1,-1)</m> with vertical radius <m>2</m> and horizontal radius <m>1</m> in the counterclockwise direction.
+                      </p>
+                    </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="h2/images/h2fig3" width="80%">
+                    <shortdescription>Graph of an ellipse. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                    <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                      <p>
+                      A graph of an ellipse on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-3</m> to <m>3</m>. 
+                      The ellipse is centered at <m>(-1,2)</m> with vertical radius <m>1</m> and horizontal radius <m>2</m> in the clockwise direction.
+                      </p>
+                    </description>
+                    </image>
+                  </p>
+                </li>
+              </ul>
+            </p>
+
+            <p>
+              <ul marker="">
+                <li>
+                  <p>
+                    <image source="h2/images/h2fig4" width="80%">
+                    <shortdescription>Graph of a circle. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                    <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                      <p>
+                      A graph of a circle on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-3</m> to <m>3</m>. 
+                      The circle is centered at <m>(1,-1)</m> with radius <m>2</m> in the clockwise direction.
+                      </p>
+                    </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="h2/images/h2fig5" width="80%">
+                    <shortdescription>Graph of a trigonometric function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                    <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                      <p>
+                      A graph of a trigonometric function on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-3</m> to <m>3</m>. 
+                      The function has an <m>s</m> shape and passes through the point <m>(0,0)</m>, terminating on the left at <m>x=-1</m> and terminating on the right at <m>x=1</m>.
+                      </p>
+                    </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="h2/images/h2fig6" width="80%">
+                    <shortdescription>Graph of a circle. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                    <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                      <p>
+                      A graph of a circle on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-3</m> to <m>3</m>. 
+                      The circle is centered at <m>(1,-1)</m> with radius <m>1</m> in the counterclockwise direction.
+                      </p>
+                    </description>
+                    </image>
+                  </p>
+                </li>
+              </ul>
+            </p>
+
+            <p>
+              <ul marker="">
+                <li>
+                  <p>
+                    <image source="h2/images/h2fig7" width="80%">
+                    <shortdescription>Graph of a trigonometric function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                    <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                      <p>
+                      A graph of a trigonometric function on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-3</m> to <m>3</m>. 
+                      The function has an <m>s</m> shape and passes through the point <m>\left(0,\dfrac{\pi}{2}\right)</m>, terminating on the left at <m>x=-1</m> and terminating on the right at <m>x=1</m>.
+                      </p>
+                    </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="h2/images/h2fig8" width="80%">
+                    <shortdescription>Graph of an ellipse. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                    <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                      <p>
+                      A graph of an ellipse on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-3</m> to <m>3</m>. 
+                      The ellipse is centered at <m>(-1,2)</m> with vertical radius <m>1</m> and horizontal radius <m>2</m> in the counterclockwise direction.
+                      </p>
+                    </description>
+                    </image>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <image source="h2/images/h2fig9" width="80%">
+                    <shortdescription>Graph of a trigonometric function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                    <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                      <p>
+                      A graph of a trigonometric function on coordinate axes with <m>x</m>-values and <m>y</m>-values from <m>-3</m> to <m>3</m>. 
+                      The function has horizontal asymptotes at <m>y=\pm\dfrac{\pi}{2}</m> and passes through the point <m>(0,0)</m>.
+                      </p>
+                    </description>
+                    </image>
+                  </p>
+                </li>
+              </ul>
+            </p>
+          </sidebyside>
         </statement>
+        <hint>
+          <p>
+            Try making a table of 'nice' values and plotting the corresponding outputs. What is considered a 'nice' value depends on the function!
+          </p>
+        </hint>
         <answer>
           <p>
-            
+            <table>
+                <tabular halign="center">
+                    <row bottom="minor">
+                        <cell><m>\small \langle -1+\sin(t),2+\cos(t) \rangle</m></cell>
+                        <cell><m>\small\langle 1-2\cos(t),-1+2\sin(t) \rangle</m></cell>
+                        <cell><m>\arccos(x)</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>\small\langle 1-\cos(t),-1-2\sin(t) \rangle</m></cell>
+                        <cell><m>\arcsin(x)</m></cell>
+                        <cell><m>\small\langle -1-2\sin(t),2+\cos(t) \rangle</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>\small\langle -1-2\cos(t),2+\sin(t) \rangle</m></cell>
+                        <cell><m>\small\langle 1+\sin(t),-1-\cos(t) \rangle</m></cell>
+                        <cell><m>\arctan(x)</m></cell>
+                    </row>
+                </tabular>
+            </table>
           </p>
         </answer>
       </exercise>
