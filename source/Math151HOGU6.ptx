@@ -26,11 +26,61 @@
       <exercise><!-- #1 -->
         <statement>
           <p>
-            Match each of the following expressions to its corresponding graph. Think about identifying characteristics for each graph, i.e. asymptotes, interecepts, etc.
+            Match each of the given expressions on the left to its corresponding graph on the right. You may assume that <m>t</m> is increasing.
           </p>
-          <sidebyside widths="33.333% 33.333% 33.333%" valign="middle">
+          <sidebyside widths="28% 24% 24% 24%" valign="middle">
             <p>
               <ol marker="(A)">
+                <li>
+                  <p>
+                    <m>y=-2+e^{-\frac{1}{2}x}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>y=-2e^{\frac{1}{2}x}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>y=-2e^{-\frac{1}{2}x}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>y=-2+e^{\frac{1}{2}x}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\footnotesize x=t^2+3t+2,\\ \footnotesize y=2t^2+4t-1</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\footnotesize x=3t^2+3t-3,\\ \footnotesize y=t^2-t+1</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\footnotesize x=-3t^2+3t+2,\\ \footnotesize y=-2t^2-4t+1</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\footnotesize x=-t^2+2t+2,\\ \footnotesize y=-2t^2+6t-3</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\footnotesize x=2t^2-4t-1,\\ \footnotesize y=3t^2-9t+3</m>
+                  </p>
+                </li>
+              </ol>
+            </p>
+
+            <p>
+              <ul marker="">
                 <li>
                   <p>
                     <image source="h6/images/h6fig1" width="100%">
@@ -70,11 +120,11 @@
                     </image>
                   </p>
                 </li>
-              </ol>
+              </ul>
             </p>
 
             <p>
-              <ol marker="(D)">
+              <ul marker="">
                 <li>
                   <p>
                     <image source="h6/images/h6fig4" width="100%">
@@ -114,11 +164,11 @@
                     </image>
                   </p>
                 </li>
-              </ol>
+              </ul>
             </p>
 
             <p>
-              <ol marker="(G)">
+              <ul marker="">
                 <li>
                   <p>
                     <image source="h6/images/h6fig7" width="100%">
@@ -126,7 +176,7 @@
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
                         A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
-                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>.
                         </p>
                       </description>
                     </image>
@@ -139,7 +189,7 @@
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
                         A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
-                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>.
                         </p>
                       </description>
                     </image>
@@ -152,19 +202,42 @@
                       <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
                         <p>
                         A graph of a function plotted on coordinate axes with <m>x</m>-values ranging from <m>-4</m> to <m>4</m> and <m>y</m>-values ranging from <m>-4</m> to <m>4</m>. 
-                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>. 
+                        The function has a horizontal asymptote at <m>y=-2</m>, crosses the <m>x</m>-axis between <m>x=-2</m> and <m>x=-1</m>, and crosses the <m>y</m>-axis at <m>y=-1</m>.
                         </p>
                       </description>
                     </image>
                   </p>
                 </li>
-              </ol>
+              </ul>
             </p>
           </sidebyside>
         </statement>
+        <hint>
+          <p>
+            Try making a table of 'nice' values and plotting the corresponding outputs. What is considered a 'nice' value depends on the function! Think about identifying characteristics for each graph, i.e. asymptotes, interecepts, etc.
+          </p>
+        </hint>
         <answer>
           <p>
-            
+            <table>
+                <tabular halign="center">
+                    <row bottom="minor">
+                        <cell><m>-2e^{\frac{1}{2}x}</m></cell>
+                        <cell><m>\footnotesize\langle 2t^2-4t-1,3t^2-9t+3 \rangle</m></cell>
+                        <cell><m>\footnotesize\langle -t^2+2t+2,-2t^2+6t-3 \rangle</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>-2+e^{-\frac{1}{2}x}</m></cell>
+                        <cell><m>-2+e^{\frac{1}{2}x}</m></cell>
+                        <cell><m>\footnotesize\langle 3t^2+3t-3,t^2-t-1 \rangle</m></cell>
+                    </row>
+                    <row bottom="minor">
+                        <cell><m>\footnotesize\langle -3t^2+3t+2,-2t^2-4t+1 \rangle</m></cell>
+                        <cell><m>\footnotesize\langle t^2+3t+2,2t^2+4t-1 \rangle</m></cell>
+                        <cell><m>-2e^{-\frac{1}{2}x}</m></cell>
+                    </row>
+                </tabular>
+            </table>
           </p>
         </answer>
       </exercise>

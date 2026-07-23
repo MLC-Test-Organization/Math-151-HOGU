@@ -297,7 +297,7 @@
       <exercise number="3"><!-- #3 -->
         <introduction>
           <p>
-            Evaluate each of the following limits algebraically. h. If a limit does not exist, and is not <m>\pm \infty</m>, write DNE.
+            Evaluate each of the following limits algebraically. If a limit does not exist, and is not <m>\pm \infty</m>, write DNE.
           </p>
         </introduction>
         <task>
@@ -550,6 +550,22 @@
         <statement>
           <p>
             At which of these <m>a</m>-values does <m>\displaystyle \lim_{x\rightarrow a}f(x)</m> not exist?
+              <image source="h3/images/h3fig3" width="80%">
+                <shortdescription>A graph of a piecewise function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                  <p>
+                    Graph Setup: The image shows a standard 2D grid with a horizontal x-axis and a vertical f(x)-axis, both ranging from -5 to 5 with tick marks at intervals of 1. A dashed orange vertical line runs through the entire height of the grid at x = 2.
+
+                    Behavior of the Piecewise Function from Left to Right:
+                    From x = -5 to x = -3: Starting at the left boundary of the grid at approximately (-5, 2.41), the curve slopes gently downward to the right and meets the next segment smoothly at (-3, 1).
+                    From x = -3 to x = -1: Continuing from (-3, 1), the segment travels upward as a straight line with a positive slope, ending at x = -1 with an open circle at (-1, 3). A solid closed circle is plotted below it at (-1, -2), creating a jump discontinuity.
+                    From x = -1 to x = 1: Starting near the open circle at (-1, 3), the segment slopes downward to the right as a straight line, ending at x = 1 with an open circle at (1, 1). A solid closed circle sits below it at (1, -1).
+                    From x = 1 to x = 2: Beginning at the solid closed circle at (1, -1), the curve plunges downward toward negative infinity as it approaches the dashed vertical line at x = 2.
+                    From x = 2 to x = 4: To the right of the dashed vertical line at x = 2, the curve emerges from positive infinity and slopes downward to the right, terminating at a solid closed circle at (4, 0.5).
+                    From x = 4 to x = 5: This segment begins at an open circle at (4, -3), creating a jump discontinuity from the previous point. It travels upward as a straight line with a positive slope, ending at the right edge of the grid at (5, -2).
+                  </p>
+                </description>
+              </image>
           </p>
             <ol marker="(A)">
               <li>

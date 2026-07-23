@@ -4,7 +4,7 @@
   <definition>f3(x)=1/(3-x)</definition>
   <definition>f4(x)=1/3*(x-3)*(x-1)</definition>
   <coordinates bbox="(-5,-5,5,5)">
-    <grid-axes spacings="((-5,1,5),(-5,1,5))" xlabel="x" ylabel="f(x)" hlabels="(-4,1,4)" vlabels="(-4,1,4)" hticks="(-4,1,4)" vticks="(-4,1,4)" arrows="2"/>
+    <grid-axes spacings="((-4,1,4),(-4,1,4))" xlabel="x" ylabel="f(x)" hlabels="(-4,1,4)" vlabels="(-4,1,4)" hticks="(-4,1,4)" vticks="(-4,1,4)" arrows="2"/>
     <graph function="f1" domain="(-5,-2)"/>
     <graph function="f2" domain="(-2,4)"/>
     <graph function="f3" domain="(1,4)"/>
