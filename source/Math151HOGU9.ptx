@@ -28,37 +28,79 @@
           <p>
             Match each graph of a function on the left to its antiderivative on the right.
           </p>
-          <sidebyside widths="82% 18%" valign="middle">
+          <sidebyside widths="35% 35%" valign="middle">
             <p>
               <ol marker="a)">
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig1" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a trigonometric function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>f(x)=\sin(x)</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig2" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a power function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>f(x)=x^{2/3}</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig3" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a polynomial function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>f(x)=-\dfrac{1}{2}x^2+2</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig4" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a rational function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>f(x)=\dfrac{1}{x}</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig5" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a trigonometric function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>f(x)=\cos(x)</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig6" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a polynomial function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>f(x)=\dfrac{1}{2}x^2-2</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
               </ol>
@@ -68,32 +110,74 @@
               <ol marker="I)">
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig7" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a logarithmic function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>F(x)=\ln|x|</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig8" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a trigonometric function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>F(x)=-\sin(x)+2</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig9" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a power function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>F(x)=\dfrac{3}{5}x^{\frac{5}{3}}-1</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig10" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a trigonometric function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>F(x)=-\cos(x)-2</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig11" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a polynomial function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>F(x)=-\dfrac{1}{6}x^3+2x-1</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
                 <li>
                   <p>
-                    <m></m>
+                    <image source="h9/images/h9fig12" width="56%">
+                      <shortdescription>A coordinate axis containing a graph of a polynomial function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A coordinate axis with <m>x</m>-values ranging from <m>-5</m> to <m>5</m> and <m>y</m>-values ranging from <m>-5</m> to <m>5</m> containing a graph of the function <m>F(x)=\dfrac{1}{6}x^3-2x+1</m>.
+                        </p>
+                      </description>
+                    </image>
                   </p>
                 </li>
               </ol>
@@ -109,9 +193,23 @@
       <exercise><!-- #2 -->
           <statement>
             <p>
-              OPTIMIZATION?
+              A farmer has <m>1000</m> ft of fencing and wants to fence off a rectangular field adjacent to a straight river such that the rectangle has three sides and there is no fencing along the river, pictured below.
+                    <image source="h9/images/h9fig13" width="80%">
+                      <shortdescription>The image described above. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A rectangular field adjacent to a straight river such that the rectangle has three sides and there is no fencing along the river. The vertical sides are labeled <m>H</m> and the horizontal side is labeled <m>W</m>.
+                        </p>
+                      </description>
+                    </image>
+              What are the dimensions of the fence that result in the enclosure having the largest area?
             </p>
           </statement>
+          <answer>
+            <p>
+              <m>W=500</m>ft, <m>H=250</m>ft, with a maximum area of <m>A=125000\text{ft}^2</m>
+            </p>
+          </answer>
       </exercise>
     </paragraphs>
     <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
@@ -125,7 +223,7 @@
         <task>
           <statement>
             <p>
-              <m>\lim_{x\rightarrow 3}\dfrac{x^2-9}{x-3}</m>
+              <m>\displaystyle\lim_{x\rightarrow 3}\dfrac{x^2-9}{x-3}</m>
             </p>
           </statement>
           <answer>
@@ -137,7 +235,7 @@
         <task>
           <statement>
             <p>
-              <m>\lim_{x\rightarrow \infty}x^2e^{-x}</m>
+              <m>\displaystyle\lim_{x\rightarrow \infty}x^2e^{-x}</m>
             </p>
           </statement>
           <answer>
@@ -149,7 +247,7 @@
         <task>
           <statement>
             <p>
-              <m>\lim_{x\rightarrow \frac{\pi}{2}}\dfrac{\cos(x)}{x-\dfrac{\pi}{2}}</m>
+              <m>\displaystyle\lim_{x\rightarrow \frac{\pi}{2}}\dfrac{\cos(x)}{x-\frac{\pi}{2}}</m>
             </p>
           </statement>
           <answer>
@@ -161,7 +259,7 @@
         <task>
           <statement>
             <p>
-              <m>\lim_{x\rightarrow 0}\dfrac{1}{x}-\dfrac{1}{\sin(x)}</m>
+              <m>\displaystyle\lim_{x\rightarrow 0}\dfrac{1}{x}-\dfrac{1}{\sin(x)}</m>
             </p>
           </statement>
           <answer>
@@ -173,7 +271,7 @@
         <task>
           <statement>
             <p>
-              <m>\lim_{x\rightarrow 0}\dfrac{e^x-\cos(x)-x}{x^3}</m>
+              <m>\displaystyle\lim_{x\rightarrow 0}\dfrac{e^x-\cos(x)-x}{x^3}</m>
             </p>
           </statement>
           <answer>
@@ -185,7 +283,7 @@
         <task>
           <statement>
             <p>
-              <m>\lim_{x\rightarrow \infty}\left(1+\dfrac{1}{\sqrt{x}}\right)^{\sqrt{x}}</m>
+              <m>\displaystyle\lim_{x\rightarrow \infty}\left(1+\dfrac{1}{\sqrt{x}}\right)^{\sqrt{x}}</m>
             </p>
           </statement>
           <answer>
@@ -199,7 +297,14 @@
           <statement>
             <p>
                 A cardboard box with an open top is constructed by cutting squares out of the corners of a sheet of cardboard and folding the sides upward, as shown in the image below.
-                IMAGE
+                    <image source="h9/images/h9fig14" width="60%">
+                      <shortdescription>The image described above. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A rectangular sheet, with each of the four corners removed.
+                        </p>
+                      </description>
+                    </image>
                 The cardboard sheet is <m>6</m> inches long and <m>16</m> inches wide. What is the maximum volume of the box?
             </p>
           </statement>
@@ -213,8 +318,15 @@
           <statement>
             <p>
                 You wish to cross a river <m>3</m> km across, to a point on the other bank <m>5</m> km directly in front of you, pictured below.
-                
-                Your walking speed on land is <m>5\frac{\text{km}}{\text{hr}}</m>, and your swimming speed is <m>5\frac{\text{km}}{\text{hr}}</m>. At what point should you start swimming to make it to the other bank as quickly as possible?
+                    <image source="h9/images/h9fig15" width="80%">
+                      <shortdescription>The image described above. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        Two horizontal lines, representing the land-water boundary. The middle region is water, and the outermost regions are land. A point on the bottom line is labeled 'START', and a point on the top line is labeled 'END'. The river is <m>3</m>km across. A point on the bottom line is marked. The distance from that point to 'START' is labeled <m>x\text{km}</m>. The remaining distance, horizontally, is labeled <m>(5-x)\text{km}</m>. A diagonal dashed line runs from <m>x</m> to end 'END' point.
+                        </p>
+                      </description>
+                    </image>
+                Your walking speed on land is <m>5\frac{\text{km}}{\text{hr}}</m>, and your swimming speed is <m>4\frac{\text{km}}{\text{hr}}</m>. At what point should you start swimming to make it to the other bank as quickly as possible?
             </p>
           </statement>
           <answer>
@@ -227,27 +339,41 @@
           <statement>
             <p>
                 A cylindrical can made by wrapping a rectangular piece of aluminum and placing a circular piece of aluminum on the top and bottom, pictured below.
-
-                The cost of aluminum is <m>4</m> cents per <m>\text{in}^2</m>. The has a volume of <m>27\ \text{in}^3</m>. What are the dimensions of the can which minimize the total cost?""
+                    <image source="h9/images/h9fig16" width="60%">
+                      <shortdescription>The image described above. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A cylindrical can. The vertical sides are labeled <m>h</m> and the radius is labeled <m>r</m>.
+                        </p>
+                      </description>
+                    </image>
+                The cost of aluminum is <m>4</m> cents per <m>\text{in}^2</m>. The has a volume of <m>27\ \text{in}^3</m>. What are the dimensions of the can which minimize the total cost?
             </p>
           </statement>
           <answer>
             <p>
-              <m>r=\dfrac{3}{\sqrt[3]{2\pi}}</m>, <m>h=\dfrac{27}{\pi\left(\dfrac{3}{\sqrt[3]{2\pi}}\right)}</m>
+              <m>r=\dfrac{3}{\sqrt[3]{2\pi}}</m>, <m>h=\dfrac{27}{\pi\left(\frac{3}{\sqrt[3]{2\pi}}\right)^2}</m>
             </p>
           </answer>
       </exercise>
         <exercise number="5"><!-- #5 -->
           <statement>
             <p>
-                A farmer wants to construct a rectangular pen for their livestock with two dividers, creating three symmetric rectangular sub-pens, pictured below.
-
+                Another farmer wants to construct a rectangular pen for their livestock with two dividers, creating three symmetric rectangular sub-pens, pictured below.
+                    <image source="h9/images/h9fig17" width="80%">
+                      <shortdescription>The image described above. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                      <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                        <p>
+                        A rectangular pen two dividers, creating three symmetric rectangular sub-pens. The vertical sides are labeled <m>H</m> and each third of a horizontal side is labeled <m>x</m>.
+                        </p>
+                      </description>
+                    </image>
                 The fencing for the perimeter costs <m>$5</m> per foot. The fencing for the dividers costs <m>$3</m> per foot. If the farmer has <m>$1000</m> to spend on fencing, find the dimensions of the pen which maximize the enclosed area.
             </p>
           </statement>
           <answer>
             <p>
-              <m>L=\dfrac{125}{4}</m> ft, <m>W=50</m> ft
+              <m>L=\dfrac{125}{4}</m>ft, <m>W=3x=50</m>ft
             </p>
           </answer>
       </exercise>
@@ -314,7 +440,7 @@
       <exercise number="1"><!-- #1 -->
         <statement>
           <p>
-            Evaluete <m>\lim_{x\rightarrow\infty}\left(1+\dfrac{1}{x}\right)^{x+1}</m>.
+            Evaluete <m>\displaystyle\lim_{x\rightarrow\infty}\left(1+\dfrac{1}{x}\right)^{x+1}</m>.
           </p>
             <ol marker="(A)">
               <li>
@@ -354,7 +480,7 @@
       <exercise number="2"><!-- #2 -->
         <statement>
           <p>
-            Evaluate <m>\lim_{x\rightarrow 1}\dfrac{\sin(\ln(x))}{x-1}</m>.
+            Evaluate <m>\displaystyle\lim_{x\rightarrow 1}\dfrac{\sin(\ln(x))}{x-1}</m>.
           </p>
             <ol marker="(A)">
               <li>
@@ -394,7 +520,7 @@
       <exercise number="3"><!-- #3 -->
         <statement>
           <p>
-            Evaluate <m>\lim_{x\rightrarrow 0}x^{\tan(x)}</m>.
+            Evaluate <m>\displaystyle\lim_{x\rightarrow 0}x^{\tan(x)}</m>.
           </p>
             <ol marker="(A)">
               <li>
@@ -599,7 +725,7 @@
       <exercise number="8"><!-- #8 -->
         <statement>
           <p>
-            Find the most general antiderivative of the function <m>g(t)=-5\sec^2(t)-4\cos(t)+2^t</m>
+            Find the most general antiderivative of the function <m>g(t)=-5\sec^2(t)-4\cos(t)+2^t</m>.
           </p>
             <ol marker="(A)">
               <li>
