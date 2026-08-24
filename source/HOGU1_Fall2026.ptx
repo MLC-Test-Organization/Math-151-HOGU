@@ -1,0 +1,719 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+  <docinfo>
+    <document-id>authorslastnamelowercase-ShortTitleCamelCase</document-id>
+    <brandlogo source="MLCLOGO.png" url="https://mlc.tamu.edu/"/>
+    <macros>\newcommand{\foo}{b^{ar}}</macros>
+    <latex-image-preamble>\usepackage{tikz}</latex-image-preamble>
+  </docinfo>
+
+<article xml:id="week1" label="0001"> <!-- Change label to a random string of numbers for each worksheet. The label shows up in the url of the website and keeps students from searching for other worksheets -->
+  <title>MATH 151 Hands-On, Grades Up</title>
+  <introduction>
+    <p>
+     For workspace between exercises, print this worksheet or download to your device by clicking the printer icon.
+    </p>
+  </introduction>
+<!--START TYPING CONTENT FOR SESSION BELOW HERE-->
+  <worksheet>
+    <title> Session #1 (Section 1.5, 2.2, and 2.3)</title>
+    <p>
+      Directions: Answer each of the following as best you can. Feel free to discuss your thoughts about the questions with some peers around you.
+    </p>
+    <paragraphs> <!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Getting Warmed Up and in the Right Mindset</title>
+      <exercise number="1"><!-- #1 -->
+        <introduction>
+          <p>
+            Simplify the following trigonometric expressions to algebraic expressions involving <m>x</m> only.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\sin(\arcsin(x))</m>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\cos(\arcsin(x))</m>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\tan\left(\arcsin\left(\dfrac{x}{2}\right)\right)</m>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\tan\left(\arccos\left(\dfrac{x}{3}\right)\right)</m>
+            </p>
+          </statement>
+        </task>
+      </exercise>
+      <exercise><!-- #2 -->
+        <statement>
+          <p>
+            Let <m>f(x)</m> and <m>g(x)</m> be functions and suppose that <m>\displaystyle \lim_{x\rightarrow a}f(x)</m> and <m>\displaystyle \lim_{x\rightarrow a}g(x)</m> exist and are finite. Choose either TRUE or FALSE for each of the following statements. Keep in mind potential counterexamples.
+          </p>
+          <ol marker="a)">
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}[6f(x)-2g(x)] = 6\lim_{x\rightarrow a}f(x) - 2\lim_{x\rightarrow a}g(x)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}[f(x)g(x)] = \left(\lim_{x\rightarrow a}f(x)\right)\left(\lim_{x\rightarrow a}g(x)\right)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}\dfrac{f(x)}{g(x)} = \dfrac{\displaystyle \lim_{x\rightarrow a}f(x)}{\displaystyle \lim_{x\rightarrow a}g(x)}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}\sqrt[4]{f(x)} = \sqrt[4]{\lim_{x\rightarrow a}f(x)}</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}\ln(f(x)) = \ln\left(\lim_{x\rightarrow a}f(x)\right)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}\arctan(f(x)) = \arctan\left(\lim_{x\rightarrow a}f(x)\right)</m>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <m>\displaystyle \lim_{x\rightarrow a}e^{f(x)} = e^{\left(\displaystyle \lim_{x\rightarrow a}f(x)\right)}</m>
+                  </p>
+                </li>
+              </ol>
+        </statement>
+        <answer>
+          <p>
+            (a)-T, (b)-T, (c)-F, (d)-F, (e)-T, (f)-T, (g)-T
+          </p>
+        </answer>
+      </exercise>
+
+      
+      
+    </paragraphs>
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 2  %%%%%%%%%%%%%%%%%    -->
+      <title>Let Us Get Our Hands On</title>
+      
+      
+      <exercise number="1"><!-- #1 -->
+        <introduction>
+          <p>
+            Find the exact values of the following inverse trigonometric functions using any method. If the indicated expression doesn't exist, write DNE. Be careful of any possible domain restrictions.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\arcsin\left(\sin\left(\dfrac{3\pi}{2}\right)\right)</m>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\arcsin\left(\cos\left(-\dfrac{11\pi}{6}\right)\right)</m>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\arctan\left(\tan\left(\dfrac{3\pi}{4}\right)\right)</m>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\arcsin\left(\tan\left(\dfrac{\pi}{2}\right)\right)</m>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\arccos\left(\sin\left(\dfrac{-7\pi}{6}\right)\right)</m>
+            </p>
+          </statement>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\arctan\left(\cos\left(\dfrac{5\pi}{4}\right)\right)</m>
+            </p>
+          </statement>
+        </task>
+      </exercise>
+
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Find all <m>a</m>-values for which <m>\displaystyle \lim_{x\rightarrow a}f(x)</m> does not exist.
+              <image source="h3/images/h3fig3" width="80%">
+                <shortdescription>A graph of a piecewise function. Refer to image description for more detail.</shortdescription><!--This is what a screenreader reads. Do not include math mode here.-->
+                <description><!--this is not automatically read by a screenreader, but user can navigate there. Math mode is acceptable here and paragraph environment must be included-->
+                  <p>
+                    Graph Setup: The image shows a standard 2D grid with a horizontal x-axis and a vertical f(x)-axis, both ranging from -5 to 5 with tick marks at intervals of 1. A dashed orange vertical line runs through the entire height of the grid at x = 2.
+
+                    Behavior of the Piecewise Function from Left to Right:
+                    From x = -5 to x = -3: Starting at the left boundary of the grid at approximately (-5, 2.41), the curve slopes gently downward to the right and meets the next segment smoothly at (-3, 1).
+                    From x = -3 to x = -1: Continuing from (-3, 1), the segment travels upward as a straight line with a positive slope, ending at x = -1 with an open circle at (-1, 3). A solid closed circle is plotted below it at (-1, -2), creating a jump discontinuity.
+                    From x = -1 to x = 1: Starting near the open circle at (-1, 3), the segment slopes downward to the right as a straight line, ending at x = 1 with an open circle at (1, 1). A solid closed circle sits below it at (1, -1).
+                    From x = 1 to x = 2: Beginning at the solid closed circle at (1, -1), the curve plunges downward toward negative infinity as it approaches the dashed vertical line at x = 2.
+                    From x = 2 to x = 4: To the right of the dashed vertical line at x = 2, the curve emerges from positive infinity and slopes downward to the right, terminating at a solid closed circle at (4, 0.5).
+                    From x = 4 to x = 5: This segment begins at an open circle at (4, -3), creating a jump discontinuity from the previous point. It travels upward as a straight line with a positive slope, ending at the right edge of the grid at (5, -2).
+                  </p>
+                </description>
+              </image>
+          </p>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="3"><!-- #3 -->
+        <introduction>
+          <p>
+            Evaluate each of the following limits algebraically. If a limit does not exist, and is not <m>\pm \infty</m>, write DNE.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow -3}\dfrac{x^2-9}{x+3}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-6</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 1}\dfrac{x^2-5x+6}{x^2-2x+1}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>+\infty</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow -2}\dfrac{x^2-2x-8}{x^2-4x-12}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{3}{4}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 9}\dfrac{\sqrt{x}-3}{9-x}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\dfrac{1}{6}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 4}\dfrac{x-4}{\sqrt{x}-2}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>4</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow -1}e^{\left(\frac{1}{x+1}\right)}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              DNE
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 6^-}\dfrac{1}{x-6}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-\infty</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow -4^+}\dfrac{1-x^2}{x^2+5x+4}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>+\infty</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow -3^-}\dfrac{x^2-3x-4}{x^2+4x+3}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>+\infty</m>
+            </p>
+          </answer>
+        </task>
+      </exercise>
+      <exercise number="4"><!-- #4 -->
+        <introduction>
+          <p>
+            Evaluate each of the following limits algebraically. If a limit does not exist, and is not <m>\pm \infty</m>, write DNE.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow 6}\dfrac{|x-6|}{x-6}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              DNE
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow -3^+}\dfrac{|x+3|}{2x+6}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>\dfrac{1}{2}</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow 1^-}\dfrac{x^2-1}{|x-1|}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-2</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow 4^+}f(x)</m> if <m>f(x)=\begin{cases}x^2-x-1 \amp x \le 4\\ \dfrac{4-x}{\sqrt{x}-2} \amp x \gt 4\end{cases}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>-4</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow -1}g(x)</m> if <m>g(x)=\begin{cases}\dfrac{x^2-6x-7}{x^2-1} \amp x \lt -1\\ 5 \amp x = -1\\ 2x^2+3x+5 \amp x \gt -1\end{cases}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>4</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x\rightarrow 2}h(x)</m> if <m>h(x)=\begin{cases}\dfrac{x^2-4}{x-2} \amp x \lt 2\\ 4 \amp x = 2\\ x^3-x-4 \amp x \gt 2\end{cases}</m>
+            </p>
+          </statement>
+          <answer>
+            <p>
+              DNE
+            </p>
+          </answer>
+        </task>
+      </exercise>
+        <exercise number="5"><!-- #5 -->
+        <introduction>
+          <p>
+            Use the Squeeze Theorem to evaluate the following limits.
+          </p>
+        </introduction>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 2}g(x)</m> where <m>f(x) \le g(x) \le h(x)</m> on <m>[1,2]</m> with <m>f(x)=-x^3+6x^2-12x+15</m> and <m>h(x)=x^2-4x+11</m>.
+            </p>
+          </statement>
+          <answer>
+            <p>
+              <m>7</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 0}x^3\sin\left(\dfrac{3}{x}\right)</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>-1 \le \sin(t) \le 1</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>0</m>
+            </p>
+          </answer>
+        </task>
+        <task>
+          <statement>
+            <p>
+              <m>\displaystyle \lim_{x \rightarrow 0}x^4e^{\cos\left(-\frac{2}{x}\right)}</m>
+            </p>
+          </statement>
+          <hint>
+            <p>
+              <m>-1 \le \cos(t) \le 1</m>
+            </p>
+          </hint>
+          <answer>
+            <p>
+              <m>0</m>
+            </p>
+          </answer>
+        </task>
+        </exercise>
+
+    </paragraphs>
+
+    <paragraphs><!--   %%%%%%%%%%%%%%%%   SECTION 3  %%%%%%%%%%%%%%%%%    -->
+      <title>Now Grades Go Up</title>
+      
+     
+      <exercise number="1"><!-- #1 -->
+        <statement>
+          <p>
+            Simplify <m>\cos(\arctan(2x))</m> to an algebraic expression involving <m>x</m> only.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{1}{\sqrt{4x^2+1}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{\sqrt{1-4x^2}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2x}{\sqrt{4x^2+1}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2x}{\sqrt{1-4x^2}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\sqrt{4x^2+1}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+      </exercise>
+      <exercise number="2"><!-- #2 -->
+        <statement>
+          <p>
+            Simplify <m>\sec\left(\arctan\left(\dfrac{x}{2}\right)\right)</m> to an algebraic expression involving <m>x</m> only.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>\dfrac{\sqrt{x^2+4}}{x}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{x}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{2}{\sqrt{x^2+4}}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\sqrt{x^2+4}}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{x}{\sqrt{x^2+4}}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+      </exercise>
+      <exercise number="3"><!-- #3 -->
+        <statement>
+          <p>
+            Simplify <m>\cos(\arctan(-1))</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\sqrt{2}}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{\sqrt{2}}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{\sqrt{3}}{2}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{\sqrt{3}}{2}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+      </exercise>
+
+
+      <exercise number="4"><!-- #4 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 2}\ln\left(\dfrac{x^2-4}{x^2-2x}\right)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\ln(2)</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  DNE
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\infty</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="5"><!-- #5 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 25}\dfrac{\sqrt{x}-5}{25-x}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-\dfrac{1}{10}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{5}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\dfrac{1}{10}</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\dfrac{1}{2}</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (A)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="6"><!-- #6 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 5^-}\dfrac{2x-10}{|x-5|}</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>2</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>\infty</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>-2</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (E)
+          </p>
+        </answer>
+      </exercise>
+
+      <exercise number="7"><!-- #7 -->
+        <statement>
+          <p>
+            Evaluate <m>\displaystyle \lim_{x\rightarrow 0}x^3\cos\left(\dfrac{5}{x}\right)</m>.
+          </p>
+            <ol marker="(A)">
+              <li>
+                <p>
+                  <m>-1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>0</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>1</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>3</m>
+                </p>
+              </li>
+              <li>
+                <p>
+                  <m>5</m>
+                </p>
+              </li>
+            </ol>
+        </statement>
+        <answer>
+          <p>
+            (B)
+          </p>
+        </answer>
+      </exercise>
+    </paragraphs>
+  
+  </worksheet>
+
+</article>
+</pretext>

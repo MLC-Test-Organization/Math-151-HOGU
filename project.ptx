@@ -18,6 +18,7 @@
     <target name="Math151HOGU11" source="Math151HOGU11.ptx" format="html" deploy-dir="Math151HOGU11" />
     <target name="Math151HOGU12" source="Math151HOGU12.ptx" format="html" deploy-dir="Math151HOGU12" />
     <target name="Math151HOGU13" source="Math151HOGU13.ptx" format="html" deploy-dir="Math151HOGU13" />
+    <target name="web1" source="HOGU1_Fall2026.ptx" format="html" deploy-dir="web1" />
     <target name="print" format="pdf" />
   </targets>
 </project>
