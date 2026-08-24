@@ -6,18 +6,18 @@
 <project ptx-version="2">
   <targets>
     <target name="Math151HOGU1" source="Math151HOGU1.ptx" format="html" />
-    <target name="Math151HOGU2" source="Math151HOGU2.ptx" format="html" deploy-dir="Math151HOGU2" />
-    <target name="Math151HOGU3" source="Math151HOGU3.ptx" format="html" deploy-dir="Math151HOGU3" />
-    <target name="Math151HOGU4" source="Math151HOGU4.ptx" format="html" deploy-dir="Math151HOGU4" />
-    <target name="Math151HOGU5" source="Math151HOGU5.ptx" format="html" deploy-dir="Math151HOGU5" />
-    <target name="Math151HOGU6" source="Math151HOGU6.ptx" format="html" deploy-dir="Math151HOGU6" />
-    <target name="Math151HOGU7" source="Math151HOGU7.ptx" format="html" deploy-dir="Math151HOGU7" />
-    <target name="Math151HOGU8" source="Math151HOGU8.ptx" format="html" deploy-dir="Math151HOGU8" />
-    <target name="Math151HOGU9" source="Math151HOGU9.ptx" format="html" deploy-dir="Math151HOGU9" />
-    <target name="Math151HOGU10" source="Math151HOGU10.ptx" format="html" deploy-dir="Math151HOGU10" />
-    <target name="Math151HOGU11" source="Math151HOGU11.ptx" format="html" deploy-dir="Math151HOGU11" />
-    <target name="Math151HOGU12" source="Math151HOGU12.ptx" format="html" deploy-dir="Math151HOGU12" />
-    <target name="Math151HOGU13" source="Math151HOGU13.ptx" format="html" deploy-dir="Math151HOGU13" />
+    <target name="Math151HOGU2" source="Math151HOGU2.ptx" format="html" />
+    <target name="Math151HOGU3" source="Math151HOGU3.ptx" format="html" />
+    <target name="Math151HOGU4" source="Math151HOGU4.ptx" format="html" />
+    <target name="Math151HOGU5" source="Math151HOGU5.ptx" format="html" />
+    <target name="Math151HOGU6" source="Math151HOGU6.ptx" format="html" />
+    <target name="Math151HOGU7" source="Math151HOGU7.ptx" format="html" />
+    <target name="Math151HOGU8" source="Math151HOGU8.ptx" format="html" />
+    <target name="Math151HOGU9" source="Math151HOGU9.ptx" format="html" />
+    <target name="Math151HOGU10" source="Math151HOGU10.ptx" format="html" />
+    <target name="Math151HOGU11" source="Math151HOGU11.ptx" format="html" />
+    <target name="Math151HOGU12" source="Math151HOGU12.ptx" format="html" />
+    <target name="Math151HOGU13" source="Math151HOGU13.ptx" format="html" />
     <target name="web1" source="HOGU1_Fall2026.ptx" format="html" deploy-dir="web1" />
     <target name="print" format="pdf" />
   </targets>
