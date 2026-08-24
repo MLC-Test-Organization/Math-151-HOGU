@@ -1,0 +1,50 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="2">
+  <coordinates bbox="(-10,-10,10,10)">
+    <grid-axes
+      vticks="(-10,1,10)"
+      hticks="(-10,1,10)"
+      hlabels="no"
+      vlabels="no"
+      xlabel="x"
+      ylabel="y"
+      spacings="((-10,1,10),(-10,1,10))"/>
+    <vector v="(3,4)" tail="(0,0)" scale="1" stroke="orange"/>
+
+    <vector v="(-6,6)" tail="(0,0)" scale="1" stroke="blue"/>
+
+    <vector v="(-3,-4)" tail="(0,0)" scale="1" stroke="black"/>
+    <label p="(-3,-4)" alignment="sw">
+      <m>\small -\mathbf{a}</m>
+    </label>
+
+    <vector v="(6,-6)" tail="(0,0)" scale="1" stroke="black"/>
+    <label p="(6,-6)" alignment="se">
+      <m>\small -\mathbf{b}</m>
+    </label>
+
+    <vector v="(6,8)" tail="(0,0)" scale="1" stroke="black"/>
+    <label p="(6,8)" alignment="ne">
+      <m>\small 2\mathbf{a}</m>
+    </label>
+
+    <vector v="(-2,2)" tail="(0,0)" scale="1" stroke="black"/>
+    <label p="(-2.1,2.4)" alignment="n">
+      <m>\small \dfrac{1}{3}\mathbf{b}</m>
+    </label>
+
+    <vector v="(-3,10)" tail="(0,0)" scale="1" stroke="black"/>
+    <label p="(-3.5,10)" alignment="sw">
+      <m>\small \mathbf{a}+\mathbf{b}</m>
+    </label>
+
+    <vector v="(9,-2)" tail="(0,0)" scale="1" stroke="black"/>
+    <label p="(8.5,-2.5)" alignment="s">
+      <m>\small \mathbf{a}-\mathbf{b}</m>
+    </label>
+
+    <vector v="(-9,2)" tail="(0,0)" scale="1" stroke="black"/>
+    <label p="(-8.5,2.5)" alignment="n">
+      <m>\small \mathbf{b}-\mathbf{a}</m>
+    </label>
+  </coordinates>
+</diagram>

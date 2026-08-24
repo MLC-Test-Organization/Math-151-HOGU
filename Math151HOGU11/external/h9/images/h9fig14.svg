@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="h9fig14-figure" width="310" height="210" viewBox="0 0 310 210">
+  <defs>
+    <clipPath id="h9fig14-__clipPath-0">
+      <rect x="5.0" y="5.0" width="300.0" height="200.0"/>
+    </clipPath>
+    <clipPath id="h9fig14-__clipPath-1">
+      <rect x="5.0" y="5.0" width="300.0" height="200.0"/>
+    </clipPath>
+  </defs>
+  <path id="h9fig14-__path-0" d="M 30.0 188.3 L 30.0 138.3 L 80.0 138.3 L 80.0 188.3 Z" stroke="black" stroke-width="1" stroke-dasharray="9 9" fill="none" clip-path="url(#h9fig14-__clipPath-1)"/>
+  <path id="h9fig14-__path-1" d="M 280.0 188.3 L 280.0 138.3 L 230.0 138.3 L 230.0 188.3 Z" stroke="black" stroke-width="1" stroke-dasharray="9 9" fill="none" clip-path="url(#h9fig14-__clipPath-1)"/>
+  <path id="h9fig14-__path-2" d="M 30.0 21.7 L 30.0 71.7 L 80.0 71.7 L 80.0 21.7 Z" stroke="black" stroke-width="1" stroke-dasharray="9 9" fill="none" clip-path="url(#h9fig14-__clipPath-1)"/>
+  <path id="h9fig14-__path-3" d="M 280.0 21.7 L 280.0 71.7 L 230.0 71.7 L 230.0 21.7 Z" stroke="black" stroke-width="1" stroke-dasharray="9 9" fill="none" clip-path="url(#h9fig14-__clipPath-1)"/>
+  <path id="h9fig14-__path-4" d="M 30.0 188.3 L 30.0 21.7 L 280.0 21.7 L 280.0 188.3 Z" stroke="black" stroke-width="2" fill="none" clip-path="url(#h9fig14-__clipPath-1)"/>
+</svg>

@@ -1,0 +1,12 @@
+<diagram xmlns="https://prefigure.org" dimensions="(300,150)" margins="5">
+<definition>a=(0,0)</definition>
+<definition>b=(12,0)</definition>
+<definition>c=(12,12)</definition>
+  <coordinates bbox="(0,0,12,12)">
+    <triangle vertices="(a,b,c)" stroke="black" thickness="2" angle-markers="yes"/>
+    <angle-marker points="(b,a,c)" clear-background="no"><m>\scriptsize 30^\circ</m></angle-marker>
+    <line endpoints="((4,5.25), (6.617,7.867))" stroke="orange" thickness="3" arrows="1"/>
+    <polygon points="((4,4),(5,5),(4.5,7),(3.5,6))" closed="yes" stroke="black" thickness="1" fill="blue"/>
+    <label anchor="(6.617,7.867)" alignment="ne"><m>\textbf{F}</m></label>
+  </coordinates>
+</diagram>

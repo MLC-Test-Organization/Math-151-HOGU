@@ -1,0 +1,11 @@
+<diagram dimensions="(600,600)" margins="5">
+  <definition>f(x)=x*sin(pi/6*x)</definition>
+  <definition>a=1</definition>
+  <coordinates bbox="(-4.5,-4.5,4.5,4.5)">
+    <grid-axes spacings="((-4,1,4),(-4,1,4))" xlabel="x" ylabel="y" hlabels="(-4,1,4)" vlabels="(-4,1,4)" hticks="(-4,1,4)" vticks="(-4,1,4)" arrows="2"/>
+    <graph function="f"/>
+    <tangent-line at="tangent" function="f" point="a"/>
+    <point at="point" p="(a,f(a))">
+    </point>
+  </coordinates>
+</diagram>

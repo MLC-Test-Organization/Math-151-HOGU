@@ -1,0 +1,35 @@
+<diagram dimensions="(300,300)" margins="5">
+  <definition>f(x)=-(x+3)*x^2*(x-2)/6</definition>
+  <definition>A = -3</definition>
+  <definition>B = -2.14718</definition>
+  <definition>C = -1.28078</definition>
+  <definition>D = 0</definition>
+  <definition>E = 0.78078</definition>
+  <definition>F = 1.39718</definition>
+  <definition>G = 2</definition>
+  <coordinates bbox="(-4,-4,4,4)">
+    <grid-axes hlabels="no" vlabels="no" xlabel="x" ylabel="f'(x)" arrows="2"/>
+    <graph function="f"/>
+    <line p1="(A,0)" p2="(A,f(A))" dash="2 2" thickness="1"/>
+    <label p="(A,0)" alignment="se"><m>\text{A}</m></label>
+    <line p1="(B,0)" p2="(B,f(B))" dash="2 2" thickness="1"/>
+    <label p="(B,0)" alignment="se"><m>\text{B}</m></label>
+    <line p1="(C,0)" p2="(C,f(C))" dash="2 2" thickness="1"/>
+    <label p="(C,0)" alignment="se"><m>\text{C}</m></label>
+    <line p1="(D,0)" p2="(D,f(D))" dash="2 2" thickness="1"/>
+    <label p="(D,0)" alignment="se"><m>\text{D}</m></label>
+    <line p1="(E,0)" p2="(E,f(E))" dash="2 2" thickness="1"/>
+    <label p="(E,0)" alignment="se"><m>\text{E}</m></label>
+    <line p1="(F,0)" p2="(F,f(F))" dash="2 2" thickness="1"/>
+    <label p="(F,0)" alignment="se"><m>\text{F}</m></label>
+    <line p1="(G,0)" p2="(G,f(G))" dash="2 2" thickness="1"/>
+    <label p="(G,0)" alignment="se"><m>\text{G}</m></label>
+    <point at="point" p="(A,0)" alignment="se"></point>
+    <point at="point" p="(B,0)" alignment="se"></point>
+    <point at="point" p="(C,0)" alignment="se"></point>
+    <point at="point" p="(D,0)" alignment="se"></point>
+    <point at="point" p="(E,0)" alignment="se"></point>
+    <point at="point" p="(F,0)" alignment="se"></point>
+    <point at="point" p="(G,0)" alignment="se"> </point>
+  </coordinates>
+</diagram>
