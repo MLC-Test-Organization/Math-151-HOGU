@@ -1,7 +1,0 @@
-<diagram xmlns="https://prefigure.org" dimensions="(300,300)" margins="5">
-  <definition>f(x)=-1/2*x^2+2</definition>
-  <coordinates bbox="(-5,-5,5,5)">
-    <grid-axes spacings="((-4,1,4),(-4,1,4))" xlabel="x" ylabel="f(x)" hlabels="" vlabels="" hticks="(-4,1,4)" vticks="(-4,1,4)" arrows="2"/>
-    <graph function="f" domain="(-5,5)" N="1000"/>
-  </coordinates>
-</diagram>

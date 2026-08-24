@@ -1,9 +1,0 @@
-<diagram xmlns="https://prefigure.org" dimensions="(300,200)" margins="5">
-  <coordinates bbox="(-12,-24,12,24)">
-      <polygon points="((-10,-20),(-10,-8),(-6,-8),(-6,-20))" closed="yes" stroke="black" thickness="1" fill="none" dash="9 9"/>
-      <polygon points="((10,-20),(10,-8),(6,-8),(6,-20))" closed="yes" stroke="black" thickness="1" fill="none" dash="9 9"/>
-      <polygon points="((-10,20),(-10,8),(-6,8),(-6,20))" closed="yes" stroke="black" thickness="1" fill="none" dash="9 9"/>
-      <polygon points="((10,20),(10,8),(6,8),(6,20))" closed="yes" stroke="black" thickness="1" fill="none" dash="9 9"/>
-      <polygon points="((-10,-20),(-10,20),(10,20),(10,-20))" closed="yes" stroke="black" thickness="2" fill="none"/>
-  </coordinates>
-</diagram>

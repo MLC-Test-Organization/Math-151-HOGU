@@ -1,7 +1,0 @@
-<diagram xmlns="https://prefigure.org" dimensions="(200,200)" margins="5">
-<definition>f(t)=(1-cos(t),-1-2*sin(t))</definition>
-  <coordinates bbox="(-4,-4,4,4)">
-    <grid-axes spacings="((-3,1,3),(-3,1,3))" xlabel="x" ylabel="y" hlabels="" vlabels="" hticks="(-3,1,3)" vticks="(-3,1,3)" arrows="2"/>
-    <parametric-curve function="f" domain="(0,2*pi)" N="200" closed="yes" arrows="1" thickness="4"/>
-  </coordinates>
-</diagram>
