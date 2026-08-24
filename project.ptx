@@ -5,7 +5,7 @@
 <!-- This file, the project manifest, provides the overall configuration for your PreTeXt project. To edit the content of your document, open `source/main.ptx`. See https://pretextbook.org/doc/guide/html/processing-CLI.html#cli-project-manifest. -->
 <project ptx-version="2">
   <targets>
-    <target name="Math151HOGU1" source="Math151HOGU1.ptx" format="html" deploy-dir="Math151HOGU1" />
+    <target name="Math151HOGU1" source="Math151HOGU1.ptx" format="html" />
     <target name="Math151HOGU2" source="Math151HOGU2.ptx" format="html" deploy-dir="Math151HOGU2" />
     <target name="Math151HOGU3" source="Math151HOGU3.ptx" format="html" deploy-dir="Math151HOGU3" />
     <target name="Math151HOGU4" source="Math151HOGU4.ptx" format="html" deploy-dir="Math151HOGU4" />

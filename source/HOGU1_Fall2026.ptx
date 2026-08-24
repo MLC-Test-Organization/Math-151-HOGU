@@ -29,28 +29,28 @@
             Simplify the following trigonometric expressions to algebraic expressions involving <m>x</m> only.
           </p>
         </introduction>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\sin(\arcsin(x))</m>
             </p>
           </statement>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\cos(\arcsin(x))</m>
             </p>
           </statement>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\tan\left(\arcsin\left(\dfrac{x}{2}\right)\right)</m>
             </p>
           </statement>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\tan\left(\arccos\left(\dfrac{x}{3}\right)\right)</m>
@@ -58,7 +58,7 @@
           </statement>
         </task>
       </exercise>
-      <exercise><!-- #2 -->
+      <exercise workspace="3in"><!-- #2 -->     
         <statement>
           <p>
             Let <m>f(x)</m> and <m>g(x)</m> be functions and suppose that <m>\displaystyle \lim_{x\rightarrow a}f(x)</m> and <m>\displaystyle \lim_{x\rightarrow a}g(x)</m> exist and are finite. Choose either TRUE or FALSE for each of the following statements. Keep in mind potential counterexamples.
@@ -101,11 +101,6 @@
                 </li>
               </ol>
         </statement>
-        <answer>
-          <p>
-            (a)-T, (b)-T, (c)-F, (d)-F, (e)-T, (f)-T, (g)-T
-          </p>
-        </answer>
       </exercise>
 
       
@@ -121,42 +116,42 @@
             Find the exact values of the following inverse trigonometric functions using any method. If the indicated expression doesn't exist, write DNE. Be careful of any possible domain restrictions.
           </p>
         </introduction>
-        <task>
+        <task workspace="0.9in">
           <statement>
             <p>
               <m>\arcsin\left(\sin\left(\dfrac{3\pi}{2}\right)\right)</m>
             </p>
           </statement>
         </task>
-        <task>
+        <task workspace="0.9in">
           <statement>
             <p>
               <m>\arcsin\left(\cos\left(-\dfrac{11\pi}{6}\right)\right)</m>
             </p>
           </statement>
         </task>
-        <task>
+        <task workspace="0.9in">
           <statement>
             <p>
               <m>\arctan\left(\tan\left(\dfrac{3\pi}{4}\right)\right)</m>
             </p>
           </statement>
         </task>
-        <task>
+        <task workspace="0.9in">
           <statement>
             <p>
               <m>\arcsin\left(\tan\left(\dfrac{\pi}{2}\right)\right)</m>
             </p>
           </statement>
         </task>
-        <task>
+        <task workspace="0.9in">
           <statement>
             <p>
               <m>\arccos\left(\sin\left(\dfrac{-7\pi}{6}\right)\right)</m>
             </p>
           </statement>
         </task>
-        <task>
+        <task workspace="0.9in">
           <statement>
             <p>
               <m>\arctan\left(\cos\left(\dfrac{5\pi}{4}\right)\right)</m>
@@ -165,7 +160,7 @@
         </task>
       </exercise>
 
-      <exercise number="2"><!-- #2 -->
+      <exercise workspace="1in" number="2"><!-- #2 -->
         <statement>
           <p>
             Find all <m>a</m>-values for which <m>\displaystyle \lim_{x\rightarrow a}f(x)</m> does not exist.
@@ -187,11 +182,6 @@
               </image>
           </p>
         </statement>
-        <answer>
-          <p>
-            (B)
-          </p>
-        </answer>
       </exercise>
 
       <exercise number="3"><!-- #3 -->
@@ -200,113 +190,68 @@
             Evaluate each of the following limits algebraically. If a limit does not exist, and is not <m>\pm \infty</m>, write DNE.
           </p>
         </introduction>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow -3}\dfrac{x^2-9}{x+3}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>-6</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow 1}\dfrac{x^2-5x+6}{x^2-2x+1}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>+\infty</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow -2}\dfrac{x^2-2x-8}{x^2-4x-12}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>\dfrac{3}{4}</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow 9}\dfrac{\sqrt{x}-3}{9-x}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>-\dfrac{1}{6}</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow 4}\dfrac{x-4}{\sqrt{x}-2}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>4</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow -1}e^{\left(\frac{1}{x+1}\right)}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              DNE
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow 6^-}\dfrac{1}{x-6}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>-\infty</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow -4^+}\dfrac{1-x^2}{x^2+5x+4}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>+\infty</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow -3^-}\dfrac{x^2-3x-4}{x^2+4x+3}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>+\infty</m>
-            </p>
-          </answer>
         </task>
       </exercise>
       <exercise number="4"><!-- #4 -->
@@ -315,77 +260,47 @@
             Evaluate each of the following limits algebraically. If a limit does not exist, and is not <m>\pm \infty</m>, write DNE.
           </p>
         </introduction>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x\rightarrow 6}\dfrac{|x-6|}{x-6}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              DNE
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x\rightarrow -3^+}\dfrac{|x+3|}{2x+6}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>\dfrac{1}{2}</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x\rightarrow 1^-}\dfrac{x^2-1}{|x-1|}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>-2</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1.6in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x\rightarrow 4^+}f(x)</m> if <m>f(x)=\begin{cases}x^2-x-1 \amp x \le 4\\ \dfrac{4-x}{\sqrt{x}-2} \amp x \gt 4\end{cases}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>-4</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1.6in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x\rightarrow -1}g(x)</m> if <m>g(x)=\begin{cases}\dfrac{x^2-6x-7}{x^2-1} \amp x \lt -1\\ 5 \amp x = -1\\ 2x^2+3x+5 \amp x \gt -1\end{cases}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>4</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1.6in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x\rightarrow 2}h(x)</m> if <m>h(x)=\begin{cases}\dfrac{x^2-4}{x-2} \amp x \lt 2\\ 4 \amp x = 2\\ x^3-x-4 \amp x \gt 2\end{cases}</m>
             </p>
           </statement>
-          <answer>
-            <p>
-              DNE
-            </p>
-          </answer>
         </task>
       </exercise>
         <exercise number="5"><!-- #5 -->
@@ -394,19 +309,14 @@
             Use the Squeeze Theorem to evaluate the following limits.
           </p>
         </introduction>
-        <task>
+        <task workspace="1.7in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow 2}g(x)</m> where <m>f(x) \le g(x) \le h(x)</m> on <m>[1,2]</m> with <m>f(x)=-x^3+6x^2-12x+15</m> and <m>h(x)=x^2-4x+11</m>.
             </p>
           </statement>
-          <answer>
-            <p>
-              <m>7</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1.7in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow 0}x^3\sin\left(\dfrac{3}{x}\right)</m>
@@ -417,13 +327,8 @@
               <m>-1 \le \sin(t) \le 1</m>
             </p>
           </hint>
-          <answer>
-            <p>
-              <m>0</m>
-            </p>
-          </answer>
         </task>
-        <task>
+        <task workspace="1.7in">
           <statement>
             <p>
               <m>\displaystyle \lim_{x \rightarrow 0}x^4e^{\cos\left(-\frac{2}{x}\right)}</m>
@@ -434,11 +339,6 @@
               <m>-1 \le \cos(t) \le 1</m>
             </p>
           </hint>
-          <answer>
-            <p>
-              <m>0</m>
-            </p>
-          </answer>
         </task>
         </exercise>
 
@@ -448,7 +348,7 @@
       <title>Now Grades Go Up</title>
       
      
-      <exercise number="1"><!-- #1 -->
+      <exercise workspace="1in" number="1"><!-- #1 -->
         <statement>
           <p>
             Simplify <m>\cos(\arctan(2x))</m> to an algebraic expression involving <m>x</m> only.
@@ -482,7 +382,7 @@
             </ol>
         </statement>
       </exercise>
-      <exercise number="2"><!-- #2 -->
+      <exercise workspace="1in" number="2"><!-- #2 -->
         <statement>
           <p>
             Simplify <m>\sec\left(\arctan\left(\dfrac{x}{2}\right)\right)</m> to an algebraic expression involving <m>x</m> only.
@@ -516,7 +416,7 @@
             </ol>
         </statement>
       </exercise>
-      <exercise number="3"><!-- #3 -->
+      <exercise workspace="1in" number="3"><!-- #3 -->
         <statement>
           <p>
             Simplify <m>\cos(\arctan(-1))</m>.
@@ -552,7 +452,7 @@
       </exercise>
 
 
-      <exercise number="4"><!-- #4 -->
+      <exercise workspace="1in" number="4"><!-- #4 -->
         <statement>
           <p>
             Evaluate <m>\displaystyle \lim_{x\rightarrow 2}\ln\left(\dfrac{x^2-4}{x^2-2x}\right)</m>.
@@ -585,14 +485,9 @@
               </li>
             </ol>
         </statement>
-        <answer>
-          <p>
-            (B)
-          </p>
-        </answer>
       </exercise>
 
-      <exercise number="5"><!-- #5 -->
+      <exercise workspace="1in" number="5"><!-- #5 -->
         <statement>
           <p>
             Evaluate <m>\displaystyle \lim_{x\rightarrow 25}\dfrac{\sqrt{x}-5}{25-x}</m>.
@@ -625,14 +520,9 @@
               </li>
             </ol>
         </statement>
-        <answer>
-          <p>
-            (A)
-          </p>
-        </answer>
       </exercise>
 
-      <exercise number="6"><!-- #6 -->
+      <exercise workspace="1in" number="6"><!-- #6 -->
         <statement>
           <p>
             Evaluate <m>\displaystyle \lim_{x\rightarrow 5^-}\dfrac{2x-10}{|x-5|}</m>.
@@ -665,14 +555,9 @@
               </li>
             </ol>
         </statement>
-        <answer>
-          <p>
-            (E)
-          </p>
-        </answer>
       </exercise>
 
-      <exercise number="7"><!-- #7 -->
+      <exercise workspace="1in" number="7"><!-- #7 -->
         <statement>
           <p>
             Evaluate <m>\displaystyle \lim_{x\rightarrow 0}x^3\cos\left(\dfrac{5}{x}\right)</m>.
@@ -705,11 +590,6 @@
               </li>
             </ol>
         </statement>
-        <answer>
-          <p>
-            (B)
-          </p>
-        </answer>
       </exercise>
     </paragraphs>
   
