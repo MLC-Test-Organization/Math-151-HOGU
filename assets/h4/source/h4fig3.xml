@@ -1,0 +1,21 @@
+<diagram dimensions="(600,600)" margins="5">
+  <definition>f1(x)=1/(x + 3)^2</definition>
+  <definition>f2(x)=-2*fabs(x)+2</definition>
+  <definition>f3(x)=(x-1)*(x-2.5)</definition>
+  <definition>f4(x)=-3/(3*x+-6.5)+4</definition>
+  <coordinates bbox="(-5,-5,5,5)">
+    <grid-axes spacings="((-4,1,4),(-4,1,4))" xlabel="x" ylabel="f(x)" hlabels="(-4,1,4)" vlabels="(-4,1,4)" hticks="(-4,1,4)" vticks="(-4,1,4)" arrows="2"/>
+    <graph function="f1" domain="(-5,-2)"/>
+    <graph function="f2" domain="(-2,1)"/>
+    <graph function="f3" domain="(1,2.5)"/>
+    <graph function="f4" domain="(2.5,5)"/>
+    <line endpoints="((-3,-10),(-3,10))" stroke="orange" thickness="3" dash="6,6"/>
+    <line endpoints="((-10,4),(10,4))" stroke="orange" thickness="3" dash="6,6"/>
+    <point at="point" p="(-2,-2)" alignment="se" size="8" fill="white" stroke="blue"></point>
+    <point at="point" p="(1,0)" alignment="se" size="8" fill="white" stroke="blue"></point>
+    <point at="point" p="(2.5,0)" alignment="se" size="8" fill="white" stroke="blue"></point>
+    <point at="point" p="(-2,1)" alignment="se" size="8" fill="blue" stroke="blue"></point>
+    <point at="point" p="(1,-4)" alignment="se" size="8" fill="blue" stroke="blue"></point>
+    <point at="point" p="(2.5,1)" alignment="se" size="8" fill="blue" stroke="blue"></point>
+  </coordinates>
+</diagram>
